@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@abas @u10 @CT003 @colisao
+@TID18002REV0.2.0 @abas @u10 @CT003 @colisao
 Feature: [CT003] [COLISÃO] Consulta de sinistro com pagamento
 
   Background: 

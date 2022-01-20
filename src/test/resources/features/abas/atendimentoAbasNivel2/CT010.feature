@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@TID3021REV0.4.0 @abas @u10 @CT010 @incendio
+@TID18012REV0.2.0 @abas @u10 @CT010 @incendio
 Feature: [CT010] [INCÊNDIO] Consulta de sinistro e acompanhamento de vistoria com orçamento completo
 
   Background: 

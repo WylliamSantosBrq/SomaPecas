@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@TID3012REV0.41.0 @abas @u10 @CT004 @enchente
+@TID18006REV0.2.0 @abas @u10 @CT004 @enchente
 Feature: [CT004] [ENCHENTE] Pagamento da nota fiscal normal
 
   Background: 

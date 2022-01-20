@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@TID3017REV0.3.0 @abas @u10 @CT011 @roubo_ou_furto
+@TID18013REV0.2.0 @abas @u10 @CT011 @roubo_ou_furto
 Feature: [CT011] [ROUBO OU FURTO] Consulta de sinistro localizado indenização integral
 
   Background: 
