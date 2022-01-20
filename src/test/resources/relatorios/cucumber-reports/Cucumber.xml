@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="129.175933">
+<testcase classname="Essa feature serve apenas para integração com outros projetos e não pertence ao projeto do Digital" name="Apólice -&gt; Sinistro" time="129.175933">
+<system-out><![CDATA[Given capturei um número de apólice do informix de natureza "Roubo".........passed
+Given que estou na janela de agendamento de vistoria como "persona=Atendente".passed
+Given me identifico com dados armazenados...................................passed
+When clico no botao continuar e avanço para a sessão de "Quando e onde".....passed
+When especifico data entre "01/01/2021" e "01/03/2021" e hora "00:00" para territorio "Nacional".passed
+When clico no botao continuar e avanço para a sessão de "Natureza"..........passed
+When escolho a natureza "ROUBO OU FURTO"....................................passed
+When se aparecer a mensagem "Este aviso de sinistro já está em andamento" clicar em "Sim".passed
+When se aparecer a mensagem "Já existe um sinistro aberto para esta data, número:" clicar em "Sim".passed
+When voltar até "está comunicando o sinistro de Roubo/Furto?"...............passed
+When seleciono o motivo "não viu que levaram" usado para a pergunta "está comunicando o sinistro de Roubo/Furto?".passed
+And preencho telefone "11940028923" e email "teste@teste.com" do terceiro...passed
+When clico no botao continuar e avanço para a sessão de "Quem dirigia"......passed
+When clico no botao continuar da sessão de "Quem dirigia"...................passed
+When especifico que o local foi "Garagem"...................................passed
+And seleciono o local "São Paulo","São Paulo","Paulista","Av Paulista" e nº "123".passed
+When clico no botao continuar e avanço para a sessão de "Detalhes do sinistro".passed
+When adiciono detalhes do sinistro..........................................passed
+When clico no botao continuar e avanço para a sessão de "Boletim de ocorrência".passed
+When O segurado conseguiu registrar o Boletim de Ocorrencia "Sim,já Registrou.".passed
+When especifico boletim de ocorrência "000000"..............................passed
+And opto por finalizar agendamento..........................................passed
+Then o sistema apresenta a mensagem de sucesso na abertura do sinistro......passed
+]]></system-out>
+</testcase>
+</testsuite>

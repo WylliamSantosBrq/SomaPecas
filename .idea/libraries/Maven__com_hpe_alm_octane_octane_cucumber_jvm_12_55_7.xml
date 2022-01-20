@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.hpe.alm.octane:octane-cucumber-jvm:12.55.7">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/hpe/alm/octane/octane-cucumber-jvm/12.55.7/octane-cucumber-jvm-12.55.7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/hpe/alm/octane/octane-cucumber-jvm/12.55.7/octane-cucumber-jvm-12.55.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/hpe/alm/octane/octane-cucumber-jvm/12.55.7/octane-cucumber-jvm-12.55.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

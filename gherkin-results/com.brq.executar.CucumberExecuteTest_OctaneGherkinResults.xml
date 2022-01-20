@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="1"><feature name="Gerar Arquivo XML de massa para o Soma Peças" path="src\test\resources\features\massaDeDados\GerarMassa.feature" started="1642618521752" tag=""><file><![CDATA[@gerarMassa
+Feature: Gerar Arquivo XML de massa para o Soma Peças
+
+Scenario: Popular Dados e gerar massa
+    #Given que caregou os dados da <Linha> e da aba "SolicitacaoFornecimento"
+    And enviar XML
+    #Examples:
+    #|Linha|
+    #|1    |
+    ]]></file><scenarios><scenario name="Popular Dados e gerar massa"><steps><step duration="340453100" name="And enviar XML" status="failed"><error_message><![CDATA[com.brq.erros.ErroSistema
+	at com.brq.utils.xml.XmlHelper.enviarXmlSoap(XmlHelper.java:54)
+	at com.brq.steps.MassaDeDadosSteps.enviarXML(MassaDeDadosSteps.java:63)
+	at ✽.And enviar XML(massaDeDados/GerarMassa.feature:6)
+]]></error_message></step></steps></scenario></scenarios></feature></features>

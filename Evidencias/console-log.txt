@@ -1,0 +1,65 @@
+[INFO] 2021-12-02 13:15:09,781 - StackTrace do console:
+[WARNING] 1638461687882 - http://172.26.171.101/security-somapecas/login.xhtml - [DOM] Found 2 elements with non-unique id #javax.faces.ViewState: (More info: https://goo.gl/9p2vKq) %o %o
+[SEVERE] 1638461687991 - http://172.26.171.101/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2021-12-02 14:13:49,364 - StackTrace do console:
+[SEVERE] 1638465075155 - http://aplwebhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1638465199808 - http://aplwebhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+
+[INFO] 2021-12-02 14:15:21,064 - StackTrace do console:
+[SEVERE] 1638465248335 - http://aplwebhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2021-12-02 14:15:28,169 - StackTrace do console:
+
+[INFO] 2021-12-02 14:15:35,111 - StackTrace do console:
+
+[INFO] 2021-12-02 14:15:42,351 - StackTrace do console:
+
+[INFO] 2021-12-02 14:15:50,127 - StackTrace do console:
+
+[INFO] 2021-12-02 14:15:58,554 - StackTrace do console:
+
+[INFO] 2021-12-02 14:16:11,809 - StackTrace do console:
+
+[INFO] 2021-12-02 14:16:19,475 - StackTrace do console:
+
+[INFO] 2021-12-02 14:16:27,497 - StackTrace do console:
+
+[INFO] 2021-12-02 14:16:36,715 - StackTrace do console:
+
+[INFO] 2021-12-02 14:16:44,925 - StackTrace do console:
+
+[INFO] 2021-12-02 14:16:59,604 - StackTrace do console:
+
+[INFO] 2021-12-02 14:17:00,625 - StackTrace do console:
+
+[INFO] 2021-12-07 12:27:46,279 - StackTrace do console:
+[SEVERE] 1638890727902 - http://aplwebhml/avisosinistro/carregarAbas.do 6738:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1638890822130 - http://aplwebhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051056&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051056&codigoRamo=531&numeroServicoAtendimento=1799&exibirCondicoesParticulares=false&nomeInformanteSinistro=ALESSANDRO%20TESTE%20MAR&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0120955&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139175808&amp;numeroSinistro=3143&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3143&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6738:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1638890835288 - http://aplwebhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+
+[INFO] 2021-12-13 14:23:38,548 - StackTrace do console:
+[WARNING] 1639416202079 - http://172.26.171.101/security-somapecas/login.xhtml - [DOM] Found 2 elements with non-unique id #javax.faces.ViewState: (More info: https://goo.gl/9p2vKq) %o %o
+[SEVERE] 1639416202713 - http://172.26.171.101/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2021-12-13 15:09:03,619 - StackTrace do console:
+[WARNING] 1639418919126 - http://172.26.171.101/security-somapecas/login.xhtml - [DOM] Found 2 elements with non-unique id #javax.faces.ViewState: (More info: https://goo.gl/9p2vKq) %o %o
+[SEVERE] 1639418919372 - http://172.26.171.101/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[WARNING] 1639418928769 - http://172.26.171.101/security-somapecas/login.xhtml - [DOM] Found 2 elements with non-unique id #javax.faces.ViewState: (More info: https://goo.gl/9p2vKq) %o %o
+
+[INFO] 2021-12-13 15:11:41,716 - StackTrace do console:
+[WARNING] 1639419085840 - http://172.26.171.101/security-somapecas/login.xhtml - [DOM] Found 2 elements with non-unique id #javax.faces.ViewState: (More info: https://goo.gl/9p2vKq) %o %o
+[SEVERE] 1639419086039 - http://172.26.171.101/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2021-12-27 11:19:28,131 - StackTrace do console:
+
+[INFO] 2022-01-14 14:24:35,995 - StackTrace do console:
+
+[INFO] 2022-01-14 14:33:00,373 - StackTrace do console:
+
+[INFO] 2022-01-14 16:41:52,684 - StackTrace do console:
+
+[INFO] 2022-01-14 16:42:37,407 - StackTrace do console:
+
+[INFO] 2022-01-19 15:28:31,181 - StackTrace do console:
+
