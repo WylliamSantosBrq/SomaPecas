@@ -4,7 +4,7 @@ Feature: [CT008] [ENCHENTE] Acompanhamento de sinistro marcação de vistoria co
 
   Background: 
     Given que o usuário consultou um sinistro de ramo "531", ano "2021" e número "3798"
-    And que acessou a URL "http://aplwebhml/seweb/trs/"
+    And que acessou a URL "http://aplwebhml.portoseguro.brasil/seweb/trs/"
     And que esteja logado no Sistemas Corporativos
 
   @porto

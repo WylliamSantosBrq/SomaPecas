@@ -4,7 +4,7 @@ Feature: [CT011] [ROUBO OU FURTO] Consulta de sinistro localizado indenização 
 
   Background: 
     Given que o usuário consultou um sinistro de ramo "531", ano "2021" e número "3809"
-    And que acessou a URL "http://aplwebhml/seweb/trs/"
+    And que acessou a URL "http://aplwebhml.portoseguro.brasil/seweb/trs/"
     And que esteja logado no Sistemas Corporativos
 
   @porto

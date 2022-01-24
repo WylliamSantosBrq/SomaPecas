@@ -5,7 +5,7 @@ Feature: [CT002][VIDROS] Consulta de sinistro com marcação de vistoria
   Background: 
     #Given que o usuário pegou um sinistro do tipo "Porto" e natureza "Colisão" conectando direto com o Informix
     Given que o usuário consultou um sinistro de ramo "531", ano "2021" e número "9225"
-    And que acessou a URL "http://aplwebhml/seweb/trs/"
+    And que acessou a URL "http://aplwebhml.portoseguro.brasil/seweb/trs/"
     And que esteja logado no Sistemas Corporativos
 
   @porto

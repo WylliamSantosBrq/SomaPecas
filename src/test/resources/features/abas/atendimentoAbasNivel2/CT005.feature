@@ -5,7 +5,7 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
   Background: 
     #Given que o usuário pegou um sinistro do tipo "Porto" e natureza "Colisão" conectando direto com o Informix
     Given que o usuário consultou um sinistro de ramo "553", ano "2021", número "2164" e item "01"
-    And que acessou a URL "http://aplwebhml/seweb/trs/"
+    And que acessou a URL "http://aplwebhml.portoseguro.brasil/seweb/trs/"
     And que esteja logado no Sistemas Corporativos
 
   @porto
