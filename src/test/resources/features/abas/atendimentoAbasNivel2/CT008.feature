@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@TID3019REV0.6.0 @abas @u10 @CT008 @enchente
+@TID18010REV0.2.0 @abas @u10 @CT008 @enchente
 Feature: [CT008] [ENCHENTE] Acompanhamento de sinistro marcação de vistoria com estimativa
 
   Background: 

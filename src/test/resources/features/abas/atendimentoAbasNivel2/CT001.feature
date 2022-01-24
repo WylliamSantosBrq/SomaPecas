@@ -1,4 +1,4 @@
-@TID3017REV0.12.0 @abas @u10 @CT001 @colisao
+@TID3007REV0.7.0 @abas @u10 @CT001 @colisao
 Feature: [CT001][COLISÃO] Consulta de sinistro com marcação de vistoria
 
   Background: 

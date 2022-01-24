@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@TID3015REV0.9.0 @abas @u10 @CT006 @colisao @terceiro @deves02
+@TID18008REV0.2.0 @abas @u10 @CT006 @colisao @terceiro @deves02
 Feature: [CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa
 
   Background: 

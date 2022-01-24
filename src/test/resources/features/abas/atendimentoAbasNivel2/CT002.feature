@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@TID3018REV0.26.0 @abas @u10 @CT002 @vidros
+@TID3008REV0.6.0 @abas @u10 @CT002 @vidros
 Feature: [CT002][VIDROS] Consulta de sinistro com marcação de vistoria
 
   Background: 

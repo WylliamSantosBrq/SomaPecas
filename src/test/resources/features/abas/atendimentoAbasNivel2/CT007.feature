@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@TID3016REV0.9.0 @abas @u10 @CT007 @roubo_ou_furto
+@TID18009REV0.2.0 @abas @u10 @CT007 @roubo_ou_furto
 Feature: [CT007] [ROUBO OU FURTO] Acompanhamento de sinistro marcação de vistoria com estimativa
 
   Background: 

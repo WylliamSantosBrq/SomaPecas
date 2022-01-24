@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@TID3013REV0.21.0 @abas @u10 @CT005 @colisao @terceiro
+@TID3009REV0.5.0 @abas @u10 @CT005 @colisao @terceiro
 Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
  			#revisar p/ dados do terceiro
   Background: 
