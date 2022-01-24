@@ -32,20 +32,20 @@ public class ExecuteAfter implements IPrint {
 	
 	@After
 	public void tearDown(Scenario cenario) throws IOException {
-		if (pipelinefixa) {
-			return;
-		}
+//		if (pipelinefixa) {
+//			return;
+//		}
 		TimeLogger.stop(TimeLabel.TESTE);
 		TimeLogger.logAll(cenario);
 		
 
 		BRQLogger.info("Classe da página atual: [%s].", StepsMaster.getPaginaAtual().getClass());
-		try {
-			DriverWeb.getDriver();
-		} catch (Exception e) {
-			BRQLogger.info("Uso de Driver Web Mal Sucedido");
-			return;
-		}
+//		try {
+//			DriverWeb.getDriver();
+//		} catch (Exception e) {
+//			BRQLogger.info("Uso de Driver Web Mal Sucedido");
+//			return;
+//		}
 		
 		if (cenario.isFailed()) {
 			DriverWeb.getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);

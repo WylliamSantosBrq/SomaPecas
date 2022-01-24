@@ -51,6 +51,7 @@ public class Pagina implements InteracaoNavegador, Loggable {
 		switch (url) {
 		case "http://aplwebhml/seweb/trs/":
 		case "http://aplweb.portoseguro.brasil/seweb/trs/":
+		case "http://aplwebhml.portoseguro.brasil/seweb/trs/":
 		case "http://172.26.170.5/seweb/trs/":
 			StepsMaster.setPaginaAtual(new SCLoginPage());
 			return;

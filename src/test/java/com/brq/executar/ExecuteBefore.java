@@ -28,9 +28,9 @@ public class ExecuteBefore {
 	public void before(Scenario scenario) throws Throwable {
 		BRQLogger.logScenario(scenario);
 		
-		if (pipelinefixa) {
-			return;
-		}
+//		if (pipelinefixa) {
+//			return;
+//		}
 //		DadosMaster.resetAll();
 		new DadosUsuarioDesligamento().reset();
 

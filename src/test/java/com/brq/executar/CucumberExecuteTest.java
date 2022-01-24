@@ -33,8 +33,8 @@ import cucumber.api.SnippetType;
 				"junit:target/cucumber-reports/Cucumber.xml" //
 		}, //
 		glue = { "com.brq.steps", "com.brq.executar" }, //
-		tags = { "@gerarMassa"}, //
-
+		tags = { "@CT001", "@porto"}, //
+		
 		snippets = SnippetType.CAMELCASE, //
 		monochrome = true, //
 		dryRun = false, //
@@ -62,9 +62,9 @@ public class CucumberExecuteTest {
 
 		EvidenciasHelper.deletarPrints();
 
-//		DriverWeb.getDriver(Browser.CHROME, false);
-//		DriverWeb.getDriver().manage().timeouts().implicitlyWait(IMPLICIT_TIMEOUT, TimeUnit.SECONDS);
-//		DriverWeb.getDriver().manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+		DriverWeb.getDriver(Browser.CHROME, false);
+		DriverWeb.getDriver().manage().timeouts().implicitlyWait(IMPLICIT_TIMEOUT, TimeUnit.SECONDS);
+		DriverWeb.getDriver().manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 
 //		DriverWebJenkins.getDriver();
 	}
@@ -74,7 +74,7 @@ public class CucumberExecuteTest {
 	 */
 	@AfterClass
 	public static void fecharNavegador() {
-		DriverWeb.finalizarDriver();
+//		DriverWeb.finalizarDriver();
 		Reporter.loadXMLConfig(new File("Configuracao/extension-config.xml"));
 		Reporter.setSystemInfo("Usuário Executor", System.getProperty("user.name"));
 		Reporter.setSystemInfo("Sistema Operacional", System.getProperty("os.name"));
