@@ -7,19 +7,39 @@ import com.brq.erros.ErroAutomacao;
 import com.brq.interfaces.Campos;
 import com.brq.interfaces.Combos;
 import com.brq.interfaces.Formulario;
+import com.brq.interfaces.Tabelas;
 import com.brq.interfaces.log.BRQLogger;
-import com.brq.pages.Foco;
 import com.brq.pages.Pagina;
 import com.brq.pages.abas.AbasRegistrarSinistroPage;
-
+import com.brq.pages.abas.focos.AbasHistorico;
 import com.brq.pages.somapecas.SPDashBoardPage;
-import com.brq.pages.somapecas.focos.SPAtenderPedido;
+
 import cucumber.api.DataTable;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class CamposSteps extends StepsMaster {
+	
+	@And("^salvar todos os dados do \"(.*?)\"$")
+	public void salvarDadosDo(String campo) {
+		if (!(getPaginaAtual() instanceof Tabelas))
+			throw new ErroAutomacao("A pagina atual não pe uma instância de [AbasHistorico].");
+		
+		switch (campo) {
+		case "Histórico de alterações":
+			((Pagina) getPaginaAtual()).salvarDados(campo);
+			break;
+		case "Tempo de Análise":
+			((Pagina) getPaginaAtual()).salvarDados(campo);
+			break;
+		default:
+			BRQLogger.info("Default Method");
+			break;
+		}
+	
+	}
 
 	@Given("^que (?:o usuário )?preencheu os campos obrigatórios$")
 	@When("^preencher os campos obrigatórios$")

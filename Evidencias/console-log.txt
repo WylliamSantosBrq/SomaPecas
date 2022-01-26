@@ -84,3 +84,153 @@
 
 [INFO] 2022-01-21 12:35:14,206 - StackTrace do console:
 
+[INFO] 2022-01-24 12:39:53,743 - StackTrace do console:
+[WARNING] 1643038790747 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038793117 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038793358 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 12:40:00,332 - StackTrace do console:
+[WARNING] 1643038797787 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038798039 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038800027 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 12:40:06,722 - StackTrace do console:
+[WARNING] 1643038804172 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038804388 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038806475 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 12:40:12,473 - StackTrace do console:
+[WARNING] 1643038810027 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038810269 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038812245 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 12:40:18,567 - StackTrace do console:
+[WARNING] 1643038816133 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038816411 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038818377 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 12:40:24,372 - StackTrace do console:
+[WARNING] 1643038821871 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038822124 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038824139 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 12:40:30,086 - StackTrace do console:
+[WARNING] 1643038827622 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038827879 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038829844 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 12:40:36,654 - StackTrace do console:
+[WARNING] 1643038834224 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038834445 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038836457 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 12:40:42,478 - StackTrace do console:
+[WARNING] 1643038840066 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038840311 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038842312 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 12:40:48,316 - StackTrace do console:
+[WARNING] 1643038845863 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038846124 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038848141 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 12:40:53,953 - StackTrace do console:
+[WARNING] 1643038851561 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038851840 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038853792 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 12:40:59,625 - StackTrace do console:
+[WARNING] 1643038857214 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038857463 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643038859459 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 12:41:03,402 - StackTrace do console:
+
+[INFO] 2022-01-24 12:41:04,595 - StackTrace do console:
+
+[INFO] 2022-01-24 12:44:31,306 - StackTrace do console:
+[WARNING] 1643039068287 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643039070632 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643039070872 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 12:44:37,982 - StackTrace do console:
+[WARNING] 1643039075497 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643039075740 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643039077736 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 12:45:07,071 - StackTrace do console:
+[WARNING] 1643039103927 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643039104145 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643039106335 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 13:31:46,209 - StackTrace do console:
+[SEVERE] 1643041754572 - http://apphubhml/avisosinistro/carregarAbas.do 6841:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1643041787611 - http://apphubhml/avisosinistro/carregarAbas.do 6706:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1643041821413 - http://apphubhml/avisosinistro/carregarAbas.do 6841:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1643041856932 - http://apphubhml/avisosinistro/carregarAbas.do 6708:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1643041894977 - http://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643041895525 - http://apphubhml/avisosinistro/carregarAbas.do 4350:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-01-24 13:31:55,202 - StackTrace do console:
+
+[INFO] 2022-01-24 13:32:03,833 - StackTrace do console:
+
+[INFO] 2022-01-24 13:32:12,759 - StackTrace do console:
+
+[INFO] 2022-01-24 13:32:21,342 - StackTrace do console:
+
+[INFO] 2022-01-24 13:32:29,891 - StackTrace do console:
+
+[INFO] 2022-01-24 13:32:38,504 - StackTrace do console:
+
+[INFO] 2022-01-24 13:32:47,362 - StackTrace do console:
+
+[INFO] 2022-01-24 13:32:51,318 - StackTrace do console:
+
+[INFO] 2022-01-24 13:32:52,742 - StackTrace do console:
+
+[INFO] 2022-01-24 14:17:09,423 - StackTrace do console:
+[WARNING] 1643044625532 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643044628562 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643044628740 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-24 14:52:17,001 - StackTrace do console:
+[SEVERE] 1643046735137 - http://aplwebhml.portoseguro.brasil/portaislogin/initLoginSistemas.do - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643046735393 - https://wwws.portoseguro.com.br/portoseguro.gif - Failed to load resource: the server responded with a status of 404 ()
+
+[INFO] 2022-01-24 14:53:37,948 - StackTrace do console:
+[SEVERE] 1643046815586 - http://aplwebhml.portoseguro.brasil/portaislogin/initLoginSistemas.do - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643046815796 - https://wwws.portoseguro.com.br/portoseguro.gif - Failed to load resource: the server responded with a status of 404 ()
+
+[INFO] 2022-01-24 14:59:13,223 - StackTrace do console:
+[SEVERE] 1643047151198 - http://aplwebhml.portoseguro.brasil/portaislogin/initLoginSistemas.do - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643047151586 - https://wwws.portoseguro.com.br/portoseguro.gif - Failed to load resource: the server responded with a status of 404 ()
+
+[INFO] 2022-01-24 15:05:34,924 - StackTrace do console:
+[SEVERE] 1643047533130 - http://aplwebhml.portoseguro.brasil/portaislogin/initLoginSistemas.do - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643047533402 - https://wwws.portoseguro.com.br/portoseguro.gif - Failed to load resource: the server responded with a status of 404 ()
+
+[INFO] 2022-01-24 15:15:28,438 - StackTrace do console:
+[SEVERE] 1643048126251 - http://aplwebhml.portoseguro.brasil/portaislogin/initLoginSistemas.do - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643048126473 - https://wwws.portoseguro.com.br/portoseguro.gif - Failed to load resource: the server responded with a status of 404 ()
+
+[INFO] 2022-01-24 15:32:44,147 - StackTrace do console:
+[SEVERE] 1643049161660 - http://aplwebhml.portoseguro.brasil/portaislogin/initLoginSistemas.do - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643049162476 - https://wwws.portoseguro.com.br/portoseguro.gif - Failed to load resource: the server responded with a status of 404 ()
+
+[INFO] 2022-01-24 16:00:05,169 - StackTrace do console:
+[SEVERE] 1643050802992 - http://aplwebhml.portoseguro.brasil/portaislogin/initLoginSistemas.do - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643050803399 - https://wwws.portoseguro.com.br/portoseguro.gif - Failed to load resource: the server responded with a status of 404 ()
+
+[INFO] 2022-01-24 16:08:21,417 - StackTrace do console:
+[SEVERE] 1643051298630 - http://aplwebhml.portoseguro.brasil/portaislogin/initLoginSistemas.do - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643051298870 - https://wwws.portoseguro.com.br/portoseguro.gif - Failed to load resource: the server responded with a status of 404 ()
+
+[INFO] 2022-01-24 16:30:25,065 - StackTrace do console:
+[SEVERE] 1643052622973 - http://aplwebhml.portoseguro.brasil/portaislogin/initLoginSistemas.do - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643052623389 - https://wwws.portoseguro.com.br/portoseguro.gif - Failed to load resource: the server responded with a status of 404 ()
+
+[INFO] 2022-01-26 11:05:06,253 - StackTrace do console:
+[SEVERE] 1643205903406 - http://aplwebhml.portoseguro.brasil/portaislogin/initLoginSistemas.do - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643205904258 - https://wwws.portoseguro.com.br/portoseguro.gif - Failed to load resource: the server responded with a status of 404 ()
+
