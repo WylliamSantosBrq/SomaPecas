@@ -62,11 +62,11 @@ public class CucumberExecuteTest {
 
 		EvidenciasHelper.deletarPrints();
 
-		DriverWeb.getDriver(Browser.CHROME, false);
-		DriverWeb.getDriver().manage().timeouts().implicitlyWait(IMPLICIT_TIMEOUT, TimeUnit.SECONDS);
-		DriverWeb.getDriver().manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+//		DriverWeb.getDriver(Browser.CHROME, false);
+//		DriverWeb.getDriver().manage().timeouts().implicitlyWait(IMPLICIT_TIMEOUT, TimeUnit.SECONDS);
+//		DriverWeb.getDriver().manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 
-//		DriverWebJenkins.getDriver();
+		DriverWebJenkins.getDriver();
 	}
 
 	/**
