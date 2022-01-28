@@ -4,7 +4,7 @@ Feature: [CT001][COLISÃO] Consulta de sinistro com marcação de vistoria
   Background: 
     #Given que o usuário pegou um sinistro do tipo "Porto" e natureza "Colisão" conectando direto com o Informix
     Given que o usuário consultou um sinistro de ramo "531", ano "2021" e número "3703"
-    And que acessou a URL "http://aplwebhml.portoseguro.brasil/seweb/trs/"
+    And que acessou a URL "https://apphubhml.portoseguro.brasil/portaislogin/"
     And que esteja logado no Sistemas Corporativos
 
   @porto

@@ -48,7 +48,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jan 26, 2022 11:05:02 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Jan 28, 2022 11:08:26 AM</span>
 				</a>
 			</li>
 			<li>
@@ -171,10 +171,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='2.985%'><span class='strong'>2</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='4.478%'><span class='strong'>3</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='1.493%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='95.522%'>64</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='1.493%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='94.03%'>63</span> others
 				</div>
 			</div>
 		</div>
@@ -191,7 +191,7 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</span>
-						<span class='test-time'>Jan 26, 2022 11:05:02 AM</span>
+						<span class='test-time'>Jan 28, 2022 11:08:28 AM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
@@ -199,7 +199,7 @@
 	<div class='category-list'>
 		<span class='category label white-text'>@porto</span>
 	</div>
-	<span class='duration right label'>0h 0m 3s+383ms</span>
+	<span class='duration right label'>0h 0m 43s+364ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</span>
@@ -217,29 +217,30 @@
 			
 			<b>And</b>
 			
-			<span class="bdd-step-name">And que acessou a URL "http://aplwebhml.portoseguro.brasil/seweb/trs/"</span>
+			<span class="bdd-step-name">And que acessou a URL "https://apphubhml.portoseguro.brasil/portaislogin/"</span>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='5' class='node and fail' status='fail'>
+		<li test-id='5' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And que esteja logado no Sistemas Corporativos</span>
-				<div class='pre'><pre>com.brq.erros.ErroInesperado: Ocorreu um erro inesperado.
-	at com.brq.interfaces.sistemascorporativos.SCLogin.realizarLogin(SCLogin.java:32)
-	at com.brq.interfaces.sistemascorporativos.SCLogin.realizarLogin(SCLogin.java:41)
-	at com.brq.steps.sistemascorporativos.LoginSteps.queEuEstejaLogadoNoSistemasCorporativos(LoginSteps.java:21)
-	at ✽.And que esteja logado no Sistemas Corporativos(abas/atendimentoAbasNivel2/CT001.feature:8)
-</pre></div>
+				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='6' class='node given skip' status='skip'>
+		<li test-id='6' class='node given fail' status='fail'>
 			
 			<b>Given</b>
 			
 			<span class="bdd-step-name">Given que acessou o menu "Sistema de sinistro" -> "Novo Sinistro Auto"</span>
-				<div class='pre'>skipped</div>
+				<div class='pre'><textarea>com.brq.erros.ErroTimeout: Ocorreu um erro ao esperar a página [Aviso de Sinistro] abrir.
+	at com.brq.interfaces.web.IEsperaBrowser.esperarPaginaAbrirContains(IEsperaBrowser.java:150)
+	at com.brq.pages.abas.AbasHomePage.<init>(AbasHomePage.java:12)
+	at com.brq.interfaces.sistemascorporativos.SCMenu.acessarMenu(SCMenu.java:191)
+	at com.brq.steps.MenuSteps.queEuAcesseOMenu(MenuSteps.java:24)
+	at ✽.Given que acessou o menu "Sistema de sinistro" -> "Novo Sinistro Auto"(abas/atendimentoAbasNivel2/CT001.feature:13)
+</textarea></div>
 			
 		</li>
 		<li test-id='7' class='node and skip' status='skip'>
@@ -751,7 +752,7 @@
 			
 			<span class="bdd-step-name">When fechar a janela de Atendimento Online</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Erro\2022_01_26_11_05_06.338639200.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Erro\2022_01_28_11_09_12.195732900.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>skipped</div>
 			
@@ -835,7 +836,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jan 26, 2022 11:05:02 AM</td>
+										<td>Jan 28, 2022 11:08:28 AM</td>
 										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -869,7 +870,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jan 26, 2022 11:05:02 AM</td>
+										<td>Jan 28, 2022 11:08:28 AM</td>
 										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -903,7 +904,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jan 26, 2022 11:05:02 AM</td>
+										<td>Jan 28, 2022 11:08:28 AM</td>
 										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -937,7 +938,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jan 26, 2022 11:05:02 AM</td>
+										<td>Jan 28, 2022 11:08:28 AM</td>
 										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -971,7 +972,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jan 26, 2022 11:05:02 AM</td>
+										<td>Jan 28, 2022 11:08:28 AM</td>
 										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -1005,7 +1006,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jan 26, 2022 11:05:02 AM</td>
+										<td>Jan 28, 2022 11:08:28 AM</td>
 										<td class='linked' test-id='2'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -1053,7 +1054,7 @@
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>com.brq.erros.ErroInesperado</span>
+                                <span class='exception-name'>com.brq.erros.ErroTimeout</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -1068,14 +1069,15 @@
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Jan 26, 2022 11:05:04 AM</td>
-                                                        <td class='linked' test-id='5'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas.And que esteja logado no Sistemas Corporativos</td>
-                                                        <td><pre><pre>com.brq.erros.ErroInesperado: Ocorreu um erro inesperado.
-	at com.brq.interfaces.sistemascorporativos.SCLogin.realizarLogin(SCLogin.java:32)
-	at com.brq.interfaces.sistemascorporativos.SCLogin.realizarLogin(SCLogin.java:41)
-	at com.brq.steps.sistemascorporativos.LoginSteps.queEuEstejaLogadoNoSistemasCorporativos(LoginSteps.java:21)
-	at ✽.And que esteja logado no Sistemas Corporativos(abas/atendimentoAbasNivel2/CT001.feature:8)
-</pre></pre></td>
+                                                        <td>Jan 28, 2022 11:08:36 AM</td>
+                                                        <td class='linked' test-id='6'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas.Given que acessou o menu "Sistema de sinistro" -> "Novo Sinistro Auto"</td>
+                                                        <td><pre><textarea>com.brq.erros.ErroTimeout: Ocorreu um erro ao esperar a página [Aviso de Sinistro] abrir.
+	at com.brq.interfaces.web.IEsperaBrowser.esperarPaginaAbrirContains(IEsperaBrowser.java:150)
+	at com.brq.pages.abas.AbasHomePage.<init>(AbasHomePage.java:12)
+	at com.brq.interfaces.sistemascorporativos.SCMenu.acessarMenu(SCMenu.java:191)
+	at com.brq.steps.MenuSteps.queEuAcesseOMenu(MenuSteps.java:24)
+	at ✽.Given que acessou o menu "Sistema de sinistro" -> "Novo Sinistro Auto"(abas/atendimentoAbasNivel2/CT001.feature:13)
+</textarea></pre></td>
                                                     </tr>
                                         </tbody>
                                     </table>
@@ -1119,19 +1121,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jan 26, 2022 11:05:02 AM</div>
+					<div class='panel-lead'>Jan 28, 2022 11:08:26 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jan 26, 2022 11:05:08 AM</div>
+			 		<div class='panel-lead'>Jan 28, 2022 11:09:21 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>6,103ms</div>
+					<div class='panel-lead'>54,273ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -1240,14 +1242,14 @@
 				infoChild: 0,
 				exceptionsChild: 1,
 				
-				passGrandChild: 2,
+				passGrandChild: 3,
 				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 64,
+				skipGrandChild: 63,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 65,
+				exceptionsGrandChild: 64,
 			};
 		</script>
 		
