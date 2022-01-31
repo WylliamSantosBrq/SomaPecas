@@ -1,39 +1,72 @@
 <head>
-
-<title>Porto Seguro Seguros - Estamos em Manutenção</title>
-
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-
-<meta name="generator" content="textpad 4.6">
-
-<meta name="author" content="Carlos Navarro">
-
+<title>Portonet - Login</title>
+<link href="loginSistemas/visual/estilo.css" rel="stylesheet" type="text/css">
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="loginSistemas/visual/estilo_ie7.css" /><![endif]-->
+ 
 </head>
+<body>
+<script type="text/javascript" language="javascript"> 
+<!--
+ 
+function checkForm(){
 
+	var msg = "";
 
+	if(document.getElementById("usuario").value == ""){
+		msg += "Voce deve informar seu login. \n";
+	}
+	
+	if(document.getElementById("senha").value == ""){
+		msg += "Voce deve informar sua senha.";	
+	}
+	
+	if(msg != ""){
+		alert(msg);
+		return false;
+	}else{
+		return true;
+	}	
+}
+function verificarCaracteres(campo) {
+	campo.value = campo.value.replace(/[^a-z A-Z0-9]/g, "");
+}
+//-->
+</script>
+ 
+ 
+<!-- abre geral -->
+<div id="geral">
+	<!-- Abre da div#topo -->
+	<div id="topo">
+		<h1>Porto Seguro</h1>
+		<form name="loginSistemasForm" id="login" method="post" action="/portaislogin/loginSistemas.do" onsubmit="return checkForm();">
 
-<body bgcolor="#1B70E1">
-
-
-
-<center>
+			<input type="hidden" name="vslpmscod" id="vslpmscod" value="1">
+			<input type="hidden" name="sisambcod" id="sisambcod" value="2">
+			<div id="to_login">
+			<label class="login_labelFor">Usuário:</label>
+			<label class="login_labelFor"><input type="text" name="usuario" id="usuario" size="20" maxlength="11" onkeyup="javascript:verificarCaracteres(this);" class="login_for_campo" value=""></label>
+			<label class="login_labelFor">Senha:</label>
+			<label class="login_labelFor"><input type="password" name="senha" id="senha" size="20" maxlength="15" class="login_for_campo" value=""></label>
+			<div id="to_login_btOk"><input type="submit" name="button" id="button" value="Entrar" class="login_for_bt_busca"></div>
+		</div>
+		
+		</form>
+	</div>
+    <!-- Fim da div#topo -->
+</div>
+<!-- Fim da div#geral -->
+<div id="login_fundo_img">
 
 <br><br>
-
-<img src="https://wwws.portoseguro.com.br/portoseguro.gif" border="0">
-
+Este serviço tem como principal objetivo facilitar o acesso exclusivamente a área de Sistemas Corporativos.
 <br><br>
+Deverá ser utilizado como rota alternativa à Portonet.
+<br><br><br><br>
+	<div id="rodape">
+		<p>Porto Seguro Seguros - Copyright - Todos os direitos reservados</p>
+	</div>
+<!-- Fim da div#rodape -->
+</div>
 
-<font size="3" color="#FFFFFF" face="arial,tahoma"><b>404 - A página solicitada não existe.
-<!--<br>
-Por favor, tente mais tarde.</b>--></b></font><b>
-</b></center><b>
-
-
-
-
-
-
-
-
-</b></body>
+</body>

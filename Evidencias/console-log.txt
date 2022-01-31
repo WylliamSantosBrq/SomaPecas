@@ -283,3 +283,17 @@
 [SEVERE] 1643378911115 - https://apphubhml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
 [SEVERE] 1643378921510 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 499 (Request has been forbidden by antivirus)
 
+[INFO] 2022-01-31 11:17:23,032 - StackTrace do console:
+[SEVERE] 1643638626439 - https://apphubhml.portoseguro.brasil/portaislogin/ - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643638627237 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 11:18:08,518 - StackTrace do console:
+[WARNING] 1643638686993 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643638687451 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-31 11:20:24,360 - StackTrace do console:
+[SEVERE] 1643638824340 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 11:25:11,327 - StackTrace do console:
+[SEVERE] 1643639095472 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
