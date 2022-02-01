@@ -20,7 +20,7 @@ public interface SCMenu extends Menu {
 		if (profundidade == 0)
 			throw new ErroAutomacao("A lista de ordem dos menus não pode ficar vazia.");
 
-		try (Frame frame = SCMenuElementos.FRAME_PRINCIPAL.entrar()) {
+		//try (Frame frame = SCMenuElementos.FRAME_PRINCIPAL.entrar()) {
 
 			switch (ordemDeMenus[0]) {
 			case "Central de Documentos":
@@ -208,9 +208,9 @@ public interface SCMenu extends Menu {
 			default:
 				throw new ErroAutomacao("Menu [%s] não definido no método [acessarMenu].", ordemDeMenus[0]);
 			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//	//	}
 	}
 
 }

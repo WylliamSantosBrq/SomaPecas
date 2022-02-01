@@ -4,7 +4,7 @@ Feature: [CT009] [INCÊNDIO] Acompanhamento de sinistro marcação de vistoria c
 
   Background: 
     Given que o usuário consultou um sinistro de ramo "531", ano "2021" e número "3799"
-    And que acessou a URL "http://aplwebhml.portoseguro.brasil/seweb/trs/"
+    And que acessou a URL "https://portalcorporativohml.portoseguro.brasil/portaislogin/loginSistemas.do"
     And que esteja logado no Sistemas Corporativos
 
   @porto

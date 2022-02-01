@@ -21,16 +21,16 @@ public interface SCLogin extends Login {
 	default void realizarLogin(String usuario, String senha) {
 		BRQLogger.logMethod(usuario, senha);
 		
-		try (Frame frame = ((Frame) SCLoginElementos.FRAME_LOGIN.esperarExistir(15)).entrar()) {
+	//	try (Frame frame = ((Frame) SCLoginElementos.FRAME_LOGIN.esperarExistir(15)).entrar()) {
 			SCLoginElementos.INPUT_USUARIO.preencher(usuario);
 			SCLoginElementos.INPUT_SENHA.preencher(senha);
 			SCLoginElementos.BTN_ENTRAR.clicar();
 			
 			StepsMaster.setPaginaAtual(new SCHomePage());
 			
-		} catch (Exception e) {
-			throw new ErroInesperado(e);
-		}
+//		} catch (Exception e) {
+//			throw new ErroInesperado(e);
+//		}
 		
 	}
 
@@ -38,7 +38,7 @@ public interface SCLogin extends Login {
 	default void realizarLogin() {
 		BRQLogger.logMethod();
 		
-		realizarLogin("f0120955", "seguro55");
+		realizarLogin("f0106929", "seguro10");
 	}
 
 	@Override

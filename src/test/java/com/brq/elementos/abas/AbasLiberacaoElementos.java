@@ -18,5 +18,10 @@ public class AbasLiberacaoElementos {
 	public static final Botao BTN_CONCLUIR_ANALISE = new Botao(By.xpath("//input[@value='Concluir análise']"));
 	public static final Botao BTN_LIBERAR_SINISTRO = new Botao(By.xpath("//input[@value='Liberar Sinistro']"));
 	
-	public static final Campo OUTPUT_VALOR_A_LIBERAR = new Campo(By.xpath("//*[@id='dadosLiberacao']//td[contains(., 'Valor a liberar')]/following::input[1]"));
+	//public static final Campo OUTPUT_VALOR_A_LIBERAR = new Campo(By.xpath("//*[@id='dadosLiberacao']//td[contains(., 'Valor a liberar')]/following::input[1]"));
+	public static final Campo OUTPUT_VALOR_A_LIBERAR = new Campo(By.name("valorLiberar"));
+	//public static final Campo OUTPUT_VALOR_A_LIBERAR = new Campo(By.xpath("//input[@value='11.840,00']"));
+
+	
+
 }

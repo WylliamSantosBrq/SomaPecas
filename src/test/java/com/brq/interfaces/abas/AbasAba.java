@@ -4,6 +4,7 @@ import com.brq.elementos.Frame;
 import com.brq.elementos.Texto;
 import com.brq.elementos.abas.AbasAbaElementos;
 import com.brq.erros.ErroAutomacao;
+import com.brq.erros.ErroTimeout;
 import com.brq.interfaces.Abas;
 import com.brq.interfaces.log.BRQLogger;
 import com.brq.pages.Pagina;
@@ -28,7 +29,7 @@ import com.brq.pages.abas.focos.AbasVitima;
 public interface AbasAba extends Abas {
 
 	@Override
-	default void mudarAba(String nomeDaAba) {
+	default void mudarAba(String nomeDaAba) throws Exception {
 		BRQLogger.logMethod(nomeDaAba);
 
 		((Frame) AbasAbaElementos.FRAME_PRINCIPAL.esperarExistir(30)).entrar();
@@ -101,14 +102,14 @@ public interface AbasAba extends Abas {
 		case "Liberação":
 			mudarAbaLiberacao();
 			break;
-			
+
 		case "Segurado":
 			mudarAbaSegurado();
-			break;	
-			
+			break;
+
 		case "Causador":
 			mudarAbaCausador();
-			break;				
+			break;
 
 		default:
 			throw new ErroAutomacao("Aba [%s] não definida no método [mudarAba].", nomeDaAba);
@@ -236,15 +237,21 @@ public interface AbasAba extends Abas {
 
 		((Pagina) this).setFocoAtual(new AbasLiberacao());
 	}
-	
-	default void mudarAbaSegurado() {
+
+	default void mudarAbaSegurado() throws Exception {
 		BRQLogger.logMethod();
 
+		try {
+			AbasAbaElementos.ABA_SEGURADO.esperarExistir(5);
+
+		} catch (Exception|ErroTimeout e) {
+			throw new Exception("Aba segurado não estava visivel na página");
+		}
 		AbasAbaElementos.ABA_SEGURADO.clicarJavascript();
 
 		((Pagina) this).setFocoAtual(new AbasSegurado());
 	}
-	
+
 	default void mudarAbaCausador() {
 		BRQLogger.logMethod();
 
@@ -252,7 +259,6 @@ public interface AbasAba extends Abas {
 
 		((Pagina) this).setFocoAtual(new AbasCausador());
 	}
-
 
 	default void validarAbaAtual(String abaEsperada) {
 		BRQLogger.logMethod(abaEsperada);
@@ -262,7 +268,8 @@ public interface AbasAba extends Abas {
 
 		try {
 			((Frame) AbasAbaElementos.FRAME_PRINCIPAL.esperarExistir(30)).entrar();
-		}catch (Exception e){}
+		} catch (Exception e) {
+		}
 
 		((Texto) AbasAbaElementos.TXT_ABA_ATUAL.esperarSegundos(1)).validarTextoIgual(abaEsperada);
 
@@ -272,14 +279,13 @@ public interface AbasAba extends Abas {
 	@Override
 	default String getAbaAtual() {
 		BRQLogger.logMethod();
-		
+
 		try (Frame framePrincipal = AbasAbaElementos.FRAME_PRINCIPAL.entrar()) {
 			return AbasAbaElementos.TXT_ABA_ATUAL.esperarExistir(30).obterTexto();
 		} catch (Exception e) {
 			throw new ErroAutomacao(e, "Não foi possível encontrar o texto da aba atual.");
 		}
-		
+
 	}
 
-	
 }

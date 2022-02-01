@@ -297,3 +297,553 @@
 [INFO] 2022-01-31 11:25:11,327 - StackTrace do console:
 [SEVERE] 1643639095472 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
 
+[INFO] 2022-01-31 11:45:51,456 - StackTrace do console:
+
+[INFO] 2022-01-31 11:47:03,622 - StackTrace do console:
+
+[INFO] 2022-01-31 11:51:32,276 - StackTrace do console:
+
+[INFO] 2022-01-31 11:53:21,154 - StackTrace do console:
+
+[INFO] 2022-01-31 11:58:43,787 - StackTrace do console:
+
+[INFO] 2022-01-31 12:15:55,571 - StackTrace do console:
+
+[INFO] 2022-01-31 12:16:18,411 - StackTrace do console:
+
+[INFO] 2022-01-31 12:18:45,188 - StackTrace do console:
+
+[INFO] 2022-01-31 13:39:31,106 - StackTrace do console:
+[SEVERE] 1643643558089 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 13:47:42,909 - StackTrace do console:
+[SEVERE] 1643644060676 - http://aplwebhml.portoseguro.brasil/portaislogin/initLoginSistemas.do - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643644061387 - https://wwws.portoseguro.com.br/portoseguro.gif - Failed to load resource: the server responded with a status of 404 ()
+
+[INFO] 2022-01-31 13:51:26,937 - StackTrace do console:
+[SEVERE] 1643644275213 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 13:58:10,407 - StackTrace do console:
+
+[INFO] 2022-01-31 14:00:21,319 - StackTrace do console:
+[WARNING] 1643644799241 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643644799473 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643644820337 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-31 14:03:52,280 - StackTrace do console:
+[SEVERE] 1643645020881 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 14:22:41,271 - StackTrace do console:
+[SEVERE] 1643646149518 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 14:26:15,179 - StackTrace do console:
+[SEVERE] 1643646300416 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 14:32:48,698 - StackTrace do console:
+[SEVERE] 1643646722168 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 14:40:00,337 - StackTrace do console:
+[SEVERE] 1643647183087 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 15:18:01,995 - StackTrace do console:
+[WARNING] 1643649460744 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643649460952 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643649481846 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-31 15:19:37,386 - StackTrace do console:
+[SEVERE] 1643649570045 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 15:23:32,823 - StackTrace do console:
+[SEVERE] 1643649769844 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 15:46:24,039 - StackTrace do console:
+
+[INFO] 2022-01-31 15:47:09,989 - StackTrace do console:
+[SEVERE] 1643651217453 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 15:53:17,478 - StackTrace do console:
+[SEVERE] 1643651536639 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 16:13:20,273 - StackTrace do console:
+[SEVERE] 1643652787707 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 16:20:41,831 - StackTrace do console:
+[SEVERE] 1643652816009 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 17:09:10,066 - StackTrace do console:
+[SEVERE] 1643656138429 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 17:11:01,829 - StackTrace do console:
+[SEVERE] 1643656249569 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 17:16:00,991 - StackTrace do console:
+[SEVERE] 1643656560685 - https://portalcorporativohml.portoseguro.brasil/portaislogin/ - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-01-31 17:19:19,847 - StackTrace do console:
+[WARNING] 1643656759504 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643656759577 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643656759612 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-31 17:21:28,779 - StackTrace do console:
+[WARNING] 1643656864453 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643656888366 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643656888617 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-31 17:24:15,182 - StackTrace do console:
+[WARNING] 1643657033883 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643657034091 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643657054970 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-01-31 17:25:28,658 - StackTrace do console:
+[SEVERE] 1643657092176 - https://apphubhml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643657097861 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 499 (Request has been forbidden by antivirus)
+
+[INFO] 2022-01-31 17:27:13,214 - StackTrace do console:
+[SEVERE] 1643657221031 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 17:27:44,755 - StackTrace do console:
+[SEVERE] 1643657264476 - https://portalcorporativohml.portoseguro.brasil/portaislogin/ - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-01-31 17:31:07,077 - StackTrace do console:
+[SEVERE] 1643657455669 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 17:32:25,623 - StackTrace do console:
+
+[INFO] 2022-01-31 17:39:32,838 - StackTrace do console:
+
+[INFO] 2022-01-31 17:40:27,193 - StackTrace do console:
+[SEVERE] 1643658022803 - https://portalcorporativo.portoseguro.brasil/portaislogin/favicon.ico - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+
+[INFO] 2022-01-31 17:43:16,484 - StackTrace do console:
+
+[INFO] 2022-01-31 17:46:00,086 - StackTrace do console:
+
+[INFO] 2022-01-31 17:59:43,941 - StackTrace do console:
+[SEVERE] 1643659174243 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-01-31 18:07:19,629 - StackTrace do console:
+[SEVERE] 1643659603443 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643659608890 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 499 (Request has been forbidden by antivirus)
+
+[INFO] 2022-01-31 18:14:09,913 - StackTrace do console:
+[SEVERE] 1643660014859 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643660019933 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 499 (Request has been forbidden by antivirus)
+
+[INFO] 2022-01-31 18:35:56,627 - StackTrace do console:
+[SEVERE] 1643661257026 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643661268152 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643661286010 - https://apphubhml/avisosinistro/carregarAbas.do 6841:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-01-31 18:37:31,433 - StackTrace do console:
+[SEVERE] 1643661420958 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643661427231 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643661445159 - https://apphubhml/avisosinistro/carregarAbas.do 6841:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-01-31 18:44:33,699 - StackTrace do console:
+[SEVERE] 1643661808416 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-01-31 18:46:10,617 - StackTrace do console:
+[SEVERE] 1643661905584 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-01-31 19:07:50,836 - StackTrace do console:
+[SEVERE] 1643663156638 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643663177162 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643663198046 - https://apphubhml/avisosinistro/carregarAbas.do 6706:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-01-31 19:10:04,345 - StackTrace do console:
+[SEVERE] 1643663299862 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643663314601 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643663330642 - https://apphubhml/avisosinistro/carregarAbas.do 6706:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-01-31 19:32:22,922 - StackTrace do console:
+[SEVERE] 1643664725860 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-01-31 19:34:02,072 - StackTrace do console:
+[SEVERE] 1643664777012 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-01-31 19:44:31,751 - StackTrace do console:
+[SEVERE] 1643665428569 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643665434164 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643665453339 - https://apphubhml/avisosinistro/carregarAbas.do 6708:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-01-31 21:29:06,021 - StackTrace do console:
+[SEVERE] 1643671698584 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643671715126 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643671738208 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643671738560 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643671738821 - https://apphubhml/avisosinistro/carregarAbas.do 4350:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-01-31 21:33:06,268 - StackTrace do console:
+[SEVERE] 1643671799974 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643671811333 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643671831259 - https://apphubhml/avisosinistro/carregarAbas.do 6706:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-01-31 21:38:22,614 - StackTrace do console:
+[SEVERE] 1643672293971 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643672300297 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-01-31 23:13:00,288 - StackTrace do console:
+[SEVERE] 1643677871821 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643677888469 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643677907651 - https://apphubhml/avisosinistro/carregarAbas.do 6706:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-01-31 23:27:58,692 - StackTrace do console:
+[SEVERE] 1643678751200 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643678756767 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643678773830 - https://apphubhml/avisosinistro/carregarAbas.do 6841:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-01-31 23:29:38,320 - StackTrace do console:
+[SEVERE] 1643678942390 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643678953529 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643678970854 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643678971273 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643678971480 - https://apphubhml/avisosinistro/carregarAbas.do 4350:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-01-31 23:36:06,946 - StackTrace do console:
+[SEVERE] 1643679336224 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643679342182 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643679359462 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643679359867 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643679360046 - https://apphubhml/avisosinistro/carregarAbas.do 4350:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-01-31 23:49:47,178 - StackTrace do console:
+[SEVERE] 1643680145599 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643680159523 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643680179507 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643680179783 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643680180091 - https://apphubhml/avisosinistro/carregarAbas.do 4350:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-01-31 23:59:44,955 - StackTrace do console:
+[SEVERE] 1643680741812 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643680759217 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643680777441 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643680777759 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643680778262 - https://apphubhml/avisosinistro/carregarAbas.do 4350:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 00:07:06,182 - StackTrace do console:
+[SEVERE] 1643681113405 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643681124443 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643681144031 - https://apphubhml/avisosinistro/carregarAbas.do 6841:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 00:24:31,306 - StackTrace do console:
+[SEVERE] 1643682251268 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643682269178 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-01 00:28:51,237 - StackTrace do console:
+[SEVERE] 1643682376269 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643682387732 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643682408331 - https://apphubhml/avisosinistro/carregarAbas.do 6841:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 00:39:31,230 - StackTrace do console:
+[SEVERE] 1643683059604 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643683075726 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643683097096 - https://apphubhml/avisosinistro/carregarAbas.do 6841:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 00:47:30,445 - StackTrace do console:
+[SEVERE] 1643683604143 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643683614319 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643683633692 - https://apphubhml/avisosinistro/carregarAbas.do 6841:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 00:50:04,391 - StackTrace do console:
+[SEVERE] 1643683703848 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643683714775 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643683733075 - https://apphubhml/avisosinistro/carregarAbas.do 6841:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 01:06:46,244 - StackTrace do console:
+[SEVERE] 1643684689302 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643684714960 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643684732436 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 01:11:19,173 - StackTrace do console:
+[SEVERE] 1643684974070 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643684987997 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643685005643 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 01:14:08,673 - StackTrace do console:
+[SEVERE] 1643685236063 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643685246872 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-01 01:19:46,054 - StackTrace do console:
+[SEVERE] 1643685543716 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643685559673 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643685578316 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643685578672 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643685578887 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 01:30:28,558 - StackTrace do console:
+[SEVERE] 1643686185963 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643686194801 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643686212181 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 01:32:24,225 - StackTrace do console:
+[SEVERE] 1643686301643 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643686312358 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643686327621 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 01:34:04,101 - StackTrace do console:
+[SEVERE] 1643686382274 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643686393668 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643686411521 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 01:35:59,983 - StackTrace do console:
+[SEVERE] 1643686491331 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643686497651 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643686516499 - https://apphubhml/avisosinistro/carregarAbas.do 6740:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 10:44:25,968 - StackTrace do console:
+[SEVERE] 1643719352593 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643719364057 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643719388468 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 10:48:45,380 - StackTrace do console:
+[SEVERE] 1643719678749 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643719691143 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643719716765 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643719717187 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643719717884 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 10:56:06,435 - StackTrace do console:
+[SEVERE] 1643720017000 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643720036402 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643720068447 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 10:58:51,212 - StackTrace do console:
+[SEVERE] 1643720222873 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643720238241 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643720258415 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 11:09:27,829 - StackTrace do console:
+[SEVERE] 1643720934652 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643720946079 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643720966487 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 11:10:06,188 - StackTrace do console:
+[SEVERE] 1643720989035 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-01 11:11:29,162 - StackTrace do console:
+[SEVERE] 1643721036819 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643721048915 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643721070368 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 11:28:31,914 - StackTrace do console:
+[SEVERE] 1643722069526 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643722082168 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643722103387 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643722103996 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643722104188 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 11:30:38,868 - StackTrace do console:
+[SEVERE] 1643722208187 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643722214526 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643722231046 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643722231625 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643722232187 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 11:48:36,732 - StackTrace do console:
+[SEVERE] 1643723236393 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643723247660 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643723268226 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 13:26:21,176 - StackTrace do console:
+[SEVERE] 1643729102941 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643729110032 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643729127294 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 13:27:47,513 - StackTrace do console:
+[SEVERE] 1643729234234 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643729241127 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643729261182 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 13:29:28,275 - StackTrace do console:
+[SEVERE] 1643729295581 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643729306422 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643729325170 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 13:33:59,447 - StackTrace do console:
+[SEVERE] 1643729606973 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643729618612 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643729635487 - https://apphubhml/avisosinistro/carregarAbas.do 6681:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 13:35:48,879 - StackTrace do console:
+[SEVERE] 1643729713754 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643729720065 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643729742532 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 13:36:37,120 - StackTrace do console:
+[SEVERE] 1643729776704 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-01 13:42:12,259 - StackTrace do console:
+[SEVERE] 1643730092034 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643730102639 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643730120837 - https://apphubhml/avisosinistro/resources/js/precarregamento_terceiro.js - Failed to load resource: net::ERR_NETWORK_CHANGED
+[SEVERE] 1643730125791 - https://apphubhml/avisosinistro/carregarAbas.do 6738:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 13:53:14,014 - StackTrace do console:
+[SEVERE] 1643730775402 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-01 14:00:32,974 - StackTrace do console:
+[SEVERE] 1643731192375 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643731203710 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643731226606 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 14:10:41,632 - StackTrace do console:
+[SEVERE] 1643731738569 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643731750311 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643731769112 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 14:28:30,187 - StackTrace do console:
+[SEVERE] 1643732787930 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643732794370 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643732810825 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1643732850886 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1643732879921 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1643732890099 - https://apphubhml/regulacaosinistroauto/visual/images/space.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-01 14:45:42,209 - StackTrace do console:
+[SEVERE] 1643733900002 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643733911701 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643733934033 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643733934507 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643733935312 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 15:14:31,920 - StackTrace do console:
+[WARNING] 1643735655806 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1643735656014 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-02-01 15:16:06,602 - StackTrace do console:
+[SEVERE] 1643735702053 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643735712426 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643735731290 - https://apphubhml/visual/trs/padrao.css - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643735731290 - https://apphubhml/visual/images/bot_find.gif - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643735731894 - https://apphubhml/avisosinistro/visual/images/menu/seta_esquerda.gif - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643735731896 - https://apphubhml/visual/images/seta_link.gif - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643735731903 - https://apphubhml/avisosinistro/visual/trs/avisoSinistro.css - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643735731905 - https://apphubhml/avisosinistro/visual/trs/autocomplete.css - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643735731905 - https://apphubhml/avisosinistro/resources/js/jquery.js - Failed to load resource: net::ERR_CONNECTION_RESET
+[WARNING] 1643735731963 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[SEVERE] 1643735732498 - https://apphubhml/avisosinistro/resources/js/constantes.js - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643735732511 - https://apphubhml/avisosinistro/resources/js/ajax.js?version=40.1.1-RECVEICULOAPI-SNAPSHOT - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643735732559 - https://apphubhml/avisosinistro/resources/js/autocomplete.js - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643735733157 - https://apphubhml/avisosinistro/resources/js/questionario.js - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643735733466 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643735734988 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643735735010 - https://apphubhml/avisosinistro/resources/js/principalAbas.js 185:1 Uncaught ReferenceError: Collection is not defined
+
+[INFO] 2022-02-01 15:17:02,098 - StackTrace do console:
+[SEVERE] 1643735790092 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643735796795 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643735813664 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643735814277 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643735814805 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 15:24:24,474 - StackTrace do console:
+[SEVERE] 1643736157616 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643736173990 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643736191552 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 15:25:42,594 - StackTrace do console:
+[SEVERE] 1643736295167 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643736315181 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643736334257 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643736334970 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643736335254 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 15:34:28,769 - StackTrace do console:
+[SEVERE] 1643736848079 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643736868048 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-01 15:35:42,539 - StackTrace do console:
+[SEVERE] 1643736894195 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643736914418 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643736934532 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643736934972 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643736935708 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 15:51:40,799 - StackTrace do console:
+[SEVERE] 1643737853973 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643737874410 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643737892590 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643737893106 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643737893847 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 16:12:00,969 - StackTrace do console:
+[SEVERE] 1643739059409 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643739085404 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643739106630 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643739108468 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643739109023 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 16:15:12,948 - StackTrace do console:
+[SEVERE] 1643739250594 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643739273699 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643739296966 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643739299681 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643739300286 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 16:18:17,635 - StackTrace do console:
+[SEVERE] 1643739437595 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643739460382 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643739478737 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 16:19:05,161 - StackTrace do console:
+[SEVERE] 1643739532085 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643739533733 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 16:25:17,085 - StackTrace do console:
+[SEVERE] 1643739803506 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643739823701 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643739842796 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 17:56:23,281 - StackTrace do console:
+[SEVERE] 1643745282016 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643745291238 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643745309773 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1643745321822 - https://apphubhml/avisosinistro/visual/images/bot_find.gif - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643745321822 - https://apphubhml/visual/images/bg_titulo03.gif - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643745321822 - https://apphubhml/avisosinistro/visual/images/incluir.gif - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643745321822 - https://apphubhml/avisosinistro/visual/images/bola_verde.gif - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643745321946 - https://apphubhml/avisosinistro/visual/images/doc_cancelado.gif - Failed to load resource: net::ERR_CONNECTION_RESET
+
+[INFO] 2022-02-01 18:13:31,618 - StackTrace do console:
+[SEVERE] 1643746312552 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643746324745 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643746344344 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 18:19:00,975 - StackTrace do console:
+[SEVERE] 1643746559092 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643746566253 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643746585782 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 18:21:16,132 - StackTrace do console:
+[SEVERE] 1643746837828 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643746849396 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643746868723 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643746869134 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643746869657 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 18:22:23,111 - StackTrace do console:
+[SEVERE] 1643746905705 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643746913336 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643746930456 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643746931104 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643746931269 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 18:23:37,037 - StackTrace do console:
+[SEVERE] 1643746980147 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643746987535 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643747003818 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643747004481 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643747005148 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 18:25:10,489 - StackTrace do console:
+[SEVERE] 1643747059499 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643747079217 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643747098311 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643747098859 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643747099454 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-01 18:39:53,882 - StackTrace do console:
+[SEVERE] 1643747840954 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643747871387 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643747893119 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+

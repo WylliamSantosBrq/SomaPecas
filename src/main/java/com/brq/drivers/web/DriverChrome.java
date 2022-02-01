@@ -52,7 +52,7 @@ public class DriverChrome {
 		options.addArguments("--lang=pt-BR");
 		options.addArguments("--incognito");
 		options.addArguments("--ignore-certificate-errors");
-
+		options.setAcceptInsecureCerts(true);
 		if (Boolean.TRUE.equals(headless)) {
 			options.addArguments("--headless");
 			options.addArguments("--no-sandbox"); // Bypass OS security model, MUST BE THE VERY FIRST OPTION

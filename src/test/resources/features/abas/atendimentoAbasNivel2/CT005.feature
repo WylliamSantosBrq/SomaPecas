@@ -5,7 +5,7 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
   Background: 
     #Given que o usuário pegou um sinistro do tipo "Porto" e natureza "Colisão" conectando direto com o Informix
     Given que o usuário consultou um sinistro de ramo "553", ano "2021", número "2164" e item "01"
-    And que acessou a URL "http://aplwebhml.portoseguro.brasil/seweb/trs/"
+    And que acessou a URL "https://portalcorporativohml.portoseguro.brasil/portaislogin/loginSistemas.do"
     And que esteja logado no Sistemas Corporativos
 
   @porto
@@ -29,9 +29,11 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
     #	Questionário
     When mudar para a aba "Questionario"
     Then validar que a pergunta "Veículo está alienado?" foi respondida com um "NAO"
+    
     # Segurado
-    When mudar para a aba "Segurado"
-    Then validar que a pergunta "Segurado vai utilizar o seguro para reparar seu veículo?" foi respondida com um "Sim"
+   # When mudar para a aba "Segurado"
+    #Then validar que a pergunta "Segurado vai utilizar o seguro para reparar seu veículo?" foi respondida com um "Sim"
+   
     # Apólice
     When mudar para a aba "Apólice"
     Then apresentará os campos:

@@ -8,7 +8,7 @@ package com.brq.interfaces;
  */
 public interface Abas {
 
-	abstract void mudarAba(String nomeDaAba);
+	abstract void mudarAba(String nomeDaAba) throws Exception;
 	
 	abstract String getAbaAtual();
 
