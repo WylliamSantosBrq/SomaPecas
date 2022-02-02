@@ -30,7 +30,13 @@ public class DriverChrome {
 		System.setProperty("webdriver.chrome.args", "--disable-logging");
 		System.setProperty("webdriver.chrome.silentOutput", "true");
 		ChromeOptions options = setupChromeBrowser(headless);
-		driver = new ChromeDriver(options);
+		try {
+			driver = new ChromeDriver(options);
+
+		} catch (Exception e) {
+			WebDriverManager.chromedriver().driverVersion("78.0.3904.105").setup();
+			driver = new ChromeDriver(options);
+		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
