@@ -5,6 +5,7 @@ import com.brq.interfaces.Menu;
 import com.brq.interfaces.MenuLateral;
 import com.brq.interfaces.MenuSuperior;
 import com.brq.interfaces.Pesquisa;
+import com.brq.interfaces.web.IEsperaWeb;
 import com.brq.pages.sistemascorporativos.SCHomePage;
 
 import com.brq.pages.somapecas.focos.SPAtenderPedido;
@@ -18,6 +19,7 @@ public class MenuSteps extends StepsMaster {
 	@Given("^que (?:o usuário )?acessou o menu \"(.*?)\"$")
 	@When("^acessar o menu \"(.*?)\"$")
 	public void queEuAcesseOMenu(String listaDeMenus) throws Throwable {
+		IEsperaWeb.esperarSegundos(20);
 		if (!(getPaginaAtual() instanceof Menu))
 			throw new ErroAutomacao("A página atual não é uma instância de [Menu].");
 		
