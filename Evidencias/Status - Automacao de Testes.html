@@ -48,7 +48,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Feb 1, 2022 06:37:19 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Feb 3, 2022 02:11:58 PM</span>
 				</a>
 			</li>
 			<li>
@@ -171,10 +171,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='63.934%'><span class='strong'>39</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='64.516%'><span class='strong'>40</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='1.639%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='34.426%'>21</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='1.613%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='33.871%'>21</span> others
 				</div>
 			</div>
 		</div>
@@ -191,7 +191,7 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>[CT002][VIDROS] Consulta de sinistro com marcação de vistoria</span>
-						<span class='test-time'>Feb 1, 2022 06:37:19 PM</span>
+						<span class='test-time'>Feb 3, 2022 02:11:58 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
@@ -199,7 +199,7 @@
 	<div class='category-list'>
 		<span class='category label white-text'>@porto</span>
 	</div>
-	<span class='duration right label'>0h 2m 34s+519ms</span>
+	<span class='duration right label'>0h 3m 30s+787ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</span>
@@ -267,7 +267,7 @@
 			
 			<span class="bdd-step-name">Then o sistema abrirá o sinistro na aba "Dados Basicos"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_01_18_38_15.552.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_03_14_12_33.477.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -379,7 +379,7 @@
 			
 			<span class="bdd-step-name">Then o sistema apresentar "Assunto: Registro Automático do Sistema"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_01_18_38_23.737.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_03_14_12_41.621.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -406,7 +406,7 @@
 			
 			<span class="bdd-step-name">Then o sistema apresentará a tarefa "Comunicação Processo: Agendamento Vistoria"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_01_18_38_26.458.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_03_14_12_43.817.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -433,7 +433,7 @@
 			
 			<span class="bdd-step-name">Then o sistema apresentará o resultado da análise</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_01_18_38_50.924.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_03_14_13_21.710.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -533,25 +533,32 @@
 			
 			<span class="bdd-step-name">Then validar que o sinistro possui vistoria "em andamento" em uma oficina</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_01_18_39_21.908.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_03_14_13_48.469.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='42' class='node and fail' status='fail'>
+		<li test-id='42' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When acessar o menu lateral "AVISO DE SINISTRO"</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='43' class='node and fail' status='fail'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And acessar o menu lateral "U10"</span>
-				<div class='pre'><pre>com.brq.erros.ErroTimeout: Tempo excedido para elemento ser visível.
-	at com.brq.elementos.Elemento.esperarSerVisivel(Elemento.java:133)
-	at com.brq.interfaces.abas.AbasMenuAvisoLateral.acessarMenuLateral(AbasMenuAvisoLateral.java:37)
+				<div class='pre'><pre>com.brq.erros.ErroSistema: Ocorreu um erro de sistema.
+	at com.brq.interfaces.abas.AbasMenuAvisoLateral.acessarMenuLateral(AbasMenuAvisoLateral.java:45)
 	at com.brq.steps.MenuSteps.queEuAcesseOMenuLateral(MenuSteps.java:33)
 	at ✽.And acessar o menu lateral "U10"(abas/atendimentoAbasNivel2/CT002.feature:86)
 </pre></div>
 			
 		</li>
-		<li test-id='43' class='node when skip' status='skip'>
+		<li test-id='44' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
@@ -559,7 +566,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='44' class='node and skip' status='skip'>
+		<li test-id='45' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -567,7 +574,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='45' class='node then skip' status='skip'>
+		<li test-id='46' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
@@ -575,7 +582,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='46' class='node when skip' status='skip'>
+		<li test-id='47' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
@@ -583,7 +590,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='47' class='node and skip' status='skip'>
+		<li test-id='48' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -591,7 +598,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='48' class='node then skip' status='skip'>
+		<li test-id='49' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
@@ -599,7 +606,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='49' class='node when skip' status='skip'>
+		<li test-id='50' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
@@ -607,7 +614,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='50' class='node and skip' status='skip'>
+		<li test-id='51' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -615,7 +622,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='51' class='node then skip' status='skip'>
+		<li test-id='52' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
@@ -623,7 +630,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='52' class='node when skip' status='skip'>
+		<li test-id='53' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
@@ -631,7 +638,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='53' class='node when skip' status='skip'>
+		<li test-id='54' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
@@ -639,7 +646,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='54' class='node and skip' status='skip'>
+		<li test-id='55' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -647,7 +654,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='55' class='node then skip' status='skip'>
+		<li test-id='56' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
@@ -656,7 +663,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='56' class='node and skip' status='skip'>
+		<li test-id='57' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -664,7 +671,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='57' class='node and skip' status='skip'>
+		<li test-id='58' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -672,7 +679,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='58' class='node when skip' status='skip'>
+		<li test-id='59' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
@@ -680,7 +687,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='59' class='node and skip' status='skip'>
+		<li test-id='60' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -688,7 +695,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='60' class='node then skip' status='skip'>
+		<li test-id='61' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
@@ -696,7 +703,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='61' class='node and skip' status='skip'>
+		<li test-id='62' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
@@ -704,7 +711,7 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='62' class='node then skip' status='skip'>
+		<li test-id='63' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
@@ -712,13 +719,13 @@
 				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='63' class='node when skip' status='skip'>
+		<li test-id='64' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When fechar a janela de Atendimento Online</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Erro\2022_02_01_18_39_53.927.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Erro\2022_02_03_14_15_29.849.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>skipped</div>
 			
@@ -802,7 +809,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 1, 2022 06:37:19 PM</td>
+										<td>Feb 3, 2022 02:11:58 PM</td>
 										<td class='linked' test-id='1'>[CT002][VIDROS] Consulta de sinistro com marcação de vistoria</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -836,7 +843,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 1, 2022 06:37:19 PM</td>
+										<td>Feb 3, 2022 02:11:58 PM</td>
 										<td class='linked' test-id='1'>[CT002][VIDROS] Consulta de sinistro com marcação de vistoria</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -870,7 +877,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 1, 2022 06:37:19 PM</td>
+										<td>Feb 3, 2022 02:11:58 PM</td>
 										<td class='linked' test-id='1'>[CT002][VIDROS] Consulta de sinistro com marcação de vistoria</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -904,7 +911,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 1, 2022 06:37:19 PM</td>
+										<td>Feb 3, 2022 02:11:58 PM</td>
 										<td class='linked' test-id='1'>[CT002][VIDROS] Consulta de sinistro com marcação de vistoria</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -938,7 +945,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 1, 2022 06:37:19 PM</td>
+										<td>Feb 3, 2022 02:11:58 PM</td>
 										<td class='linked' test-id='1'>[CT002][VIDROS] Consulta de sinistro com marcação de vistoria</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -972,7 +979,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 1, 2022 06:37:19 PM</td>
+										<td>Feb 3, 2022 02:11:58 PM</td>
 										<td class='linked' test-id='2'>[CT002][VIDROS] Consulta de sinistro com marcação de vistoria.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -1020,7 +1027,7 @@
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>com.brq.erros.ErroTimeout</span>
+                                <span class='exception-name'>com.brq.erros.ErroSistema</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -1035,11 +1042,10 @@
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Feb 1, 2022 06:39:22 PM</td>
-                                                        <td class='linked' test-id='42'>[CT002][VIDROS] Consulta de sinistro com marcação de vistoria.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas.And acessar o menu lateral "U10"</td>
-                                                        <td><pre><pre>com.brq.erros.ErroTimeout: Tempo excedido para elemento ser visível.
-	at com.brq.elementos.Elemento.esperarSerVisivel(Elemento.java:133)
-	at com.brq.interfaces.abas.AbasMenuAvisoLateral.acessarMenuLateral(AbasMenuAvisoLateral.java:37)
+                                                        <td>Feb 3, 2022 02:14:29 PM</td>
+                                                        <td class='linked' test-id='43'>[CT002][VIDROS] Consulta de sinistro com marcação de vistoria.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas.And acessar o menu lateral "U10"</td>
+                                                        <td><pre><pre>com.brq.erros.ErroSistema: Ocorreu um erro de sistema.
+	at com.brq.interfaces.abas.AbasMenuAvisoLateral.acessarMenuLateral(AbasMenuAvisoLateral.java:45)
 	at com.brq.steps.MenuSteps.queEuAcesseOMenuLateral(MenuSteps.java:33)
 	at ✽.And acessar o menu lateral "U10"(abas/atendimentoAbasNivel2/CT002.feature:86)
 </pre></pre></td>
@@ -1080,25 +1086,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>61</div>
+					<div class='panel-lead'>62</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Feb 1, 2022 06:37:19 PM</div>
+					<div class='panel-lead'>Feb 3, 2022 02:11:58 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Feb 1, 2022 06:39:54 PM</div>
+			 		<div class='panel-lead'>Feb 3, 2022 02:15:30 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>155,846ms</div>
+					<div class='panel-lead'>212,027ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -1207,7 +1213,7 @@
 				infoChild: 0,
 				exceptionsChild: 1,
 				
-				passGrandChild: 39,
+				passGrandChild: 40,
 				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,

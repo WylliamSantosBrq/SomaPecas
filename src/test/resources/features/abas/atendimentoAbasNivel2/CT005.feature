@@ -52,7 +52,7 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
       | Convênio |                           0 |
       | Veículo  | CELTA LIFE 1.0 8V FLEXPOWER |
       | Placa    | FRT6547                     |
-      | Segurado | GABRIELA SANDRA MELO        |
+      | Segurado | EDIVAN ADAO REIS       		 |
       | Chassi   |           45678976543345678 |
       | Marca    | CHEVROLET                   |
     And clicar em "Expandir Todas"
@@ -81,8 +81,8 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
     When mudar para a aba "Liberação"
     Then apresentar o campo "Valor a liberar" preenchido
     # Causador
-    When mudar para a aba "Causador"
-    Then validar se possui dados do veículo causador
+    #When mudar para a aba "Causador"
+    #Then validar se possui dados do veículo causador
     # Tempo Análise
     When mudar para a aba "Tempo Análise"
     Then salvar todos os dados do "Tempo de Análise"
