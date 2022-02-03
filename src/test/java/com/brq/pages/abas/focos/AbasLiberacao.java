@@ -213,6 +213,7 @@ public class AbasLiberacao extends Foco implements Formulario, AbasCarregamento,
 
 	private void validarValorALiberar() {
 		
+		esperarSegundos(20);
 		((Frame) AbasAbaElementos.FRAME_PRINCIPAL.esperarExistir(30)).entrar();
 		
 		String valor = AbasLiberacaoElementos.OUTPUT_VALOR_A_LIBERAR.obterValorPreenchido();

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<features version="1"><feature name="[CT002][VIDROS] Consulta de sinistro com marcação de vistoria" path="src\test\resources\features\abas\atendimentoAbasNivel2\CT002.feature" started="1643904718975" tag="@TID3008REV0.6.0"><file><![CDATA[#Auto generated Octane revision tag
-@TID3008REV0.6.0 @abas @u10 @CT002 @vidros
-Feature: [CT002][VIDROS] Consulta de sinistro com marcação de vistoria
+<features version="1"><feature name="[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria" path="src\test\resources\features\abas\atendimentoAbasNivel2\CT001.feature" started="1643913943657" tag="@TID3007REV0.7.0"><file><![CDATA[@TID3007REV0.7.0 @abas @u10 @CT001 @colisao
+Feature: [CT001][COLISÃO] Consulta de sinistro com marcação de vistoria
 
   Background: 
     #Given que o usuário pegou um sinistro do tipo "Porto" e natureza "Colisão" conectando direto com o Informix
-    Given que o usuário consultou um sinistro de ramo "531", ano "2021" e número "9225"
+    Given que o usuário consultou um sinistro de ramo "531", ano "2021" e número "3703"
     And que acessou a URL "https://portalcorporativohml.portoseguro.brasil/portaislogin/loginSistemas.do"
     And que esteja logado no Sistemas Corporativos
 
-  @porto
+  @porto @acopanhamento
   Scenario: Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas
     # Consultar Sinistro
     Given que acessou o menu "Sistema de sinistro" -> "Novo Sinistro Auto"
@@ -18,23 +17,26 @@ Feature: [CT002][VIDROS] Consulta de sinistro com marcação de vistoria
     And selecionar o primeiro resultado
     # Dados Básicos
     Then o sistema abrirá o sinistro na aba "Dados Basicos"
-    Then apresentará os campos:
-      | Natureza           | COLISAO          |
-      | Código da Natureza |               10 |
-      | Tipo Perda         | PARCIAL          |
-      | Tipo Perda Entrada |                2 |
-    # Local
+    And apresentará os campos:
+      | Natureza           | COLISAO |
+      | Código da Natureza |      10 |
+      | Tipo Perda         | PARCIAL |
+      | Tipo Perda Entrada |       2 |
+    #Local
     When mudar para a aba "Local"
     Then apresentará os campos:
-      | CEP | 02943030 |
+      | CEP | 28055240 |
     #	Questionário
     When mudar para a aba "Questionario"
-    #Then validar que não foi selecionada nenhuma opção no combo "Tipo do Sinistro Especial"
+    Then validar que a pergunta "Veículo está alienado?" foi respondida com um "NAO"
+    # Segurado
+    When mudar para a aba "Segurado"
+    Then validar que a pergunta "Segurado vai utilizar o seguro para reparar seu veículo?" foi respondida com um "Sim"
     # Apólice
     When mudar para a aba "Apólice"
     Then apresentará os campos:
       | Tipo Cobertura | COLISAO, INCENDIO E ROUBO |
-      | Licença        | LLO9987                   |
+      | Licença        | PDD0129                   |
     # Histórico
     When mudar para a aba "Histórico"
     Then o sistema apresentará os seguintes campos na tabela "Histórico de alterações":
@@ -43,22 +45,20 @@ Feature: [CT002][VIDROS] Consulta de sinistro com marcação de vistoria
     And salvar todos os dados do "Histórico de alterações"
     # Notas
     When mudar para a aba "Notas"
-    And apresentará os campos:
-      | Apólice  | 34-139197186                       |
-      | Convênio | 0                                  |
-      | Veículo  | NOVO FIT DX-MT 1.5 I-VTEC FLEXONE  |
-      | Placa    | LLO9987                            |
-      | Segurado | RONALDO JOSE JAGNETZ               |
-      | Chassi   | 9KK98JHI88776SFSD                  |
-      | Marca    | HONDA                              |
-    And clicar em "Expandir Todas"
+    Then apresentará os campos:
+      | Apólice  | 3-7303644                             |
+      | Convênio |                                     0 |
+      | Veículo  | NOVO COBALT LTZ 1.8 8V ECONOFLEX AUT. |
+      | Placa    | PDD0129                               |
+      | Segurado | NILSON BELTRAO                        |
+      | Chassi   | 9BGJC6920KB131822                     |
+      | Marca    | CHEVROLET                             |
+    When clicar em "Expandir Todas"
     Then o sistema apresentar "Assunto: Registro Automático do Sistema"
     Then validar o registro "Emissão do laudo"
     # Tarefa
     When mudar para a aba "Tarefas"
-    #Then o sistema apresentará a tarefa "Comunicação Processo: Agendamento Vistoria"
     Then o sistema apresentará a tarefa "Comunicação Processo: Agendamento Vistoria"
-
     # SIASI Online
     When mudar para a aba "SIASI Online"
     And clicar em "Obter Informações Atualizadas"
@@ -72,22 +72,24 @@ Feature: [CT002][VIDROS] Consulta de sinistro com marcação de vistoria
     # Ocorrências
     When mudar para a aba "Ocorrências"
     Then o sistema apresentará os seguintes campos na tabela "Avisos relacionados a esta ocorrência":
-      | Placa | LLO9987 |
+      | Placa | PDD0129 |
     # Liberação
     When mudar para a aba "Liberação"
     Then apresentar o campo "Valor a liberar" preenchido
+    # Causador
+    When mudar para a aba "Causador"
+    Then validar se possui dados do veículo causador
     # Tempo Análise
     When mudar para a aba "Tempo Análise"
     Then salvar todos os dados do "Tempo de Análise"
     # Menu Lateral Marcação de Vistoria
-    When acessar o menu lateral "MARCAÇÃO DE VISTORIA"
-    Then validar que o sinistro possui vistoria "em andamento" em uma oficina
+    #When acessar o menu lateral "MARCAÇÃO DE VISTORIA"
+    #Then validar que o sinistro possui vistoria "em andamento" em uma oficina
     # U10
-    When acessar o menu lateral "AVISO DE SINISTRO"
+    #When acessar o menu lateral "AVISO DE SINISTRO"
     And acessar o menu lateral "U10"
-    #And o sistema apresentar "Acompanhamento de Sinistro"
-    #And clicar em "Download do resumo do Aviso"
-    #Then o arquivo "saferetriever.pdf" será baixado
+    And clicar em "Download do resumo do Aviso"
+    Then o arquivo "saferetriever.pdf" será baixado
     # Orçamento de Reparo
     When voltar para "Acompanhamento de sinistro"
     And clicar em "Orçamento de Reparo"
@@ -97,11 +99,11 @@ Feature: [CT002][VIDROS] Consulta de sinistro com marcação de vistoria
     And clicar em "Reagendar vistoria de sinistro"
     Then o sistema exibirá "Reagendamento vistoria de sinistro"
     # Documentação - Validar upload de arquivo
-    #When voltar para "Acompanhamento de sinistro"
-    #And selecionar a opção "Documento PDF - 382" no combo "Outros Documentos"
-    #And clicar em "Enviar"
-    #And anexar o PDF salvo
-    #And clicar em "Enviar documento"
+    When voltar para "Acompanhamento de sinistro"
+    And selecionar a opção "Documento PDF - 382" no combo "Outros Documentos"
+    And clicar em "Enviar"
+    And anexar o PDF salvo
+    And clicar em "Enviar documento"
     #Then o sistema exibirá a mensagem ""
     # Mensagens
     When voltar para "Acompanhamento de sinistro"
@@ -110,7 +112,7 @@ Feature: [CT002][VIDROS] Consulta de sinistro com marcação de vistoria
     When fechar a caixa de "mensagens"
     # Sedex Reverso
     When clicar em "Sedex Reverso"
-    And o sistema exibir "Solicitação de Autorização de Postagem em Agência"
+    #And o sistema exibir "Solicitação de Autorização de Postagem em Agência"
     Then os seguintes campos estarão disponíveis para preenchimento:
       | CEP do remetente |
       | Logradouro       |
@@ -119,11 +121,8 @@ Feature: [CT002][VIDROS] Consulta de sinistro com marcação de vistoria
       | Estado           |
       | Cidade           |
     And o botão "Prosseguir" estará disponível
-    And fechar a caixa de "Sedex Reverso"
-    # Consultar Aviso
-    When voltar para "Acompanhamento de sinistro"
-    And clicar em "Consultar Aviso"
-    Then o sistema abrirá o sinistro na aba "Dados Basicos"
+    When fechar a caixa de "Sedex Reverso"
+    #Then o sistema abrirá o sinistro na aba "Dados Basicos"
     #	# CHAT
     And clicar em "Atendimento Online"
     Then o sistema exibirá "CHAT virtual"
@@ -131,8 +130,4 @@ Feature: [CT002][VIDROS] Consulta de sinistro com marcação de vistoria
     When fechar a janela de Atendimento Online
     #And clicar em "Finalizar Atendimento"
     #Then o sistema exibirá a mensagem "Consulta de processo de sinistro finalizada com sucesso."  
-]]></file><scenarios><background><steps><step duration="73034500" name="Given que o usuário consultou um sinistro de ramo &quot;531&quot;, ano &quot;2021&quot; e número &quot;9225&quot;" status="passed"/><step duration="1081738500" name="And que acessou a URL &quot;https://portalcorporativohml.portoseguro.brasil/portaislogin/loginSistemas.do&quot;" status="passed"/><step duration="3042980900" name="And que esteja logado no Sistemas Corporativos" status="passed"/></steps></background><scenario name="Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas"><steps><step duration="2840974600" name="Given que acessou o menu &quot;Sistema de sinistro&quot; -> &quot;Novo Sinistro Auto&quot;" status="passed"/><step duration="1396955800" name="And que acessou o menu superior &quot;Aviso de Sinistro&quot; -> &quot;Consultas&quot; -> &quot;Número do Sinistro&quot;" status="passed"/><step duration="1773649800" name="When pesquisar o sinistro" status="passed"/><step duration="23086140700" name="And selecionar o primeiro resultado" status="passed"/><step duration="2069432100" name="Then o sistema abrirá o sinistro na aba &quot;Dados Basicos&quot;" status="passed"/><step duration="331553000" name="Then apresentará os campos:" status="passed"/><step duration="106630900" name="When mudar para a aba &quot;Local&quot;" status="passed"/><step duration="76456300" name="Then apresentará os campos:" status="passed"/><step duration="657406800" name="When mudar para a aba &quot;Questionario&quot;" status="passed"/><step duration="106219600" name="When mudar para a aba &quot;Apólice&quot;" status="passed"/><step duration="233367900" name="Then apresentará os campos:" status="passed"/><step duration="109581500" name="When mudar para a aba &quot;Histórico&quot;" status="passed"/><step duration="2339476900" name="Then o sistema apresentará os seguintes campos na tabela &quot;Histórico de alterações&quot;:" status="passed"/><step duration="560278700" name="And salvar todos os dados do &quot;Histórico de alterações&quot;" status="passed"/><step duration="124617800" name="When mudar para a aba &quot;Notas&quot;" status="passed"/><step duration="2292324000" name="And apresentará os campos:" status="passed"/><step duration="172298300" name="And clicar em &quot;Expandir Todas&quot;" status="passed"/><step duration="955284400" name="Then o sistema apresentar &quot;Assunto: Registro Automático do Sistema&quot;" status="passed"/><step duration="85538200" name="Then validar o registro &quot;Emissão do laudo&quot;" status="passed"/><step duration="124795800" name="When mudar para a aba &quot;Tarefas&quot;" status="passed"/><step duration="1999826200" name="Then o sistema apresentará a tarefa &quot;Comunicação Processo: Agendamento Vistoria&quot;" status="passed"/><step duration="110134100" name="When mudar para a aba &quot;SIASI Online&quot;" status="passed"/><step duration="36773693500" name="And clicar em &quot;Obter Informações Atualizadas&quot;" status="passed"/><step duration="987731800" name="Then o sistema apresentará o resultado da análise" status="passed"/><step duration="88063600" name="When mudar para a aba &quot;Documentos&quot;" status="passed"/><step duration="1059932900" name="Then validar que o botão &quot;Solicitar Tarefas&quot; está disponível" status="passed"/><step duration="137759500" name="When mudar para a aba &quot;Movimentos&quot;" status="passed"/><step duration="405799000" name="Then apresentar o campo &quot;Saldo&quot; preenchido" status="passed"/><step duration="121902100" name="When mudar para a aba &quot;Ocorrências&quot;" status="passed"/><step duration="202600" name="Then o sistema apresentará os seguintes campos na tabela &quot;Avisos relacionados a esta ocorrência&quot;:" status="passed"/><step duration="671354200" name="When mudar para a aba &quot;Liberação&quot;" status="passed"/><step duration="233667100" name="Then apresentar o campo &quot;Valor a liberar&quot; preenchido" status="passed"/><step duration="123223600" name="When mudar para a aba &quot;Tempo Análise&quot;" status="passed"/><step duration="2295646600" name="Then salvar todos os dados do &quot;Tempo de Análise&quot;" status="passed"/><step duration="20542453200" name="When acessar o menu lateral &quot;MARCAÇÃO DE VISTORIA&quot;" status="passed"/><step duration="1807335600" name="Then validar que o sinistro possui vistoria &quot;em andamento&quot; em uma oficina" status="passed"/><step duration="39421519600" name="When acessar o menu lateral &quot;AVISO DE SINISTRO&quot;" status="passed"/><step duration="60233693100" name="And acessar o menu lateral &quot;U10&quot;" status="failed"><error_message><![CDATA[com.brq.erros.ErroSistema: Ocorreu um erro de sistema.
-	at com.brq.interfaces.abas.AbasMenuAvisoLateral.acessarMenuLateral(AbasMenuAvisoLateral.java:45)
-	at com.brq.steps.MenuSteps.queEuAcesseOMenuLateral(MenuSteps.java:33)
-	at ✽.And acessar o menu lateral "U10"(abas/atendimentoAbasNivel2/CT002.feature:86)
-]]></error_message></step><step duration="0" name="When voltar para &quot;Acompanhamento de sinistro&quot;" status="skipped"/><step duration="0" name="And clicar em &quot;Orçamento de Reparo&quot;" status="skipped"/><step duration="0" name="Then o sistema exibirá &quot;Orçamento Detalhado&quot;" status="skipped"/><step duration="0" name="When voltar para &quot;Acompanhamento de sinistro&quot;" status="skipped"/><step duration="0" name="And clicar em &quot;Reagendar vistoria de sinistro&quot;" status="skipped"/><step duration="0" name="Then o sistema exibirá &quot;Reagendamento vistoria de sinistro&quot;" status="skipped"/><step duration="0" name="When voltar para &quot;Acompanhamento de sinistro&quot;" status="skipped"/><step duration="0" name="And clicar em &quot;Mensagens&quot;" status="skipped"/><step duration="0" name="Then o sistema exibirá uma lista de mensagens" status="skipped"/><step duration="0" name="When fechar a caixa de &quot;mensagens&quot;" status="skipped"/><step duration="0" name="When clicar em &quot;Sedex Reverso&quot;" status="skipped"/><step duration="0" name="And o sistema exibir &quot;Solicitação de Autorização de Postagem em Agência&quot;" status="skipped"/><step duration="0" name="Then os seguintes campos estarão disponíveis para preenchimento:" status="skipped"/><step duration="0" name="And o botão &quot;Prosseguir&quot; estará disponível" status="skipped"/><step duration="0" name="And fechar a caixa de &quot;Sedex Reverso&quot;" status="skipped"/><step duration="0" name="When voltar para &quot;Acompanhamento de sinistro&quot;" status="skipped"/><step duration="0" name="And clicar em &quot;Consultar Aviso&quot;" status="skipped"/><step duration="0" name="Then o sistema abrirá o sinistro na aba &quot;Dados Basicos&quot;" status="skipped"/><step duration="0" name="And clicar em &quot;Atendimento Online&quot;" status="skipped"/><step duration="0" name="Then o sistema exibirá &quot;CHAT virtual&quot;" status="skipped"/><step duration="0" name="When fechar a janela de Atendimento Online" status="skipped"/></steps></scenario></scenarios></feature></features>
+]]></file><scenarios><background><steps><step duration="119906300" name="Given que o usuário consultou um sinistro de ramo &quot;531&quot;, ano &quot;2021&quot; e número &quot;3703&quot;" status="passed"/><step duration="829834500" name="And que acessou a URL &quot;https://portalcorporativohml.portoseguro.brasil/portaislogin/loginSistemas.do&quot;" status="passed"/><step duration="3030012400" name="And que esteja logado no Sistemas Corporativos" status="passed"/></steps></background><scenario name="Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas"><steps><step duration="8909345700" name="Given que acessou o menu &quot;Sistema de sinistro&quot; -> &quot;Novo Sinistro Auto&quot;" status="passed"/><step duration="1449090600" name="And que acessou o menu superior &quot;Aviso de Sinistro&quot; -> &quot;Consultas&quot; -> &quot;Número do Sinistro&quot;" status="passed"/><step duration="1901940600" name="When pesquisar o sinistro" status="passed"/><step duration="18159914500" name="And selecionar o primeiro resultado" status="passed"/><step duration="2097105300" name="Then o sistema abrirá o sinistro na aba &quot;Dados Basicos&quot;" status="passed"/><step duration="329789100" name="And apresentará os campos:" status="passed"/><step duration="106554100" name="When mudar para a aba &quot;Local&quot;" status="passed"/><step duration="73007500" name="Then apresentará os campos:" status="passed"/><step duration="726662500" name="When mudar para a aba &quot;Questionario&quot;" status="passed"/><step duration="20732337400" name="Then validar que a pergunta &quot;Veículo está alienado?&quot; foi respondida com um &quot;NAO&quot;" status="passed"/><step duration="128448000" name="When mudar para a aba &quot;Segurado&quot;" status="passed"/><step duration="87945300" name="Then validar que a pergunta &quot;Segurado vai utilizar o seguro para reparar seu veículo?&quot; foi respondida com um &quot;Sim&quot;" status="passed"/><step duration="104996900" name="When mudar para a aba &quot;Apólice&quot;" status="passed"/><step duration="260868800" name="Then apresentará os campos:" status="passed"/><step duration="138512400" name="When mudar para a aba &quot;Histórico&quot;" status="passed"/><step duration="5392900200" name="Then o sistema apresentará os seguintes campos na tabela &quot;Histórico de alterações&quot;:" status="passed"/><step duration="705301200" name="And salvar todos os dados do &quot;Histórico de alterações&quot;" status="passed"/><step duration="152293000" name="When mudar para a aba &quot;Notas&quot;" status="passed"/><step duration="4731101400" name="Then apresentará os campos:" status="passed"/><step duration="246762400" name="When clicar em &quot;Expandir Todas&quot;" status="passed"/><step duration="944801800" name="Then o sistema apresentar &quot;Assunto: Registro Automático do Sistema&quot;" status="passed"/><step duration="128392900" name="Then validar o registro &quot;Emissão do laudo&quot;" status="passed"/><step duration="138666500" name="When mudar para a aba &quot;Tarefas&quot;" status="passed"/><step duration="2536186600" name="Then o sistema apresentará a tarefa &quot;Comunicação Processo: Agendamento Vistoria&quot;" status="passed"/><step duration="115762200" name="When mudar para a aba &quot;SIASI Online&quot;" status="passed"/><step duration="46926003100" name="And clicar em &quot;Obter Informações Atualizadas&quot;" status="passed"/><step duration="1016662400" name="Then o sistema apresentará o resultado da análise" status="passed"/><step duration="105314600" name="When mudar para a aba &quot;Documentos&quot;" status="passed"/><step duration="2538314700" name="Then validar que o botão &quot;Solicitar Tarefas&quot; está disponível" status="passed"/><step duration="139575400" name="When mudar para a aba &quot;Movimentos&quot;" status="passed"/><step duration="20124064200" name="Then apresentar o campo &quot;Saldo&quot; preenchido" status="passed"/><step duration="124119600" name="When mudar para a aba &quot;Ocorrências&quot;" status="passed"/><step duration="221200" name="Then o sistema apresentará os seguintes campos na tabela &quot;Avisos relacionados a esta ocorrência&quot;:" status="passed"/><step duration="685983700" name="When mudar para a aba &quot;Liberação&quot;" status="passed"/><step duration="20121987500" name="Then apresentar o campo &quot;Valor a liberar&quot; preenchido" status="passed"/><step duration="92339000" name="When mudar para a aba &quot;Causador&quot;" status="passed"/><step duration="165774000" name="Then validar se possui dados do veículo causador" status="passed"/><step duration="138475400" name="When mudar para a aba &quot;Tempo Análise&quot;" status="passed"/><step duration="1202589100" name="Then salvar todos os dados do &quot;Tempo de Análise&quot;" status="passed"/><step duration="34910480800" name="And acessar o menu lateral &quot;U10&quot;" status="passed"/><step duration="218962300" name="And clicar em &quot;Download do resumo do Aviso&quot;" status="passed"/><step duration="15003032300" name="Then o arquivo &quot;saferetriever.pdf&quot; será baixado" status="passed"/><step duration="79276000" name="When voltar para &quot;Acompanhamento de sinistro&quot;" status="passed"/><step duration="218452600" name="And clicar em &quot;Orçamento de Reparo&quot;" status="passed"/><step duration="16149600800" name="Then o sistema exibirá &quot;Orçamento Detalhado&quot;" status="passed"/><step duration="85052400" name="When voltar para &quot;Acompanhamento de sinistro&quot;" status="passed"/><step duration="9121284400" name="And clicar em &quot;Reagendar vistoria de sinistro&quot;" status="passed"/><step duration="1493995800" name="Then o sistema exibirá &quot;Reagendamento vistoria de sinistro&quot;" status="passed"/><step duration="84372300" name="When voltar para &quot;Acompanhamento de sinistro&quot;" status="passed"/><step duration="331723600" name="And selecionar a opção &quot;Documento PDF - 382&quot; no combo &quot;Outros Documentos&quot;" status="passed"/><step duration="5629624900" name="And clicar em &quot;Enviar&quot;" status="passed"/><step duration="249183300" name="And anexar o PDF salvo" status="passed"/><step duration="76874800" name="And clicar em &quot;Enviar documento&quot;" status="passed"/><step duration="93244800" name="When voltar para &quot;Acompanhamento de sinistro&quot;" status="passed"/><step duration="215334800" name="And clicar em &quot;Mensagens&quot;" status="passed"/><step duration="894622600" name="Then o sistema exibirá uma lista de mensagens" status="passed"/><step duration="4855138200" name="When fechar a caixa de &quot;mensagens&quot;" status="passed"/><step duration="523616700" name="When clicar em &quot;Sedex Reverso&quot;" status="passed"/><step duration="2029666400" name="Then os seguintes campos estarão disponíveis para preenchimento:" status="passed"/><step duration="1009361900" name="And o botão &quot;Prosseguir&quot; estará disponível" status="passed"/><step duration="330755200" name="When fechar a caixa de &quot;Sedex Reverso&quot;" status="passed"/><step duration="827973700" name="And clicar em &quot;Atendimento Online&quot;" status="passed"/><step duration="7923909700" name="Then o sistema exibirá &quot;CHAT virtual&quot;" status="passed"/><step duration="100477700" name="When fechar a janela de Atendimento Online" status="passed"/></steps></scenario></scenarios></feature></features>

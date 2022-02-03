@@ -8,7 +8,7 @@ Feature: [CT002][VIDROS] Consulta de sinistro com marcação de vistoria
     And que acessou a URL "https://portalcorporativohml.portoseguro.brasil/portaislogin/loginSistemas.do"
     And que esteja logado no Sistemas Corporativos
 
-  @porto @acopanhamento
+  @porto 
   Scenario: Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas
     # Consultar Sinistro
     Given que acessou o menu "Sistema de sinistro" -> "Novo Sinistro Auto"

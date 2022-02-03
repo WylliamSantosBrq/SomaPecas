@@ -125,6 +125,7 @@ public class AbasQuestionario extends Foco implements Formulario, AbasCarregamen
 
 		String respostaObtida;
 		
+		esperarSegundos(20);
 		try (Frame framePrincipal = AbasAbaElementos.FRAME_PRINCIPAL.esperarExistir(DEFAULT_STEPS_TIMEOUT).esperarMilisegundos(600).entrar()) {
 			respostaObtida = AbasQuestionarioElementos.VEICULO_ALIENADO.obterAtributo("value");		
 		} catch (Exception e) {
