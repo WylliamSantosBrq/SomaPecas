@@ -85,12 +85,12 @@ Feature: [CT002][VIDROS] Consulta de sinistro com marcação de vistoria
     When acessar o menu lateral "AVISO DE SINISTRO"
     And acessar o menu lateral "U10"
     #And o sistema apresentar "Acompanhamento de Sinistro"
-    #And clicar em "Download do resumo do Aviso"
-    #Then o arquivo "saferetriever.pdf" será baixado
+    And clicar em "Download do resumo do Aviso"
+    Then o arquivo "saferetriever.pdf" será baixado
     # Orçamento de Reparo
-    When voltar para "Acompanhamento de sinistro"
-    And clicar em "Orçamento de Reparo"
-    Then o sistema exibirá "Orçamento Detalhado"
+    #When voltar para "Acompanhamento de sinistro"
+    #And clicar em "Orçamento de Reparo"
+    #Then o sistema exibirá "Orçamento Detalhado"
     # Reagendar Vistoria de Sinistro
     When voltar para "Acompanhamento de sinistro"
     And clicar em "Reagendar vistoria de sinistro"
@@ -120,9 +120,9 @@ Feature: [CT002][VIDROS] Consulta de sinistro com marcação de vistoria
     And o botão "Prosseguir" estará disponível
     And fechar a caixa de "Sedex Reverso"
     # Consultar Aviso
-    When voltar para "Acompanhamento de sinistro"
-    And clicar em "Consultar Aviso"
-    Then o sistema abrirá o sinistro na aba "Dados Basicos"
+    #When voltar para "Acompanhamento de sinistro"
+    #And clicar em "Consultar Aviso"
+    #Then o sistema abrirá o sinistro na aba "Dados Basicos"
     #	# CHAT
     And clicar em "Atendimento Online"
     Then o sistema exibirá "CHAT virtual"

@@ -7,6 +7,7 @@ import com.brq.erros.ErroAutomacao;
 import com.brq.erros.ErroSistema;
 import com.brq.interfaces.MenuLateral;
 import com.brq.interfaces.log.BRQLogger;
+import com.brq.interfaces.web.IEsperaWeb;
 import com.brq.pages.abas.AbasSolicitacaoDeVistoriaPage;
 import com.brq.pages.abas.AbasU10HomePage;
 import com.brq.steps.StepsMaster;
@@ -32,8 +33,10 @@ public interface AbasMenuAvisoLateral extends MenuLateral {
 				AbasMenuAvisoLateralElementos.BTN_MARCACAO_DE_VISTORIA.esperarSerVisivel(30).clicar();
 				StepsMaster.setPaginaAtual(new AbasSolicitacaoDeVistoriaPage());
 				break;
-				
+			
+			
 			case "U10":
+				
 				AbasMenuAvisoLateralElementos.BTN_U10.esperarSerVisivel(30).clicar();
 				StepsMaster.setPaginaAtual(new AbasU10HomePage());
 				break;

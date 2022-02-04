@@ -29,6 +29,7 @@ public class MenuSteps extends StepsMaster {
 	@Given("^que (?:o usuário )?acessou o menu lateral \"(.*?)\"$")
 	@When("^acessar o menu lateral \"(.*?)\"$")
 	public void queEuAcesseOMenuLateral(String listaDeMenus) throws Throwable {
+		IEsperaWeb.esperarSegundos(20);
 		if (!(getPaginaAtual() instanceof MenuLateral))
 			throw new ErroAutomacao("A página atual não é uma instância de [MenuLateral].");
 		

@@ -6,6 +6,7 @@ import com.brq.elementos.Campo;
 import com.brq.elementos.abas.AbasPesquisaSinistroPorNumeroElementos;
 import com.brq.interfaces.Pesquisa;
 import com.brq.interfaces.log.BRQLogger;
+import com.brq.interfaces.web.IEsperaWeb;
 import com.brq.pages.Pagina;
 import com.brq.pages.abas.AbasRegistrarSinistroPage;
 import com.brq.steps.StepsMaster;
@@ -58,7 +59,7 @@ public interface AbasPesquisaSinistroPorNumero extends Pesquisa {
 	@Override
 	default void selecionarPrimeiroResultado() {
 		BRQLogger.logMethod();
-
+		
 		selecionarResultado(0);
 	}
 
