@@ -2,12 +2,14 @@ package com.brq.interfaces.web;
 
 import java.util.List;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.python.core.exceptions;
 
 import com.brq.drivers.web.DriverWeb;
 import com.brq.interfaces.log.BRQLogger;
@@ -362,5 +364,32 @@ public interface IEsperaWeb {
 
 		wait.until(elementoConterTexto);
 	}
+	/**
+	 * Troca de janela até achar a que contém o título definido.
+	 * 
+	 * @param titulo
+	 * @author ymnoda
+	 */
+	static void esperarJanelaComTitulo(String titulo, long timeoutEmSegundos) {
+		BRQLogger.logMethod(titulo, timeoutEmSegundos);
+
+		long start = System.currentTimeMillis();
+		long end = start + 1000 * timeoutEmSegundos;
+		WebDriver driver = DriverWeb.getDriver();
+
+		while (System.currentTimeMillis() < end) {
+			try {
+				for (String janela : driver.getWindowHandles()) {
+					driver.switchTo().window(janela);
+					if (driver.getTitle().contains(titulo))
+						return;
+				}
+				Thread.sleep(100);
+			} catch (Throwable t) {
+			}
+		}
+		Assert.fail(String.format("Esperar janela com %s .", titulo));
+	}
+
 
 }

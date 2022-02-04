@@ -1093,3 +1093,7 @@
 [SEVERE] 1643991373593 - https://apphubhml/avisointernet/resources/js/avisointernet/jquery.cookie.js 9:0 Uncaught ReferenceError: jQuery is not defined
 [SEVERE] 1643991373596 - https://apphubhml/avisointernet/resources/js/avisointernet/avisoInternetCommons.js?version=40.1.1-RECVEICULOAPI-SNAPSHOT 2471:1 Uncaught ReferenceError: $ is not defined
 
+[INFO] 2022-02-04 16:07:22,236 - StackTrace do console:
+[SEVERE] 1643997987297 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643998020039 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
