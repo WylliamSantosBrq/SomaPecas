@@ -1051,3 +1051,8 @@
 [INFO] 2022-02-04 11:20:17,177 - StackTrace do console:
 [SEVERE] 1643980778385 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
 
+[INFO] 2022-02-04 11:40:44,898 - StackTrace do console:
+[SEVERE] 1643981781827 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643981809458 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643981825760 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+

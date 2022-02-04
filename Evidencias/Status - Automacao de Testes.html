@@ -32,6 +32,7 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
+			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1)" view='testrunner-logs-view'><i class='material-icons'>note</i></a></li>
 		</ul>
@@ -47,7 +48,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Feb 4, 2022 11:20:42 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Feb 4, 2022 11:36:20 AM</span>
 				</a>
 			</li>
 			<li>
@@ -73,6 +74,8 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+						<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -139,10 +142,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -154,10 +157,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -169,10 +172,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>67</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='62.687%'><span class='strong'>42</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='1.493%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='35.821%'>24</span> others
 				</div>
 			</div>
 		</div>
@@ -186,19 +189,19 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</span>
-						<span class='test-time'>Feb 4, 2022 11:20:42 AM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Feb 4, 2022 11:36:20 AM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='2' status='pass'>
+<div class='scenario node' test-id='2' status='fail'>
 	<div class='category-list'>
 		<span class='category label white-text'>@porto</span>
 		<span class='category label white-text'>@acopanhamento</span>
 	</div>
-	<span class='duration right label'>0h 5m 6s+564ms</span>
+	<span class='duration right label'>0h 4m 23s+891ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</span>
@@ -266,7 +269,7 @@
 			
 			<span class="bdd-step-name">Then o sistema abrirá o sinistro na aba "Dados Basicos"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_11_21_44.918.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_11_37_08.110.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -402,7 +405,7 @@
 			
 			<span class="bdd-step-name">Then o sistema apresentar "Assunto: Registro Automático do Sistema"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_11_22_19.687.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_11_37_41.726.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -429,7 +432,7 @@
 			
 			<span class="bdd-step-name">Then o sistema apresentará a tarefa "Comunicação Processo: Agendamento Vistoria"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_11_22_23.021.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_11_37_44.742.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -456,7 +459,7 @@
 			
 			<span class="bdd-step-name">Then o sistema apresentará o resultado da análise</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_11_23_14.345.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_11_38_38.637.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -558,224 +561,212 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='45' class='node and pass' status='pass'>
+		<li test-id='45' class='node and fail' status='fail'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And acessar o menu lateral "U10"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'><pre>com.brq.erros.ErroSistema: Ocorreu um erro de sistema.
+	at com.brq.interfaces.abas.AbasMenuAvisoLateral.acessarMenuLateral(AbasMenuAvisoLateral.java:48)
+	at com.brq.steps.MenuSteps.queEuAcesseOMenuLateral(MenuSteps.java:36)
+	at ✽.And acessar o menu lateral "U10"(abas/atendimentoAbasNivel2/CT001.feature:89)
+</pre></div>
 			
 		</li>
-		<li test-id='46' class='node and pass' status='pass'>
+		<li test-id='46' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And clicar em "Download do resumo do Aviso"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='47' class='node then pass' status='pass'>
+		<li test-id='47' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then o arquivo "saferetriever.pdf" será baixado</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='48' class='node when pass' status='pass'>
+		<li test-id='48' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When voltar para "Acompanhamento de sinistro"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='49' class='node and pass' status='pass'>
+		<li test-id='49' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And clicar em "Orçamento de Reparo"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='50' class='node then pass' status='pass'>
+		<li test-id='50' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then o sistema exibirá "Orçamento Detalhado"</span>
-			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_11_25_17.348.png"><i class='material-icons'>panorama</i></a></li>
-			</ul>
-				<div class='pre'>O sistema exibiu "Orçamento Detalhado".</div>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='51' class='node when pass' status='pass'>
+		<li test-id='51' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When voltar para "Acompanhamento de sinistro"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='52' class='node and pass' status='pass'>
+		<li test-id='52' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And clicar em "Reagendar vistoria de sinistro"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='53' class='node then pass' status='pass'>
+		<li test-id='53' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then o sistema exibirá "Reagendamento vistoria de sinistro"</span>
-			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_11_25_29.099.png"><i class='material-icons'>panorama</i></a></li>
-			</ul>
-				<div class='pre'>O sistema exibiu "Reagendamento vistoria de sinistro".</div>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='54' class='node when pass' status='pass'>
+		<li test-id='54' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When voltar para "Acompanhamento de sinistro"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='55' class='node and pass' status='pass'>
+		<li test-id='55' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And selecionar a opção "Documento PDF - 382" no combo "Outros Documentos"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='56' class='node and pass' status='pass'>
+		<li test-id='56' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And clicar em "Enviar"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='57' class='node and pass' status='pass'>
+		<li test-id='57' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And anexar o PDF salvo</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='58' class='node and pass' status='pass'>
+		<li test-id='58' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And clicar em "Enviar documento"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='59' class='node when pass' status='pass'>
+		<li test-id='59' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When voltar para "Acompanhamento de sinistro"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='60' class='node and pass' status='pass'>
+		<li test-id='60' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And clicar em "Mensagens"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='61' class='node then pass' status='pass'>
+		<li test-id='61' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then o sistema exibirá uma lista de mensagens</span>
-			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_11_25_36.701.png"><i class='material-icons'>panorama</i></a></li>
-			</ul>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='62' class='node when pass' status='pass'>
+		<li test-id='62' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When fechar a caixa de "mensagens"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='63' class='node when pass' status='pass'>
+		<li test-id='63' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When clicar em "Sedex Reverso"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='64' class='node then pass' status='pass'>
+		<li test-id='64' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then os seguintes campos estarão disponíveis para preenchimento:</span>
 				<div class='pre'><table><tr><td>CEP do remetente</td></tr><tr><td>Logradouro</td></tr><tr><td>Número</td></tr><tr><td>Bairro</td></tr><tr><td>Estado</td></tr><tr><td>Cidade</td></tr></table></div>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='65' class='node and pass' status='pass'>
+		<li test-id='65' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And o botão "Prosseguir" estará disponível</span>
-			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_11_25_39.751.png"><i class='material-icons'>panorama</i></a></li>
-			</ul>
-				<div class='pre'>O botão "Prosseguir" está disponível.</div>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='66' class='node when pass' status='pass'>
+		<li test-id='66' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When fechar a caixa de "Sedex Reverso"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='67' class='node and pass' status='pass'>
+		<li test-id='67' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And clicar em "Atendimento Online"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='68' class='node then pass' status='pass'>
+		<li test-id='68' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then o sistema exibirá "CHAT virtual"</span>
-			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_11_25_48.038.png"><i class='material-icons'>panorama</i></a></li>
-			</ul>
-				<div class='pre'>O sistema exibiu "CHAT virtual".</div>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='69' class='node when pass' status='pass'>
+		<li test-id='69' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When fechar a janela de Atendimento Online</span>
-				<div class='pre'>passed</div>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="Prints_Erro\2022_02_04_11_40_44.941.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
+				<div class='pre'>skipped</div>
 			
 		</li>
 	</ul>
@@ -836,13 +827,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@TID3007REV0.7.0</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -857,9 +848,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 4, 2022 11:20:42 AM</td>
+										<td>Feb 4, 2022 11:36:20 AM</td>
 										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -870,13 +861,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@abas</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -891,9 +882,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 4, 2022 11:20:42 AM</td>
+										<td>Feb 4, 2022 11:36:20 AM</td>
 										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -904,13 +895,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@u10</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -925,9 +916,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 4, 2022 11:20:42 AM</td>
+										<td>Feb 4, 2022 11:36:20 AM</td>
 										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -938,13 +929,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@CT001</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -959,9 +950,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 4, 2022 11:20:42 AM</td>
+										<td>Feb 4, 2022 11:36:20 AM</td>
 										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -972,13 +963,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@colisao</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -993,9 +984,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 4, 2022 11:20:42 AM</td>
+										<td>Feb 4, 2022 11:36:20 AM</td>
 										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -1006,13 +997,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@porto</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -1027,9 +1018,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 4, 2022 11:20:42 AM</td>
+										<td>Feb 4, 2022 11:36:20 AM</td>
 										<td class='linked' test-id='2'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -1040,13 +1031,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@acopanhamento</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -1061,9 +1052,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 4, 2022 11:20:42 AM</td>
+										<td>Feb 4, 2022 11:36:20 AM</td>
 										<td class='linked' test-id='2'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -1082,6 +1073,71 @@
 	</div>
 </div>
 <!-- category view -->
+<div id='exception-view' class='view hide'>
+
+    <section id='controls'>
+        <div class='controls grey lighten-4'>
+            <!-- search -->
+            <div class='chip transparent' alt='Search Tests' title='Search Tests'>
+                <a href="#" class='search-div'>
+                    <i class='material-icons'>search</i> Search
+                </a>
+
+                <div class='input-field left hide'>
+                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+                </div>
+
+            </div>
+            <!-- search -->
+        </div>
+    </section>
+
+    <div class='subview-left left'>
+
+        <div class='view-summary'>
+            <h5>Exceptions</h3>
+                <ul id='exception-collection' class='exception-collection'>
+
+                        <li class='exception displayed active'>
+                            <div class='exception-heading'>
+                                <span class='exception-name'>com.brq.erros.ErroSistema</span>
+                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+                            </div>
+                            <div class='exception-content hide'>
+                                <div class='exception-tests'>
+                                    <table class='bordered table-results'>
+                                        <thead>
+                                        <tr>
+                                            <th>Timestamp</th>
+                                            <th>TestName</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                                    <tr>
+                                                        <td>Feb 4, 2022 11:39:24 AM</td>
+                                                        <td class='linked' test-id='45'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas.And acessar o menu lateral "U10"</td>
+                                                        <td><pre><pre>com.brq.erros.ErroSistema: Ocorreu um erro de sistema.
+	at com.brq.interfaces.abas.AbasMenuAvisoLateral.acessarMenuLateral(AbasMenuAvisoLateral.java:48)
+	at com.brq.steps.MenuSteps.queEuAcesseOMenuLateral(MenuSteps.java:36)
+	at ✽.And acessar o menu lateral "U10"(abas/atendimentoAbasNivel2/CT001.feature:89)
+</pre></pre></td>
+                                                    </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                </ul>
+        </div>
+    </div>
+
+    <div class='subview-right left'>
+        <div class='view-summary'>
+            <h5 class='exception-name'></h5>
+        </div>
+    </div>
+</div>
 <!-- exception view -->
 <div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
@@ -1109,19 +1165,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Feb 4, 2022 11:20:42 AM</div>
+					<div class='panel-lead'>Feb 4, 2022 11:36:20 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Feb 4, 2022 11:25:48 AM</div>
+			 		<div class='panel-lead'>Feb 4, 2022 11:40:45 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>306,886ms</div>
+					<div class='panel-lead'>265,500ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -1157,44 +1213,44 @@
 						</tr>
 						<tr>
 							<td>@TID3007REV0.7.0</td>
-							<td>1</td>
 							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 						</tr>
 						<tr>
 							<td>@abas</td>
-							<td>1</td>
 							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 						</tr>
 						<tr>
 							<td>@u10</td>
-							<td>1</td>
 							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 						</tr>
 						<tr>
 							<td>@CT001</td>
-							<td>1</td>
 							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 						</tr>
 						<tr>
 							<td>@colisao</td>
-							<td>1</td>
 							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 						</tr>
 						<tr>
 							<td>@porto</td>
-							<td>1</td>
 							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 						</tr>
 						<tr>
 							<td>@acopanhamento</td>
-							<td>1</td>
 							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 						</tr>
 					</table>
@@ -1219,31 +1275,31 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 1,
-				failParent: 0,
+				passParent: 0,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 1,
 				
-				passChild: 1,
-				failChild: 0,
+				passChild: 0,
+				failChild: 1,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 0,
+				exceptionsChild: 1,
 				
-				passGrandChild: 67,
-				failGrandChild: 0,
+				passGrandChild: 42,
+				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 0,
+				skipGrandChild: 24,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 0,
+				exceptionsGrandChild: 25,
 			};
 		</script>
 		
