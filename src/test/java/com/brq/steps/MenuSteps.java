@@ -39,6 +39,7 @@ public class MenuSteps extends StepsMaster {
 	@Given("^que (?:o usuário )?acessou o menu superior \"(.*?)\"$")
 	@When("^acessar o menu superior \"(.*?)\"$")
 	public void queEuAcesseOMenuSuperior(String listaDeMenus) throws Throwable {
+		IEsperaWeb.esperarSegundos(20);
 		if (!(getPaginaAtual() instanceof MenuSuperior))
 			throw new ErroAutomacao("A página atual não é uma instância de [MenuSuperior].");
 		

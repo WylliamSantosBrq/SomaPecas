@@ -4,16 +4,17 @@ import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import com.brq.drivers.web.DriverWebJenkins;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
 import com.brq.drivers.web.DriverWeb;
+import com.brq.drivers.web.DriverWebJenkins;
 import com.brq.enums.Browser;
 import com.brq.interfaces.log.LogWeb;
 import com.brq.util.PropertiesHelper;
 import com.brq.utils.EvidenciasHelper;
+import com.brq.utils.PingTest;
 import com.cucumber.listener.Reporter;
 import com.hpe.alm.octane.OctaneCucumber;
 
@@ -62,6 +63,7 @@ public class CucumberExecuteTest {
 
 		EvidenciasHelper.deletarPrints();
 		String driver = "Chrome";
+		new PingTest().todos();
 		
 		switch (driver) {
 		case "Jenkins":

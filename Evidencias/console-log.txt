@@ -1056,3 +1056,40 @@
 [SEVERE] 1643981809458 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
 [SEVERE] 1643981825760 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
 
+[INFO] 2022-02-04 11:57:03,208 - StackTrace do console:
+[SEVERE] 1643982720049 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643982747029 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643982764787 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1643982970042 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1643982981357 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-04 13:15:47,951 - StackTrace do console:
+
+[INFO] 2022-02-04 14:16:14,367 - StackTrace do console:
+[SEVERE] 1643991066441 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643991117324 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643991138441 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1643991351732 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1643991362986 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1643991372197 - https://apphubhml/avisointernet/visual/trs/croquiveiculo/plugin.danos.css - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643991372199 - https://apphubhml/avisointernet/resources/js/avisointernet/jquery-1.6.1.min.js - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1643991372689 - https://apphubhml/avisointernet/resources/js/avisointernet/jquery.ui.1.8.9.custom.min.js 16:461 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991372826 - https://apphubhml/avisointernet/resources/js/ui/jquery.ui.datepicker.js 1815:3 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991372826 - https://apphubhml/avisointernet/resources/js/avisointernet/jquery.ui.datepicker-ptBR.js 2:0 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991372826 - https://apphubhml/avisointernet/resources/js/avisointernet/jquery.maskedinput-1.3.min.js 6:3135 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991372826 - https://apphubhml/avisointernet/resources/js/avisointernet/jquery.maxlength.js 112:3 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991372827 - https://apphubhml/avisointernet/resources/js/avisointernet/jquery.autocomplete.js 807:3 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991372827 - https://apphubhml/avisointernet/resources/js/avisointernet/jquery.cookie.js 9:0 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991372827 - https://apphubhml/avisointernet/avisoInternetMarcacaoVistoria.do?method=iniciarMarcacao&numeroSinistroCompleto=53120213703&canalDeComunicacao=C24H&numeroAtendimento= 48:5 Uncaught ReferenceError: $ is not defined
+[SEVERE] 1643991373213 - https://apphubhml/avisointernet/resources/js/avisointernet/avisoInternetCommons.js?version=40.1.1-RECVEICULOAPI-SNAPSHOT 0:0 Uncaught ReferenceError: $ is not defined
+[SEVERE] 1643991373215 - https://apphubhml/avisointernet/resources/js/avisointernet/aviso-internet-beneficios.js?version=40.1.1-RECVEICULOAPI-SNAPSHOT 1642:1 Uncaught ReferenceError: $ is not defined
+[SEVERE] 1643991373216 - https://apphubhml/avisointernet/resources/js/ui/jquery.ui.core.js 311:4 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991373216 - https://apphubhml/avisointernet/resources/js/ui/jquery.ui.widget.js 261:4 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991373216 - https://apphubhml/avisointernet/resources/js/ui/jquery.ui.mouse.js 159:3 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991373217 - https://apphubhml/avisointernet/resources/js/ui/jquery.ui.slider.js 665:2 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991373217 - https://apphubhml/avisointernet/resources/js/avisointernet/jquery.tools.js 12:3414 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991373217 - https://apphubhml/avisointernet/resources/js/avisointernet/jquery.animate.clip.js 40:3 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991373564 - https://apphubhml/avisointernet/resources/js/avisointernet/plugin.danos.js 2965:3 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991373593 - https://apphubhml/avisointernet/resources/js/avisointernet/jquery.cookie.js 9:0 Uncaught ReferenceError: jQuery is not defined
+[SEVERE] 1643991373596 - https://apphubhml/avisointernet/resources/js/avisointernet/avisoInternetCommons.js?version=40.1.1-RECVEICULOAPI-SNAPSHOT 2471:1 Uncaught ReferenceError: $ is not defined
+

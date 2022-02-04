@@ -22,27 +22,28 @@ public interface AbasMenuAvisoLateral extends MenuLateral {
 
 		if (profundidade == 0)
 			throw new ErroAutomacao("A lista de ordem dos menus não pode ficar vazia.");
-
+		IEsperaWeb.esperarSegundos(20);
 		try (Frame framePrincipal = AbasAbaElementos.FRAME_PRINCIPAL.esperarExistir(5).entrar()) {
 			switch (ordemDeMenus[0]) {
+
 			case "AVISO DE SINISTRO":
 				AbasMenuAvisoLateralElementos.BTN_AVISO_DE_SINISTRO.esperarSerVisivel(30).clicar();
 				break;
-				
+
 			case "MARCAÇÃO DE VISTORIA":
 				AbasMenuAvisoLateralElementos.BTN_MARCACAO_DE_VISTORIA.esperarSerVisivel(30).clicar();
 				StepsMaster.setPaginaAtual(new AbasSolicitacaoDeVistoriaPage());
 				break;
-			
-			
+
 			case "U10":
-				
+
 				AbasMenuAvisoLateralElementos.BTN_U10.esperarSerVisivel(30).clicar();
 				StepsMaster.setPaginaAtual(new AbasU10HomePage());
 				break;
-				
-				default:
-					throw new ErroAutomacao("O menu [%s] não foi definido no método [acessarMenuLateral].", ordemDeMenus[0]);
+
+			default:
+				throw new ErroAutomacao("O menu [%s] não foi definido no método [acessarMenuLateral].",
+						ordemDeMenus[0]);
 			}
 		} catch (Exception e) {
 			throw new ErroSistema(e);
