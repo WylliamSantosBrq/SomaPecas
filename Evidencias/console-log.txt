@@ -1097,3 +1097,18 @@
 [SEVERE] 1643997987297 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
 [SEVERE] 1643998020039 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
 
+[INFO] 2022-02-06 02:31:02,489 - StackTrace do console:
+[SEVERE] 1644121737374 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644121775886 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-07 01:58:22,819 - StackTrace do console:
+[SEVERE] 1644205867408 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644205899160 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644205946345 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644206188526 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057639&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057639&codigoRamo=531&numeroServicoAtendimento=8445&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=8995&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=8995&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-07 11:11:46,470 - StackTrace do console:
+[WARNING] 1644239505614 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1644239505845 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1644239506033 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+

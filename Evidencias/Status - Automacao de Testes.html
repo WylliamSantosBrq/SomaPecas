@@ -47,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Feb 4, 2022 04:08:39 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Feb 7, 2022 11:15:09 AM</span>
 				</a>
 			</li>
 			<li>
@@ -85,13 +85,14 @@
 					<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@TID3007REV0.7.0</a></li>
+					<li><a href='#'>@TID18008REV0.2.0</a></li>
 					<li><a href='#'>@abas</a></li>
 					<li><a href='#'>@u10</a></li>
-					<li><a href='#'>@CT001</a></li>
+					<li><a href='#'>@CT006</a></li>
 					<li><a href='#'>@colisao</a></li>
+					<li><a href='#'>@terceiro</a></li>
+					<li><a href='#'>@deves02</a></li>
 					<li><a href='#'>@porto</a></li>
-					<li><a href='#'>@acopanhamento</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -169,7 +170,7 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>67</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>69</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -188,17 +189,16 @@
 				
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</span>
-						<span class='test-time'>Feb 4, 2022 04:08:39 PM</span>
+						<span class='test-name'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</span>
+						<span class='test-time'>Feb 7, 2022 11:15:09 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='2' status='pass'>
 	<div class='category-list'>
 		<span class='category label white-text'>@porto</span>
-		<span class='category label white-text'>@acopanhamento</span>
 	</div>
-	<span class='duration right label'>0h 5m 38s+531ms</span>
+	<span class='duration right label'>0h 7m 1s+514ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</span>
@@ -208,7 +208,7 @@
 			
 			<b>Given</b>
 			
-			<span class="bdd-step-name">Given que o usuário consultou um sinistro de ramo "531", ano "2021" e número "3703"</span>
+			<span class="bdd-step-name">Given que o usuário consultou um sinistro de ramo "531", ano "2021" e número "8995"</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -266,16 +266,16 @@
 			
 			<span class="bdd-step-name">Then o sistema abrirá o sinistro na aba "Dados Basicos"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_16_09_55.499.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_16_23.777.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='11' class='node and pass' status='pass'>
+		<li test-id='11' class='node then pass' status='pass'>
 			
-			<b>And</b>
+			<b>Then</b>
 			
-			<span class="bdd-step-name">And apresentará os campos:</span>
+			<span class="bdd-step-name">Then apresentará os campos:</span>
 				<div class='pre'><table><tr><td>Natureza</td><td>COLISAO</td></tr><tr><td>Código da Natureza</td><td>10</td></tr><tr><td>Tipo Perda</td><td>PARCIAL</td></tr><tr><td>Tipo Perda Entrada</td><td>2</td></tr></table></div>
 				<div class='pre'>passed</div>
 			
@@ -293,7 +293,7 @@
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then apresentará os campos:</span>
-				<div class='pre'><table><tr><td>CEP</td><td>28055240</td></tr></table></div>
+				<div class='pre'><table><tr><td>CEP</td><td>70070140</td></tr></table></div>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -342,7 +342,7 @@
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then apresentará os campos:</span>
-				<div class='pre'><table><tr><td>Tipo Cobertura</td><td>COLISAO, INCENDIO E ROUBO</td></tr><tr><td>Licença</td><td>PDD0129</td></tr></table></div>
+				<div class='pre'><table><tr><td>Tipo Cobertura</td><td>COLISAO, INCENDIO E ROUBO</td></tr><tr><td>Licença</td><td>LLO9987</td></tr></table></div>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -379,20 +379,20 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='24' class='node then pass' status='pass'>
+		<li test-id='24' class='node and pass' status='pass'>
 			
-			<b>Then</b>
+			<b>And</b>
 			
-			<span class="bdd-step-name">Then apresentará os campos:</span>
-				<div class='pre'><table><tr><td>Apólice</td><td>3-7303644</td></tr><tr><td>Convênio</td><td>0</td></tr><tr><td>Veículo</td><td>NOVO COBALT LTZ 1.8 8V ECONOFLEX AUT.</td></tr><tr><td>Placa</td><td>PDD0129</td></tr><tr><td>Segurado</td><td>NILSON BELTRAO</td></tr><tr><td>Chassi</td><td>9BGJC6920KB131822</td></tr><tr><td>Marca</td><td>CHEVROLET</td></tr></table></div>
+			<span class="bdd-step-name">And apresentará os campos:</span>
+				<div class='pre'><table><tr><td>Apólice</td><td>34-139197186</td></tr><tr><td>Convênio</td><td>0</td></tr><tr><td>Veículo</td><td>NOVO FIT DX-MT 1.5 I-VTEC FLEXONE</td></tr><tr><td>Placa</td><td>LLO9987</td></tr><tr><td>Segurado</td><td>RONALDO JOSE JAGNETZ</td></tr><tr><td>Chassi</td><td>9KK98JHI88776SFSD</td></tr><tr><td>Marca</td><td>HONDA</td></tr></table></div>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='25' class='node when pass' status='pass'>
+		<li test-id='25' class='node and pass' status='pass'>
 			
-			<b>When</b>
+			<b>And</b>
 			
-			<span class="bdd-step-name">When clicar em "Expandir Todas"</span>
+			<span class="bdd-step-name">And clicar em "Expandir Todas"</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -402,7 +402,7 @@
 			
 			<span class="bdd-step-name">Then o sistema apresentar "Assunto: Registro Automático do Sistema"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_16_10_29.322.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_16_52.684.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -429,7 +429,7 @@
 			
 			<span class="bdd-step-name">Then o sistema apresentará a tarefa "Comunicação Processo: Agendamento Vistoria"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_16_10_32.878.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_16_55.900.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -456,7 +456,7 @@
 			
 			<span class="bdd-step-name">Then o sistema apresentará o resultado da análise</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_16_11_24.093.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_17_35.667.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -558,7 +558,34 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='45' class='node and pass' status='pass'>
+		<li test-id='45' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When acessar o menu lateral "MARCAÇÃO DE VISTORIA"</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='46' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then validar que o sinistro possui vistoria "em andamento" em uma oficina</span>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_19_07.589.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='47' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When acessar o menu lateral "AVISO DE SINISTRO"</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='48' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -566,7 +593,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='46' class='node and pass' status='pass'>
+		<li test-id='49' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -574,39 +601,11 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='47' class='node then pass' status='pass'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then o arquivo "saferetriever.pdf" será baixado</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='48' class='node when pass' status='pass'>
-			
-			<b>When</b>
-			
-			<span class="bdd-step-name">When voltar para "Acompanhamento de sinistro"</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='49' class='node and pass' status='pass'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And clicar em "Orçamento de Reparo"</span>
-				<div class='pre'>passed</div>
-			
-		</li>
 		<li test-id='50' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
-			<span class="bdd-step-name">Then o sistema exibirá "Orçamento Detalhado"</span>
-			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_16_13_47.206.png"><i class='material-icons'>panorama</i></a></li>
-			</ul>
-				<div class='pre'>O sistema exibiu "Orçamento Detalhado".</div>
+			<span class="bdd-step-name">Then o arquivo "saferetriever.pdf" será baixado</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -632,7 +631,7 @@
 			
 			<span class="bdd-step-name">Then o sistema exibirá "Reagendamento vistoria de sinistro"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_16_13_57.268.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_21_50.439.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>O sistema exibiu "Reagendamento vistoria de sinistro".</div>
 				<div class='pre'>passed</div>
@@ -678,7 +677,18 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='59' class='node when pass' status='pass'>
+		<li test-id='59' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then o sistema exibirá a mensagem ""</span>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_21_57.312.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='60' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
@@ -686,7 +696,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='60' class='node and pass' status='pass'>
+		<li test-id='61' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -694,22 +704,14 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='61' class='node then pass' status='pass'>
+		<li test-id='62' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then o sistema exibirá uma lista de mensagens</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_16_14_05.086.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_21_58.858.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='62' class='node when pass' status='pass'>
-			
-			<b>When</b>
-			
-			<span class="bdd-step-name">When fechar a caixa de "mensagens"</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -717,11 +719,31 @@
 			
 			<b>When</b>
 			
+			<span class="bdd-step-name">When fechar a caixa de "mensagens"</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='64' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
 			<span class="bdd-step-name">When clicar em "Sedex Reverso"</span>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='64' class='node then pass' status='pass'>
+		<li test-id='65' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And o sistema exibir "Solicitação de Autorização de Postagem em Agência"</span>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_22_01.219.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
+				<div class='pre'>O sistema exibiu "Solicitação de Autorização de Postagem em Agência".</div>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='66' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
@@ -730,27 +752,27 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='65' class='node and pass' status='pass'>
+		<li test-id='67' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And o botão "Prosseguir" estará disponível</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_16_14_08.630.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_22_03.178.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>O botão "Prosseguir" está disponível.</div>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='66' class='node when pass' status='pass'>
+		<li test-id='68' class='node and pass' status='pass'>
 			
-			<b>When</b>
+			<b>And</b>
 			
-			<span class="bdd-step-name">When fechar a caixa de "Sedex Reverso"</span>
+			<span class="bdd-step-name">And fechar a caixa de "Sedex Reverso"</span>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='67' class='node and pass' status='pass'>
+		<li test-id='69' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -758,19 +780,19 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='68' class='node then pass' status='pass'>
+		<li test-id='70' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then o sistema exibirá "CHAT virtual"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_04_16_14_17.452.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_22_10.473.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>O sistema exibiu "CHAT virtual".</div>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='69' class='node when pass' status='pass'>
+		<li test-id='71' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
@@ -834,7 +856,7 @@
 				
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@TID3007REV0.7.0</span>
+						<span class='category-name'>@TID18008REV0.2.0</span>
 						<span class='category-status right'>
 							<span class='label pass'>1</span>
 						</span>
@@ -857,8 +879,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 4, 2022 04:08:39 PM</td>
-										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
+										<td>Feb 7, 2022 11:15:09 AM</td>
+										<td class='linked' test-id='1'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -891,8 +913,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 4, 2022 04:08:39 PM</td>
-										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
+										<td>Feb 7, 2022 11:15:09 AM</td>
+										<td class='linked' test-id='1'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -925,8 +947,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 4, 2022 04:08:39 PM</td>
-										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
+										<td>Feb 7, 2022 11:15:09 AM</td>
+										<td class='linked' test-id='1'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -936,7 +958,7 @@
 				</li>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@CT001</span>
+						<span class='category-name'>@CT006</span>
 						<span class='category-status right'>
 							<span class='label pass'>1</span>
 						</span>
@@ -959,8 +981,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 4, 2022 04:08:39 PM</td>
-										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
+										<td>Feb 7, 2022 11:15:09 AM</td>
+										<td class='linked' test-id='1'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -993,8 +1015,76 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 4, 2022 04:08:39 PM</td>
-										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
+										<td>Feb 7, 2022 11:15:09 AM</td>
+										<td class='linked' test-id='1'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@terceiro</span>
+						<span class='category-status right'>
+							<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+					
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Feb 7, 2022 11:15:09 AM</td>
+										<td class='linked' test-id='1'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@deves02</span>
+						<span class='category-status right'>
+							<span class='label pass'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 1</span>
+							
+							
+						</div>
+					
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Feb 7, 2022 11:15:09 AM</td>
+										<td class='linked' test-id='1'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -1027,42 +1117,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 4, 2022 04:08:39 PM</td>
-										<td class='linked' test-id='2'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@acopanhamento</span>
-						<span class='category-status right'>
-							<span class='label pass'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
-							
-							
-						</div>
-					
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Feb 4, 2022 04:08:39 PM</td>
-										<td class='linked' test-id='2'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</td>
+										<td>Feb 7, 2022 11:15:09 AM</td>
+										<td class='linked' test-id='2'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -1103,25 +1159,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>67</div>
+					<div class='panel-lead'>69</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Feb 4, 2022 04:08:39 PM</div>
+					<div class='panel-lead'>Feb 7, 2022 11:15:09 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Feb 4, 2022 04:14:18 PM</div>
+			 		<div class='panel-lead'>Feb 7, 2022 11:22:11 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>338,985ms</div>
+					<div class='panel-lead'>421,741ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -1156,7 +1212,7 @@
 							<th>Others</th>
 						</tr>
 						<tr>
-							<td>@TID3007REV0.7.0</td>
+							<td>@TID18008REV0.2.0</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -1174,7 +1230,7 @@
 							<td>0</td>
 						</tr>
 						<tr>
-							<td>@CT001</td>
+							<td>@CT006</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -1186,13 +1242,19 @@
 							<td>0</td>
 						</tr>
 						<tr>
-							<td>@porto</td>
+							<td>@terceiro</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
 						</tr>
 						<tr>
-							<td>@acopanhamento</td>
+							<td>@deves02</td>
+							<td>1</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>@porto</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -1236,7 +1298,7 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 67,
+				passGrandChild: 69,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
