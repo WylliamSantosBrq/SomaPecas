@@ -62,7 +62,7 @@ public class CucumberExecuteTest {
 		LogWeb.configLogs();
 
 		EvidenciasHelper.deletarPrints();
-		String driver = "Jenkins";
+		String driver = "Chrome";
 		new PingTest().todos();
 		
 		switch (driver) {
