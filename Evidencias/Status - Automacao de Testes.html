@@ -32,6 +32,7 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
+			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1)" view='testrunner-logs-view'><i class='material-icons'>note</i></a></li>
 		</ul>
@@ -47,7 +48,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Feb 7, 2022 11:15:09 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Feb 7, 2022 02:10:33 PM</span>
 				</a>
 			</li>
 			<li>
@@ -73,6 +74,8 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+						<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -85,14 +88,13 @@
 					<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@TID18008REV0.2.0</a></li>
+					<li><a href='#'>@TID3007REV0.7.0</a></li>
 					<li><a href='#'>@abas</a></li>
 					<li><a href='#'>@u10</a></li>
-					<li><a href='#'>@CT006</a></li>
+					<li><a href='#'>@CT001</a></li>
 					<li><a href='#'>@colisao</a></li>
-					<li><a href='#'>@terceiro</a></li>
-					<li><a href='#'>@deves02</a></li>
 					<li><a href='#'>@porto</a></li>
+					<li><a href='#'>@acopanhamento</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -140,10 +142,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -155,10 +157,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -170,10 +172,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>69</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='64.179%'><span class='strong'>43</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='1.493%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='34.328%'>23</span> others
 				</div>
 			</div>
 		</div>
@@ -187,18 +189,19 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</span>
-						<span class='test-time'>Feb 7, 2022 11:15:09 AM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-name'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</span>
+						<span class='test-time'>Feb 7, 2022 02:10:33 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='2' status='pass'>
+<div class='scenario node' test-id='2' status='fail'>
 	<div class='category-list'>
 		<span class='category label white-text'>@porto</span>
+		<span class='category label white-text'>@acopanhamento</span>
 	</div>
-	<span class='duration right label'>0h 7m 1s+514ms</span>
+	<span class='duration right label'>0h 4m 24s+700ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</span>
@@ -208,7 +211,7 @@
 			
 			<b>Given</b>
 			
-			<span class="bdd-step-name">Given que o usuário consultou um sinistro de ramo "531", ano "2021" e número "8995"</span>
+			<span class="bdd-step-name">Given que o usuário consultou um sinistro de ramo "531", ano "2021" e número "3703"</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -266,16 +269,16 @@
 			
 			<span class="bdd-step-name">Then o sistema abrirá o sinistro na aba "Dados Basicos"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_16_23.777.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_14_11_45.272.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='11' class='node then pass' status='pass'>
+		<li test-id='11' class='node and pass' status='pass'>
 			
-			<b>Then</b>
+			<b>And</b>
 			
-			<span class="bdd-step-name">Then apresentará os campos:</span>
+			<span class="bdd-step-name">And apresentará os campos:</span>
 				<div class='pre'><table><tr><td>Natureza</td><td>COLISAO</td></tr><tr><td>Código da Natureza</td><td>10</td></tr><tr><td>Tipo Perda</td><td>PARCIAL</td></tr><tr><td>Tipo Perda Entrada</td><td>2</td></tr></table></div>
 				<div class='pre'>passed</div>
 			
@@ -293,7 +296,7 @@
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then apresentará os campos:</span>
-				<div class='pre'><table><tr><td>CEP</td><td>70070140</td></tr></table></div>
+				<div class='pre'><table><tr><td>CEP</td><td>28055240</td></tr></table></div>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -342,7 +345,7 @@
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then apresentará os campos:</span>
-				<div class='pre'><table><tr><td>Tipo Cobertura</td><td>COLISAO, INCENDIO E ROUBO</td></tr><tr><td>Licença</td><td>LLO9987</td></tr></table></div>
+				<div class='pre'><table><tr><td>Tipo Cobertura</td><td>COLISAO, INCENDIO E ROUBO</td></tr><tr><td>Licença</td><td>PDD0129</td></tr></table></div>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -379,20 +382,20 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='24' class='node and pass' status='pass'>
+		<li test-id='24' class='node then pass' status='pass'>
 			
-			<b>And</b>
+			<b>Then</b>
 			
-			<span class="bdd-step-name">And apresentará os campos:</span>
-				<div class='pre'><table><tr><td>Apólice</td><td>34-139197186</td></tr><tr><td>Convênio</td><td>0</td></tr><tr><td>Veículo</td><td>NOVO FIT DX-MT 1.5 I-VTEC FLEXONE</td></tr><tr><td>Placa</td><td>LLO9987</td></tr><tr><td>Segurado</td><td>RONALDO JOSE JAGNETZ</td></tr><tr><td>Chassi</td><td>9KK98JHI88776SFSD</td></tr><tr><td>Marca</td><td>HONDA</td></tr></table></div>
+			<span class="bdd-step-name">Then apresentará os campos:</span>
+				<div class='pre'><table><tr><td>Apólice</td><td>3-7303644</td></tr><tr><td>Convênio</td><td>0</td></tr><tr><td>Veículo</td><td>NOVO COBALT LTZ 1.8 8V ECONOFLEX AUT.</td></tr><tr><td>Placa</td><td>PDD0129</td></tr><tr><td>Segurado</td><td>NILSON BELTRAO</td></tr><tr><td>Chassi</td><td>9BGJC6920KB131822</td></tr><tr><td>Marca</td><td>CHEVROLET</td></tr></table></div>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='25' class='node and pass' status='pass'>
+		<li test-id='25' class='node when pass' status='pass'>
 			
-			<b>And</b>
+			<b>When</b>
 			
-			<span class="bdd-step-name">And clicar em "Expandir Todas"</span>
+			<span class="bdd-step-name">When clicar em "Expandir Todas"</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -402,7 +405,7 @@
 			
 			<span class="bdd-step-name">Then o sistema apresentar "Assunto: Registro Automático do Sistema"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_16_52.684.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_14_12_20.916.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -429,7 +432,7 @@
 			
 			<span class="bdd-step-name">Then o sistema apresentará a tarefa "Comunicação Processo: Agendamento Vistoria"</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_16_55.900.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_14_12_24.227.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -456,7 +459,7 @@
 			
 			<span class="bdd-step-name">Then o sistema apresentará o resultado da análise</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_17_35.667.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_14_13_09.734.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -558,34 +561,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='45' class='node when pass' status='pass'>
-			
-			<b>When</b>
-			
-			<span class="bdd-step-name">When acessar o menu lateral "MARCAÇÃO DE VISTORIA"</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='46' class='node then pass' status='pass'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then validar que o sinistro possui vistoria "em andamento" em uma oficina</span>
-			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_19_07.589.png"><i class='material-icons'>panorama</i></a></li>
-			</ul>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='47' class='node when pass' status='pass'>
-			
-			<b>When</b>
-			
-			<span class="bdd-step-name">When acessar o menu lateral "AVISO DE SINISTRO"</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='48' class='node and pass' status='pass'>
+		<li test-id='45' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -593,211 +569,206 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='49' class='node and pass' status='pass'>
+		<li test-id='46' class='node and fail' status='fail'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And clicar em "Download do resumo do Aviso"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'><pre>com.brq.erros.ErroTimeout: Tempo excedido para elemento ser visível.
+	at com.brq.elementos.Elemento.esperarSerVisivel(Elemento.java:133)
+	at com.brq.pages.abas.AbasU10HomePage.clicarEmDownloadDoResumoDoAviso(AbasU10HomePage.java:117)
+	at com.brq.pages.abas.AbasU10HomePage.clicarEm(AbasU10HomePage.java:28)
+	at com.brq.steps.NavigationSteps.queEuCliqueEm(NavigationSteps.java:48)
+	at ✽.And clicar em "Download do resumo do Aviso"(abas/atendimentoAbasNivel2/CT001.feature:90)
+</pre></div>
 			
 		</li>
-		<li test-id='50' class='node then pass' status='pass'>
+		<li test-id='47' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then o arquivo "saferetriever.pdf" será baixado</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='51' class='node when pass' status='pass'>
+		<li test-id='48' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When voltar para "Acompanhamento de sinistro"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='52' class='node and pass' status='pass'>
+		<li test-id='49' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And clicar em "Orçamento de Reparo"</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='50' class='node then skip' status='skip'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then o sistema exibirá "Orçamento Detalhado"</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='51' class='node when skip' status='skip'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When voltar para "Acompanhamento de sinistro"</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='52' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And clicar em "Reagendar vistoria de sinistro"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='53' class='node then pass' status='pass'>
+		<li test-id='53' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then o sistema exibirá "Reagendamento vistoria de sinistro"</span>
-			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_21_50.439.png"><i class='material-icons'>panorama</i></a></li>
-			</ul>
-				<div class='pre'>O sistema exibiu "Reagendamento vistoria de sinistro".</div>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='54' class='node when pass' status='pass'>
+		<li test-id='54' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When voltar para "Acompanhamento de sinistro"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='55' class='node and pass' status='pass'>
+		<li test-id='55' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And selecionar a opção "Documento PDF - 382" no combo "Outros Documentos"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='56' class='node and pass' status='pass'>
+		<li test-id='56' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And clicar em "Enviar"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='57' class='node and pass' status='pass'>
+		<li test-id='57' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And anexar o PDF salvo</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='58' class='node and pass' status='pass'>
+		<li test-id='58' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And clicar em "Enviar documento"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='59' class='node then pass' status='pass'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then o sistema exibirá a mensagem ""</span>
-			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_21_57.312.png"><i class='material-icons'>panorama</i></a></li>
-			</ul>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='60' class='node when pass' status='pass'>
+		<li test-id='59' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When voltar para "Acompanhamento de sinistro"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='61' class='node and pass' status='pass'>
+		<li test-id='60' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And clicar em "Mensagens"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='62' class='node then pass' status='pass'>
+		<li test-id='61' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then o sistema exibirá uma lista de mensagens</span>
-			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_21_58.858.png"><i class='material-icons'>panorama</i></a></li>
-			</ul>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='63' class='node when pass' status='pass'>
+		<li test-id='62' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When fechar a caixa de "mensagens"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='64' class='node when pass' status='pass'>
+		<li test-id='63' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When clicar em "Sedex Reverso"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='65' class='node and pass' status='pass'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And o sistema exibir "Solicitação de Autorização de Postagem em Agência"</span>
-			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_22_01.219.png"><i class='material-icons'>panorama</i></a></li>
-			</ul>
-				<div class='pre'>O sistema exibiu "Solicitação de Autorização de Postagem em Agência".</div>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='66' class='node then pass' status='pass'>
+		<li test-id='64' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then os seguintes campos estarão disponíveis para preenchimento:</span>
 				<div class='pre'><table><tr><td>CEP do remetente</td></tr><tr><td>Logradouro</td></tr><tr><td>Número</td></tr><tr><td>Bairro</td></tr><tr><td>Estado</td></tr><tr><td>Cidade</td></tr></table></div>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='67' class='node and pass' status='pass'>
+		<li test-id='65' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And o botão "Prosseguir" estará disponível</span>
-			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_22_03.178.png"><i class='material-icons'>panorama</i></a></li>
-			</ul>
-				<div class='pre'>O botão "Prosseguir" está disponível.</div>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='68' class='node and pass' status='pass'>
+		<li test-id='66' class='node when skip' status='skip'>
 			
-			<b>And</b>
+			<b>When</b>
 			
-			<span class="bdd-step-name">And fechar a caixa de "Sedex Reverso"</span>
-				<div class='pre'>passed</div>
+			<span class="bdd-step-name">When fechar a caixa de "Sedex Reverso"</span>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='69' class='node and pass' status='pass'>
+		<li test-id='67' class='node and skip' status='skip'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And clicar em "Atendimento Online"</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='70' class='node then pass' status='pass'>
+		<li test-id='68' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then o sistema exibirá "CHAT virtual"</span>
-			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Sucesso\2022_02_07_11_22_10.473.png"><i class='material-icons'>panorama</i></a></li>
-			</ul>
-				<div class='pre'>O sistema exibiu "CHAT virtual".</div>
-				<div class='pre'>passed</div>
+				<div class='pre'>skipped</div>
 			
 		</li>
-		<li test-id='71' class='node when pass' status='pass'>
+		<li test-id='69' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
 			<span class="bdd-step-name">When fechar a janela de Atendimento Online</span>
-				<div class='pre'>passed</div>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="Prints_Erro\2022_02_07_14_14_58.035.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
+				<div class='pre'>skipped</div>
 			
 		</li>
 	</ul>
@@ -856,15 +827,15 @@
 				
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@TID18008REV0.2.0</span>
+						<span class='category-name'>@TID3007REV0.7.0</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -879,9 +850,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 7, 2022 11:15:09 AM</td>
-										<td class='linked' test-id='1'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td>Feb 7, 2022 02:10:33 PM</td>
+										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -892,13 +863,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@abas</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -913,9 +884,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 7, 2022 11:15:09 AM</td>
-										<td class='linked' test-id='1'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td>Feb 7, 2022 02:10:33 PM</td>
+										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -926,13 +897,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@u10</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -947,9 +918,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 7, 2022 11:15:09 AM</td>
-										<td class='linked' test-id='1'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td>Feb 7, 2022 02:10:33 PM</td>
+										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -958,15 +929,15 @@
 				</li>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@CT006</span>
+						<span class='category-name'>@CT001</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -981,9 +952,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 7, 2022 11:15:09 AM</td>
-										<td class='linked' test-id='1'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td>Feb 7, 2022 02:10:33 PM</td>
+										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -994,13 +965,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@colisao</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -1015,77 +986,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 7, 2022 11:15:09 AM</td>
-										<td class='linked' test-id='1'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@terceiro</span>
-						<span class='category-status right'>
-							<span class='label pass'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
-							
-							
-						</div>
-					
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Feb 7, 2022 11:15:09 AM</td>
-										<td class='linked' test-id='1'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@deves02</span>
-						<span class='category-status right'>
-							<span class='label pass'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
-							
-							
-						</div>
-					
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Feb 7, 2022 11:15:09 AM</td>
-										<td class='linked' test-id='1'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td>Feb 7, 2022 02:10:33 PM</td>
+										<td class='linked' test-id='1'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria</td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -1096,13 +999,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@porto</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -1117,9 +1020,43 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 7, 2022 11:15:09 AM</td>
-										<td class='linked' test-id='2'>[CT006] [COLISÃO] [TERCEIRO] Consulta de sinistro e orçamento com estimativa.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td>Feb 7, 2022 02:10:33 PM</td>
+										<td class='linked' test-id='2'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</td>
+										<td><span class='test-status fail'>fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@acopanhamento</span>
+						<span class='category-status right'>
+							<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+					
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Feb 7, 2022 02:10:33 PM</td>
+										<td class='linked' test-id='2'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -1138,6 +1075,73 @@
 	</div>
 </div>
 <!-- category view -->
+<div id='exception-view' class='view hide'>
+
+    <section id='controls'>
+        <div class='controls grey lighten-4'>
+            <!-- search -->
+            <div class='chip transparent' alt='Search Tests' title='Search Tests'>
+                <a href="#" class='search-div'>
+                    <i class='material-icons'>search</i> Search
+                </a>
+
+                <div class='input-field left hide'>
+                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+                </div>
+
+            </div>
+            <!-- search -->
+        </div>
+    </section>
+
+    <div class='subview-left left'>
+
+        <div class='view-summary'>
+            <h5>Exceptions</h3>
+                <ul id='exception-collection' class='exception-collection'>
+
+                        <li class='exception displayed active'>
+                            <div class='exception-heading'>
+                                <span class='exception-name'>com.brq.erros.ErroTimeout</span>
+                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+                            </div>
+                            <div class='exception-content hide'>
+                                <div class='exception-tests'>
+                                    <table class='bordered table-results'>
+                                        <thead>
+                                        <tr>
+                                            <th>Timestamp</th>
+                                            <th>TestName</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                                    <tr>
+                                                        <td>Feb 7, 2022 02:14:36 PM</td>
+                                                        <td class='linked' test-id='46'>[CT001][COLISÃO] Consulta de sinistro com marcação de vistoria.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas.And clicar em "Download do resumo do Aviso"</td>
+                                                        <td><pre><pre>com.brq.erros.ErroTimeout: Tempo excedido para elemento ser visível.
+	at com.brq.elementos.Elemento.esperarSerVisivel(Elemento.java:133)
+	at com.brq.pages.abas.AbasU10HomePage.clicarEmDownloadDoResumoDoAviso(AbasU10HomePage.java:117)
+	at com.brq.pages.abas.AbasU10HomePage.clicarEm(AbasU10HomePage.java:28)
+	at com.brq.steps.NavigationSteps.queEuCliqueEm(NavigationSteps.java:48)
+	at ✽.And clicar em "Download do resumo do Aviso"(abas/atendimentoAbasNivel2/CT001.feature:90)
+</pre></pre></td>
+                                                    </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                </ul>
+        </div>
+    </div>
+
+    <div class='subview-right left'>
+        <div class='view-summary'>
+            <h5 class='exception-name'></h5>
+        </div>
+    </div>
+</div>
 <!-- exception view -->
 <div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
@@ -1159,25 +1163,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>69</div>
+					<div class='panel-lead'>67</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Feb 7, 2022 11:15:09 AM</div>
+					<div class='panel-lead'>Feb 7, 2022 02:10:33 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Feb 7, 2022 11:22:11 AM</div>
+			 		<div class='panel-lead'>Feb 7, 2022 02:14:59 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>421,741ms</div>
+					<div class='panel-lead'>266,153ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -1212,51 +1216,45 @@
 							<th>Others</th>
 						</tr>
 						<tr>
-							<td>@TID18008REV0.2.0</td>
-							<td>1</td>
+							<td>@TID3007REV0.7.0</td>
 							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 						</tr>
 						<tr>
 							<td>@abas</td>
-							<td>1</td>
 							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 						</tr>
 						<tr>
 							<td>@u10</td>
-							<td>1</td>
 							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 						</tr>
 						<tr>
-							<td>@CT006</td>
-							<td>1</td>
+							<td>@CT001</td>
 							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 						</tr>
 						<tr>
 							<td>@colisao</td>
+							<td>0</td>
 							<td>1</td>
-							<td>0</td>
-							<td>0</td>
-						</tr>
-						<tr>
-							<td>@terceiro</td>
-							<td>1</td>
-							<td>0</td>
-							<td>0</td>
-						</tr>
-						<tr>
-							<td>@deves02</td>
-							<td>1</td>
-							<td>0</td>
 							<td>0</td>
 						</tr>
 						<tr>
 							<td>@porto</td>
+							<td>0</td>
 							<td>1</td>
 							<td>0</td>
+						</tr>
+						<tr>
+							<td>@acopanhamento</td>
+							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 						</tr>
 					</table>
@@ -1281,31 +1279,31 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 1,
-				failParent: 0,
+				passParent: 0,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 1,
 				
-				passChild: 1,
-				failChild: 0,
+				passChild: 0,
+				failChild: 1,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 0,
+				exceptionsChild: 1,
 				
-				passGrandChild: 69,
-				failGrandChild: 0,
+				passGrandChild: 43,
+				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 0,
+				skipGrandChild: 23,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 0,
+				exceptionsGrandChild: 24,
 			};
 		</script>
 		

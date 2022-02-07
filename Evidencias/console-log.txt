@@ -1112,3 +1112,23 @@
 [WARNING] 1644239505845 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
 [WARNING] 1644239506033 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
 
+[INFO] 2022-02-07 13:57:06,316 - StackTrace do console:
+[SEVERE] 1644249162778 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644249195071 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644249255410 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read property 'top' of null
+
+[INFO] 2022-02-07 14:03:48,424 - StackTrace do console:
+[SEVERE] 1644249593506 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644249621580 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644249667243 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read property 'top' of null
+
+[INFO] 2022-02-07 14:09:53,577 - StackTrace do console:
+[SEVERE] 1644249930139 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644249958135 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644249999050 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read property 'top' of null
+
+[INFO] 2022-02-07 14:14:57,992 - StackTrace do console:
+[SEVERE] 1644250234249 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644250265626 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644250304060 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read property 'top' of null
+
