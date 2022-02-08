@@ -1,17 +1,24 @@
 package com.brq.drivers.web;
 
 import java.io.File;
+import org.apache.log4j.Logger;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import com.brq.erros.ErroAutomacao;
 import com.brq.interfaces.log.BRQLogger;
+import com.brq.interfaces.log.LogWeb;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -34,7 +41,7 @@ public class DriverChrome {
 			driver = new ChromeDriver(options);
 
 		} catch (Exception e) {
-			WebDriverManager.chromedriver().driverVersion("78.0.3904.105").setup();
+			WebDriverManager.chromedriver().driverVersion("93.0.4577.63").setup();
 			driver = new ChromeDriver(options);
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -43,6 +50,131 @@ public class DriverChrome {
 		BRQLogger.info("Chrome iniciado com sucesso.");
 	}
 
+	/*
+	 * private static final String DRIVER_PADRAO = "93.0.4577.63";
+	 * 
+	 * private ChromeDriver driver;
+	 * 
+	 * private static final String FILTRO_VERSOES_RESERVA = "";
+	 * 
+	 * static Logger logger = LogWeb.getLogger(DriverChrome.class);
+	 * 
+	 * public DriverChrome(Boolean headless) {
+	 * 
+	 * List<String> versions = WebDriverManager.chromedriver().getDriverVersions();
+	 * 
+	 * for (String ver : versions) {
+	 * 
+	 * logger.info(String.format("Versão disponível:[%s]", ver));
+	 * 
+	 * }
+	 * 
+	 * for (Object ver : versions.parallelStream().filter(s ->
+	 * s.startsWith(FILTRO_VERSOES_RESERVA)).sorted()
+	 * 
+	 * .distinct().toArray()) {
+	 * 
+	 * logger.info(
+	 * 
+	 * String.format("Versão disponível que começa com %s:[%s]",
+	 * FILTRO_VERSOES_RESERVA, ver.toString()));
+	 * 
+	 * }
+	 * 
+	 * WebDriverManager.chromedriver().setup();
+	 * 
+	 * System.setProperty("webdriver.chrome.args", "--disable-logging");
+	 * 
+	 * System.setProperty("webdriver.chrome.silentOutput", "true");
+	 * 
+	 * ChromeOptions options = setupChromeBrowser(headless);
+	 * 
+	 * try {
+	 * 
+	 * WebDriverManager.chromedriver().browserVersion(DRIVER_PADRAO).setup();
+	 * 
+	 * driver = new ChromeDriver(options);
+	 * 
+	 * logger.info(String.format("Carregou o driver de versão %s", DRIVER_PADRAO));
+	 * 
+	 * } catch (Exception e) {
+	 * 
+	 * e.printStackTrace();
+	 * 
+	 * logger.error(e.getMessage());
+	 * 
+	 * driver = null;
+	 * 
+	 * List<String> tmp = new ArrayList<>();
+	 * 
+	 * for (Object v : versions.parallelStream().filter(s ->
+	 * s.startsWith(FILTRO_VERSOES_RESERVA)).sorted()
+	 * 
+	 * .distinct().toArray()) {
+	 * 
+	 * tmp.add(v.toString());
+	 * 
+	 * }
+	 * 
+	 * versions = tmp;
+	 * 
+	 * Iterator<String> it = versions.iterator();
+	 * 
+	 * while (driver == null) {
+	 * 
+	 * try {
+	 * 
+	 * if (it.hasNext()) {
+	 * 
+	 * String version = it.next();
+	 * 
+	 * logger.debug(String.format("Testando a versão %s", version));
+	 * 
+	 * WebDriverManager.chromedriver().driverVersion(version).setup();
+	 * 
+	 * driver = new ChromeDriver(options);
+	 * 
+	 * logger.debug(String.format("Versão [%s] foi aceita pelo sistema", version));
+	 * 
+	 * } else {
+	 * 
+	 * logger.fatal("Nenhuma versão disponível do ChromeDriver");
+	 * 
+	 * throw new
+	 * ErroAutomacao("Nenhuma versão do chromedriver funciona nesse ambiente");
+	 * 
+	 * }
+	 * 
+	 * } catch (WebDriverException snce) {
+	 * 
+	 * logger.error("Versão incompatível do Chrome, tentando outra");
+	 * 
+	 * logger.error(snce.getMessage());
+	 * 
+	 * } catch (Throwable t) {
+	 * 
+	 * t.printStackTrace();
+	 * 
+	 * throw t;
+	 * 
+	 * }
+	 * 
+	 * }
+	 * 
+	 * }
+	 * 
+	 * driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	 * 
+	 * driver.manage().window().maximize();
+	 * 
+	 * driver.manage().deleteAllCookies();
+	 * 
+	 * logger.info("Chrome iniciado com sucesso.");
+	 * 
+	 * logger.debug(driver.toString());
+	 * 
+	 * }
+	 */
 	private ChromeOptions setupChromeBrowser(Boolean headless) {
 		Map<String, Object> chromePrefs = new HashMap<>();
 		chromePrefs.put("profile.default_content_settings.popups", 0);

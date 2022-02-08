@@ -34,7 +34,7 @@ import cucumber.api.SnippetType;
 				"junit:target/cucumber-reports/Cucumber.xml" //
 		}, //
 		glue = { "com.brq.steps", "com.brq.executar" }, //
-		tags = { "@CT001", "@porto"}, //
+		tags = { "@CT003", "@porto"}, //
 		
 		snippets = SnippetType.CAMELCASE, //
 		monochrome = true, //
@@ -70,7 +70,7 @@ public class CucumberExecuteTest {
 			DriverWebJenkins.getDriver();
 			break;
 		case "Chrome":
-			DriverWeb.getDriver(Browser.CHROME, false);
+			DriverWeb.getDriver(Browser.CHROME, true);
 			DriverWeb.getDriver().manage().timeouts().implicitlyWait(IMPLICIT_TIMEOUT, TimeUnit.SECONDS);
 			DriverWeb.getDriver().manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 			break;
