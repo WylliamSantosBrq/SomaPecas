@@ -48,7 +48,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Feb 8, 2022 11:29:05 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Feb 9, 2022 03:06:50 AM</span>
 				</a>
 			</li>
 			<li>
@@ -171,10 +171,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='2.778%'><span class='strong'>2</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='6.944%'><span class='strong'>5</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='1.389%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='95.833%'>69</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='1.389%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='91.667%'>66</span> others
 				</div>
 			</div>
 		</div>
@@ -191,7 +191,7 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>[CT003] [COLISÃO] Consulta de sinistro com pagamento</span>
-						<span class='test-time'>Feb 8, 2022 11:29:06 AM</span>
+						<span class='test-time'>Feb 9, 2022 03:06:50 AM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
@@ -199,7 +199,7 @@
 	<div class='category-list'>
 		<span class='category label white-text'>@porto</span>
 	</div>
-	<span class='duration right label'>0h 1m 3s+448ms</span>
+	<span class='duration right label'>0h 0m 56s+386ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</span>
@@ -221,18 +221,44 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='5' class='node and fail' status='fail'>
+		<li test-id='5' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And que esteja logado no Sistemas Corporativos</span>
-				<div class='pre'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 60.000
-  (Session info: chrome=98.0.4758.81)
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='6' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given que acessou o menu "Sistema de sinistro" -> "Novo Sinistro Auto"</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='7' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And que acessou o menu superior "Aviso de Sinistro" -> "Consultas" -> "Número do Sinistro"</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='8' class='node when fail' status='fail'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When pesquisar o sinistro</span>
+				<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='codigoRamoSinistro']"}
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NBBV032433', ip: '10.3.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+System info: host: 'NBBV032433', ip: '10.3.12.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 98.0.4758.81, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\JOSUEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7cb67c0fcaf51452808c92cb749a7155
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\JOSUEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6a04ac109a82a9fd8803431a7c307eff
+*** Element info: {Using=name, value=codigoRamoSinistro}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -243,39 +269,16 @@ Session ID: 7cb67c0fcaf51452808c92cb749a7155
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.brq.interfaces.web.IClique.clicar(IClique.java:94)
-	at com.brq.elementos.Elemento.clicar(Elemento.java:30)
-	at com.brq.interfaces.sistemascorporativos.SCLogin.realizarLogin(SCLogin.java:27)
-	at com.brq.interfaces.sistemascorporativos.SCLogin.realizarLogin(SCLogin.java:41)
-	at com.brq.steps.sistemascorporativos.LoginSteps.queEuEstejaLogadoNoSistemasCorporativos(LoginSteps.java:21)
-	at ✽.And que esteja logado no Sistemas Corporativos(abas/atendimentoAbasNivel2/CT003.feature:8)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.brq.interfaces.web.IMover.moverParaElemento(IMover.java:27)
+	at com.brq.elementos.Elemento.mover(Elemento.java:68)
+	at com.brq.interfaces.abas.AbasPesquisaSinistroPorNumero.pesquisar(AbasPesquisaSinistroPorNumero.java:24)
+	at com.brq.steps.PesquisaSteps.pesquisarOSinistro(PesquisaSteps.java:38)
+	at ✽.When pesquisar o sinistro(abas/atendimentoAbasNivel2/CT003.feature:15)
 </pre></div>
-			
-		</li>
-		<li test-id='6' class='node given skip' status='skip'>
-			
-			<b>Given</b>
-			
-			<span class="bdd-step-name">Given que acessou o menu "Sistema de sinistro" -> "Novo Sinistro Auto"</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='7' class='node and skip' status='skip'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And que acessou o menu superior "Aviso de Sinistro" -> "Consultas" -> "Número do Sinistro"</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='8' class='node when skip' status='skip'>
-			
-			<b>When</b>
-			
-			<span class="bdd-step-name">When pesquisar o sinistro</span>
-				<div class='pre'>skipped</div>
 			
 		</li>
 		<li test-id='9' class='node and skip' status='skip'>
@@ -811,7 +814,7 @@ Session ID: 7cb67c0fcaf51452808c92cb749a7155
 			
 			<span class="bdd-step-name">When fechar a janela de Atendimento Online</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="Prints_Erro\2022_02_08_11_30_10.141.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="Prints_Erro\2022_02_09_03_07_47.219.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>skipped</div>
 			
@@ -895,7 +898,7 @@ Session ID: 7cb67c0fcaf51452808c92cb749a7155
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 8, 2022 11:29:06 AM</td>
+										<td>Feb 9, 2022 03:06:50 AM</td>
 										<td class='linked' test-id='1'>[CT003] [COLISÃO] Consulta de sinistro com pagamento</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -929,7 +932,7 @@ Session ID: 7cb67c0fcaf51452808c92cb749a7155
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 8, 2022 11:29:06 AM</td>
+										<td>Feb 9, 2022 03:06:50 AM</td>
 										<td class='linked' test-id='1'>[CT003] [COLISÃO] Consulta de sinistro com pagamento</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -963,7 +966,7 @@ Session ID: 7cb67c0fcaf51452808c92cb749a7155
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 8, 2022 11:29:06 AM</td>
+										<td>Feb 9, 2022 03:06:50 AM</td>
 										<td class='linked' test-id='1'>[CT003] [COLISÃO] Consulta de sinistro com pagamento</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -997,7 +1000,7 @@ Session ID: 7cb67c0fcaf51452808c92cb749a7155
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 8, 2022 11:29:06 AM</td>
+										<td>Feb 9, 2022 03:06:50 AM</td>
 										<td class='linked' test-id='1'>[CT003] [COLISÃO] Consulta de sinistro com pagamento</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -1031,7 +1034,7 @@ Session ID: 7cb67c0fcaf51452808c92cb749a7155
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 8, 2022 11:29:06 AM</td>
+										<td>Feb 9, 2022 03:06:50 AM</td>
 										<td class='linked' test-id='1'>[CT003] [COLISÃO] Consulta de sinistro com pagamento</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -1065,7 +1068,7 @@ Session ID: 7cb67c0fcaf51452808c92cb749a7155
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 8, 2022 11:29:06 AM</td>
+										<td>Feb 9, 2022 03:06:50 AM</td>
 										<td class='linked' test-id='2'>[CT003] [COLISÃO] Consulta de sinistro com pagamento.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -1113,7 +1116,7 @@ Session ID: 7cb67c0fcaf51452808c92cb749a7155
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.TimeoutException</span>
+                                <span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -1128,15 +1131,17 @@ Session ID: 7cb67c0fcaf51452808c92cb749a7155
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Feb 8, 2022 11:29:08 AM</td>
-                                                        <td class='linked' test-id='5'>[CT003] [COLISÃO] Consulta de sinistro com pagamento.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas.And que esteja logado no Sistemas Corporativos</td>
-                                                        <td><pre><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 60.000
-  (Session info: chrome=98.0.4758.81)
+                                                        <td>Feb 9, 2022 03:07:45 AM</td>
+                                                        <td class='linked' test-id='8'>[CT003] [COLISÃO] Consulta de sinistro com pagamento.Abertura de sinistro com marcação de vistoria e acompanhamento de vistoria nos sistemas U10 e Abas.When pesquisar o sinistro</td>
+                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='codigoRamoSinistro']"}
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'NBBV032433', ip: '10.3.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+System info: host: 'NBBV032433', ip: '10.3.12.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 98.0.4758.81, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\JOSUEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7cb67c0fcaf51452808c92cb749a7155
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\JOSUEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6a04ac109a82a9fd8803431a7c307eff
+*** Element info: {Using=name, value=codigoRamoSinistro}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -1147,14 +1152,15 @@ Session ID: 7cb67c0fcaf51452808c92cb749a7155
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.brq.interfaces.web.IClique.clicar(IClique.java:94)
-	at com.brq.elementos.Elemento.clicar(Elemento.java:30)
-	at com.brq.interfaces.sistemascorporativos.SCLogin.realizarLogin(SCLogin.java:27)
-	at com.brq.interfaces.sistemascorporativos.SCLogin.realizarLogin(SCLogin.java:41)
-	at com.brq.steps.sistemascorporativos.LoginSteps.queEuEstejaLogadoNoSistemasCorporativos(LoginSteps.java:21)
-	at ✽.And que esteja logado no Sistemas Corporativos(abas/atendimentoAbasNivel2/CT003.feature:8)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.brq.interfaces.web.IMover.moverParaElemento(IMover.java:27)
+	at com.brq.elementos.Elemento.mover(Elemento.java:68)
+	at com.brq.interfaces.abas.AbasPesquisaSinistroPorNumero.pesquisar(AbasPesquisaSinistroPorNumero.java:24)
+	at com.brq.steps.PesquisaSteps.pesquisarOSinistro(PesquisaSteps.java:38)
+	at ✽.When pesquisar o sinistro(abas/atendimentoAbasNivel2/CT003.feature:15)
 </pre></pre></td>
                                                     </tr>
                                         </tbody>
@@ -1199,19 +1205,19 @@ Session ID: 7cb67c0fcaf51452808c92cb749a7155
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Feb 8, 2022 11:29:05 AM</div>
+					<div class='panel-lead'>Feb 9, 2022 03:06:50 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Feb 8, 2022 11:30:11 AM</div>
+			 		<div class='panel-lead'>Feb 9, 2022 03:07:49 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>66,252ms</div>
+					<div class='panel-lead'>58,467ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -1320,14 +1326,14 @@ Session ID: 7cb67c0fcaf51452808c92cb749a7155
 				infoChild: 0,
 				exceptionsChild: 1,
 				
-				passGrandChild: 2,
+				passGrandChild: 5,
 				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 69,
+				skipGrandChild: 66,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 70,
+				exceptionsGrandChild: 67,
 			};
 		</script>
 		

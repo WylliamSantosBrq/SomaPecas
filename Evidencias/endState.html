@@ -1,72 +1,452 @@
 <head>
-<title>Portonet - Login</title>
-<link href="loginSistemas/visual/estilo.css" rel="stylesheet" type="text/css">
-<!--[if IE 7]><link rel="stylesheet" type="text/css" href="loginSistemas/visual/estilo_ie7.css" /><![endif]-->
- 
+
+
+
+
+<meta http-equiv="Content-Type" content="text /html; charset=ISO-8859-1">
+<meta name="GENERATOR" content="IBM WebSphere Studio">
+<title>Aviso de Sinistro - [version] 40.1.1-RECVEICULOAPI-SNAPSHOT | [builddate] 31/01/2022 11:46 </title>
 </head>
 <body>
-<script type="text/javascript" language="javascript"> 
-<!--
- 
-function checkForm(){
-
-	var msg = "";
-
-	if(document.getElementById("usuario").value == ""){
-		msg += "Voce deve informar seu login. \n";
-	}
-	
-	if(document.getElementById("senha").value == ""){
-		msg += "Voce deve informar sua senha.";	
-	}
-	
-	if(msg != ""){
-		alert(msg);
-		return false;
-	}else{
-		return true;
-	}	
-}
-function verificarCaracteres(campo) {
-	campo.value = campo.value.replace(/[^a-z A-Z0-9]/g, "");
-}
-//-->
+<link rel="stylesheet" type="text/css" href="/avisosinistro/visual/trs/menu/tree-1.0.1.css">
+<script language="JavaScript1.2" src="/avisosinistro/visual/trs/menu/tree-1.0.1.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="/avisosinistro/visual/trs/menu/friction-1.0.1.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="/avisosinistro/visual/trs/menu/menuFriction-1.0.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="/avisosinistro/visual/trs/menu/dynlayer-1.0.js" type="text/javascript"></script>
+<table width="100%" height="100%" border="0" cellspacing="0">
+	<tbody><tr>
+		<td>
+			<iframe id="porTras" scrolling="no" frameborder="0" style="position: absolute; z-index: 10; left: 504px; top: 29px; width: 180px; height: 619px; display: block;"></iframe>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" background="/avisosinistro/visual/images/menu/fundoMenu.gif">
+	<tbody><tr>
+		<td>
+			<table border="0" cellpadding="0" cellspacing="3">
+				<tbody><tr>
+					<td><img src="/avisosinistro/visual/images/menu/pastaAberta.gif"></td>
+					<td><a href="#" id="identifierAMenu0" class="leaf" onclick="return false" onmouseover="clearTimeout(tmOut0); showMenu(this, 'tree0', 'tmOut0', menuTree0)" onmouseout="showMenu(this, 'tree0', 'tmOut0')">Atendimentos Pendentes</a></td>
+				</tr>
+			</tbody></table>
+		</td>
+		<td>
+			<table border="0" cellpadding="0" cellspacing="3">
+				<tbody><tr>
+					<td><img src="/avisosinistro/visual/images/menu/pastaAberta.gif"></td>
+					<td><a href="#" id="identifierAMenu1" class="leaf" onclick="return false" onmouseover="clearTimeout(tmOut1); showMenu(this, 'tree1', 'tmOut1', menuTree1)" onmouseout="showMenu(this, 'tree1', 'tmOut1')">Tarefas</a></td>
+				</tr>
+			</tbody></table>
+		</td>
+		<td>
+			<table border="0" cellpadding="0" cellspacing="3">
+				<tbody><tr>
+					<td><img src="/avisosinistro/visual/images/menu/pastaAberta.gif"></td>
+					<td><a href="#" id="identifierAMenu2" class="leaf" onclick="return false" onmouseover="clearTimeout(tmOut2); showMenu(this, 'tree2', 'tmOut2', menuTree2)" onmouseout="showMenu(this, 'tree2', 'tmOut2')">Aviso de Sinistro</a></td>
+				</tr>
+			</tbody></table>
+		</td>
+		<td>
+			<table border="0" cellpadding="0" cellspacing="3">
+				<tbody><tr>
+					<td><img src="/avisosinistro/visual/images/menu/pastaAberta.gif"></td>
+					<td><a href="#" id="identifierAMenu3" class="leaf" onclick="return false" onmouseover="clearTimeout(tmOut3); showMenu(this, 'tree3', 'tmOut3', menuTree3)" onmouseout="showMenu(this, 'tree3', 'tmOut3')">Fornecimento</a></td>
+				</tr>
+			</tbody></table>
+		</td>
+		<td>
+			<table border="0" cellpadding="0" cellspacing="3">
+				<tbody><tr>
+					<td><img src="/avisosinistro/visual/images/menu/pastaAberta.gif"></td>
+					<td><a href="#" id="identifierAMenu4" class="leaf" onclick="return false" onmouseover="clearTimeout(tmOut4); showMenu(this, 'tree4', 'tmOut4', menuTree4)" onmouseout="showMenu(this, 'tree4', 'tmOut4')">Cadastros</a></td>
+				</tr>
+			</tbody></table>
+		</td>
+		<td>
+			<table border="0" cellpadding="0" cellspacing="3">
+				<tbody><tr>
+					<td><img src="/avisosinistro/visual/images/menu/pastaAberta.gif"></td>
+					<td><a href="#" id="identifierAMenu5" class="leaf" onclick="return false" onmouseover="clearTimeout(tmOut5); showMenu(this, 'tree5', 'tmOut5', menuTree5)" onmouseout="showMenu(this, 'tree5', 'tmOut5')">Roteirização</a></td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<div class="configTree" onmousemove="clearTimeout(tmOut0)" onmouseout="showMenu(document.getElementById('identifierAMenu0'), 'tree0', 'tmOut0', menuTree0); return false" style="position: absolute; z-index: 11; left:0px; top: 0px; display: none" id="tree0"><table class="container" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="padding-left: 2px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Lista de Atendimentos</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr></tbody></table></div>
+<script>
+var tmOut0 = ""
+var menuTree0 = new Tree("tree0");
+menuTree0.path = "/avisosinistro/";
+var itemMenu1 = new ItemTree("Lista de Atendimentos", "folha" ," /avisosinistro/consultarAtendimentoPendentePorAnalista.do");
+menuTree0.addItem(itemMenu1);
+menuTree0.path = "/avisosinistro/";
+itemMenu1.onclick = function(){  };
+menuTree0.urlTarget = "framecentral";
+menuTree0.setup();
 </script>
- 
- 
-<!-- abre geral -->
-<div id="geral">
-	<!-- Abre da div#topo -->
-	<div id="topo">
-		<h1>Porto Seguro</h1>
-		<form name="loginSistemasForm" id="login" method="post" action="/portaislogin/loginSistemas.do" onsubmit="return checkForm();">
 
-			<input type="hidden" name="vslpmscod" id="vslpmscod" value="1">
-			<input type="hidden" name="sisambcod" id="sisambcod" value="2">
-			<div id="to_login">
-			<label class="login_labelFor">Usuário:</label>
-			<label class="login_labelFor"><input type="text" name="usuario" id="usuario" size="20" maxlength="11" onkeyup="javascript:verificarCaracteres(this);" class="login_for_campo" value=""></label>
-			<label class="login_labelFor">Senha:</label>
-			<label class="login_labelFor"><input type="password" name="senha" id="senha" size="20" maxlength="15" class="login_for_campo" value=""></label>
-			<div id="to_login_btOk"><input type="submit" name="button" id="button" value="Entrar" class="login_for_bt_busca"></div>
-		</div>
-		
-		</form>
-	</div>
-    <!-- Fim da div#topo -->
-</div>
-<!-- Fim da div#geral -->
-<div id="login_fundo_img">
+<div class="configTree" onmousemove="clearTimeout(tmOut1)" onmouseout="showMenu(document.getElementById('identifierAMenu1'), 'tree1', 'tmOut1', menuTree1); return false" style="position: absolute; z-index: 11; left:0px; top: 0px; display: none" id="tree1"><table class="container" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="padding-left: 2px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Lista de Tarefas</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="padding-left: 2px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Gerenciar Tarefas</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="padding-left: 2px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Gerenciar Processos</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><img border="0" src="/avisosinistro/visual/images/menu/pastaFechada.gif" style="cursor: pointer;"></td><td class="pad"><a class="tree" href="#">Consultas</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td><div style="position: relative; overflow: hidden;"><table bgcolor="#f3f5f7" cellpadding="1" cellspacing="0" class="container" style="display: none;"><tbody><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Equipes do Colaborador</a></td></tr></tbody></table></td></tr></tbody></table><span></span></div></td></tr></tbody></table></div>
+<script>
+var tmOut1 = ""
+var menuTree1 = new Tree("tree1");
+menuTree1.path = "/avisosinistro/";
+var itemMenu1 = new ItemTree("Lista de Tarefas", "folha" ,"/segmentacao/lstTarefas.do");
+menuTree1.addItem(itemMenu1);
+menuTree1.path = "/avisosinistro/";
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Gerenciar Tarefas", "folha" ,"/segmentacao/pesquisarTarefasGerCol.do");
+menuTree1.addItem(itemMenu1);
+menuTree1.path = "/avisosinistro/";
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Gerenciar Processos", "folha" ,"/segmentacao/pesquisarProcessosGerCol.do");
+menuTree1.addItem(itemMenu1);
+menuTree1.path = "/avisosinistro/";
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Consultas", "pasta" );
+menuTree1.addItem(itemMenu1);
+menuTree1.path = "/avisosinistro/";
+var itemMenu2 = new ItemTree("Equipes do Colaborador", "folha" ,"/segmentacao/filtroConsultaEquipesColaborador.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+itemMenu1.onclick = function(){  };
+menuTree1.urlTarget = "framecentral";
+menuTree1.setup();
+</script>
 
-<br><br>
-Este serviço tem como principal objetivo facilitar o acesso exclusivamente a área de Sistemas Corporativos.
-<br><br>
-Deverá ser utilizado como rota alternativa à Portonet.
-<br><br><br><br>
-	<div id="rodape">
-		<p>Porto Seguro Seguros - Copyright - Todos os direitos reservados</p>
-	</div>
-<!-- Fim da div#rodape -->
-</div>
+<div class="configTree" onmousemove="clearTimeout(tmOut2)" onmouseout="showMenu(document.getElementById('identifierAMenu2'), 'tree2', 'tmOut2', menuTree2); return false" style="position: absolute; z-index: 11; left: 510px; top: 29px; display: block;" id="tree2"><table class="container" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="padding-left: 2px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Informar Sinistro Itau</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="padding-left: 2px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Registrar Aviso</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="padding-left: 2px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Registrar Aviso Carta Verde</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="padding-left: 2px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Gerenciar Avisos Irregulares</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="padding-left: 2px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Registro Ligação C24H</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><img border="0" src="/avisosinistro/visual/images/menu/pastaAberta.gif" style="cursor: pointer;"></td><td class="pad"><a class="selectedTree" href="#">Consultas</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td><div style="position: relative; overflow: hidden;"><table bgcolor="#f3f5f7" cellpadding="1" cellspacing="0" class="container" style="display: block;"><tbody><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Consulta Carta Verde</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Numero Sinistro Itau</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Agendamento Analista</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Avaliar Risco</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Avisos com Rastreador</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Avisos Por Filtro</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Chassi do Veículo</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">CPF/CNPJ</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Data do Aviso</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Data do Sinistro</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Nome do Segurado</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Número de Apólice</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Número de Aviso</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Número de Vistoria</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="selectedLeaf" href="#">Número do Sinistro</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Placa do Veículo</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Pré Aviso </a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Processos Passíveis de Ressarcimento</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Protocolo de Atendimento</a></td></tr></tbody></table></td></tr></tbody></table><span></span></div></td></tr></tbody></table></div>
+<script>
+var tmOut2 = ""
+var menuTree2 = new Tree("tree2");
+menuTree2.path = "/avisosinistro/";
+var itemMenu1 = new ItemTree("Informar Sinistro Itau", "folha" ,"/avisosinistro/atualizarNumSinisItau.do");
+menuTree2.addItem(itemMenu1);
+menuTree2.path = "/avisosinistro/";
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Registrar Aviso", "folha" ,"/avisosinistro/iniciarAvisoAnalista.do");
+menuTree2.addItem(itemMenu1);
+menuTree2.path = "/avisosinistro/";
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Registrar Aviso Carta Verde", "folha" ,"/avisosinistro/iniciarAvisoCV.do");
+menuTree2.addItem(itemMenu1);
+menuTree2.path = "/avisosinistro/";
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Gerenciar Avisos Irregulares", "folha" ,"/avisosinistro/consultarAvisosComSituacaoIrregular.do");
+menuTree2.addItem(itemMenu1);
+menuTree2.path = "/avisosinistro/";
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Registro Ligação C24H", "folha" ,"/avisosinistro/contrRegLigCt24h.do");
+menuTree2.addItem(itemMenu1);
+menuTree2.path = "/avisosinistro/";
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Consultas", "pasta" );
+menuTree2.addItem(itemMenu1);
+menuTree2.path = "/avisosinistro/";
+var itemMenu2 = new ItemTree("Consulta Carta Verde", "folha" ,"/avisosinistro/atuRamoCtbCV.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Numero Sinistro Itau", "folha" ,"/avisosinistro/consultaPorNumSinisItau.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Agendamento Analista", "folha" ,"/avisosinistro/consultarAvisosAgendadosPorAnalista.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Avaliar Risco", "folha" ,"/avisosinistro/consultaProcessosSinistro.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Avisos com Rastreador", "folha" ,"/avisosinistro/avisosComRastreador.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Avisos Por Filtro", "folha" ,"/avisosinistro/avisosPorFiltroGeral.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Chassi do Veículo", "folha" ,"/avisosinistro/avisosPorChassiVeiculoAvisado.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("CPF/CNPJ", "folha" ,"/avisosinistro/avisosPorCPFSegurado.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Data do Aviso", "folha" ,"/avisosinistro/avisosPorDataAviso.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Data do Sinistro", "folha" ,"/avisosinistro/avisosPorDataSinistro.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Nome do Segurado", "folha" ,"/avisosinistro/avisosPorNomeSegurado.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Número de Apólice", "folha" ,"/avisosinistro/avisosPorNumeroApolice.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Número de Aviso", "folha" ,"/avisosinistro/avisoPorNumeroAviso.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Número de Vistoria", "folha" ,"/avisosinistro/avisoPorNumeroVistoria.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Número do Sinistro", "folha" ,"/avisosinistro/avisoPorNumeroSinistro.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Placa do Veículo", "folha" ,"/avisosinistro/avisosPorPlacaVeiculoAvisado.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Pré Aviso ", "folha" ,"/avisosinistro/consultarAvisosComFasePreAviso.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Processos Passíveis de Ressarcimento", "folha" ,"/avisosinistro/consultarProcessosPassiveisRessarcimento.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Protocolo de Atendimento", "folha" ,"/avisosinistro/avisoPorNumeroAtendimento.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+itemMenu1.onclick = function(){  };
+menuTree2.urlTarget = "framecentral";
+menuTree2.setup();
+</script>
+
+<div class="configTree" onmousemove="clearTimeout(tmOut3)" onmouseout="showMenu(document.getElementById('identifierAMenu3'), 'tree3', 'tmOut3', menuTree3); return false" style="position: absolute; z-index: 11; left:0px; top: 0px; display: none" id="tree3"><table class="container" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="padding-left: 2px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Acompanhar Pedido de Peças</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="padding-left: 2px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Gerar Relatório de Contingência</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr></tbody></table></div>
+<script>
+var tmOut3 = ""
+var menuTree3 = new Tree("tree3");
+menuTree3.path = "/avisosinistro/";
+var itemMenu1 = new ItemTree("Acompanhar Pedido de Peças", "folha" ,"/fornecimentopecas/fornecimento/prepararfiltrargerirpedido.do");
+menuTree3.addItem(itemMenu1);
+menuTree3.path = "/avisosinistro/";
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Gerar Relatório de Contingência", "folha" ,"/fornecimentopecas/fornecimento/iniciarrelatoriocontingencia.do");
+menuTree3.addItem(itemMenu1);
+menuTree3.path = "/avisosinistro/";
+itemMenu1.onclick = function(){  };
+menuTree3.urlTarget = "framecentral";
+menuTree3.setup();
+</script>
+
+<div class="configTree" onmousemove="clearTimeout(tmOut4)" onmouseout="showMenu(document.getElementById('identifierAMenu4'), 'tree4', 'tmOut4', menuTree4); return false" style="position: absolute; z-index: 11; left:0px; top: 0px; display: none" id="tree4"><table class="container" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><img border="0" src="/avisosinistro/visual/images/menu/pastaFechada.gif" style="cursor: pointer;"></td><td class="pad"><a class="tree" href="#">Vulcano</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td><div style="position: relative; overflow: hidden;"><table bgcolor="#f3f5f7" cellpadding="1" cellspacing="0" class="container" style="display: none;"><tbody><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Rollout</a></td></tr></tbody></table></td></tr></tbody></table><span></span></div></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><img border="0" src="/avisosinistro/visual/images/menu/pastaFechada.gif" style="cursor: pointer;"></td><td class="pad"><a class="tree" href="#">Aviso de Sinistro</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td><div style="position: relative; overflow: hidden;"><table bgcolor="#f3f5f7" cellpadding="1" cellspacing="0" class="container" style="display: none;"><tbody><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Franquia</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Solicitar relatório de atrasos</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Cidades Amigo Seguro</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Importar Aviso Legado</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Parâmetros do Aviso</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Justificativas de Sinistro</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Limite de Peças Clausulas</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Parâmetro do Cálculo da Data da Entrega</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Reprocessar Liberacao Auto</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Notificações de Sinistro</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Blocos de Texto</a></td></tr></tbody></table></td></tr></tbody></table><span></span></div></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><img border="0" src="/avisosinistro/visual/images/menu/pastaFechada.gif" style="cursor: pointer;"></td><td class="pad"><a class="tree" href="#">Infra Roteador</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td><div style="position: relative; overflow: hidden;"><table bgcolor="#f3f5f7" cellpadding="1" cellspacing="0" class="container" style="display: none;"><tbody><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Integracao</a></td></tr></tbody></table></td></tr></tbody></table><span></span></div></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><img border="0" src="/avisosinistro/visual/images/menu/pastaFechada.gif" style="cursor: pointer;"></td><td class="pad"><a class="tree" href="#">Motor de Regras</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td><div style="position: relative; overflow: hidden;"><table bgcolor="#f3f5f7" cellpadding="1" cellspacing="0" class="container" style="display: none;"><tbody><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Regras Sinistro</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Regras Segmentação</a></td></tr></tbody></table></td></tr></tbody></table><span></span></div></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><img border="0" src="/avisosinistro/visual/images/menu/pastaFechada.gif" style="cursor: pointer;"></td><td class="pad"><a class="tree" href="#">Regulação</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td><div style="position: relative; overflow: hidden;"><table bgcolor="#f3f5f7" cellpadding="1" cellspacing="0" class="container" style="display: none;"><tbody><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Prestador Negociação</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Descrição de Pagamento</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Textos SMS e Email</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Combo de Documentos</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Assuntos</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Associar documento à tarefa</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Documentos</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Modelo de Cartas</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Modelo de Notas</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Template</a></td></tr></tbody></table></td></tr></tbody></table><span></span></div></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><img border="0" src="/avisosinistro/visual/images/menu/pastaFechada.gif" style="cursor: pointer;"></td><td class="pad"><a class="tree" href="#">Rollout Operação Vidros</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td><div style="position: relative; overflow: hidden;"><table bgcolor="#f3f5f7" cellpadding="1" cellspacing="0" class="container" style="display: none;"><tbody><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Cadastro Rollout Atendimento Vidros</a></td></tr></tbody></table></td></tr></tbody></table><span></span></div></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><img border="0" src="/avisosinistro/visual/images/menu/pastaFechada.gif" style="cursor: pointer;"></td><td class="pad"><a class="tree" href="#">Roteirização</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td><div style="position: relative; overflow: hidden;"><table bgcolor="#f3f5f7" cellpadding="1" cellspacing="0" class="container" style="display: none;"><tbody><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Cerca Eletrônica</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Empresas Terceirizadas</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Motivos de Cancelamento de Serviços</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Parâmetros de Roteirização</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Perfil</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Recursos</a></td></tr></tbody></table></td></tr></tbody></table><span></span></div></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><img border="0" src="/avisosinistro/visual/images/menu/pastaFechada.gif" style="cursor: pointer;"></td><td class="pad"><a class="tree" href="#">Segmentação</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td><div style="position: relative; overflow: hidden;"><table bgcolor="#f3f5f7" cellpadding="1" cellspacing="0" class="container" style="display: none;"><tbody><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Equipes</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Fluxos</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Histórico de Alterações</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Prioridades confere</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Segmentos</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Tarefas</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Parâmetros</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Alterar Tipo Perda Sinistro</a></td></tr></tbody></table></td></tr></tbody></table><span></span></div></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><img border="0" src="/avisosinistro/visual/images/menu/pastaFechada.gif" style="cursor: pointer;"></td><td class="pad"><a class="tree" href="#">Siasi Online</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td><div style="position: relative; overflow: hidden;"><table bgcolor="#f3f5f7" cellpadding="1" cellspacing="0" class="container" style="display: none;"><tbody><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Agentamentos Reprocessamento Siasi</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Assuntos C24H</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Serviços C24H</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Perguntas</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Questionários</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Teste de Resposta Questionário</a></td></tr></tbody></table></td></tr></tbody></table><span></span></div></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><img border="0" src="/avisosinistro/visual/images/menu/pastaFechada.gif" style="cursor: pointer;"></td><td class="pad"><a class="tree" href="#">Sucursal/Região Estado/Município</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td><div style="position: relative; overflow: hidden;"><table bgcolor="#f3f5f7" cellpadding="1" cellspacing="0" class="container" style="display: none;"><tbody><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Consultar</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Editar</a></td></tr></tbody></table></td></tr></tbody></table><span></span></div></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><img border="0" src="/avisosinistro/visual/images/menu/pastaFechada.gif" style="cursor: pointer;"></td><td class="pad"><a class="tree" href="#">Oferta de Oficinas</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td><div style="position: relative; overflow: hidden;"><table bgcolor="#f3f5f7" cellpadding="1" cellspacing="0" class="container" style="display: none;"><tbody><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Regiao Oferta Oficina</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Parametros Oferta Oficina</a></td></tr></tbody></table></td></tr><tr><td width="5"><img src="/avisosinistro/visual/images/menu/pixel.gif" border="0" width="10"></td><td class="menuItem"><table class="container"><tbody><tr><td style="padding-left: 5px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Beneficios Oferta Oficina</a></td></tr></tbody></table></td></tr></tbody></table><span></span></div></td></tr></tbody></table></div>
+<script>
+var tmOut4 = ""
+var menuTree4 = new Tree("tree4");
+menuTree4.path = "/avisosinistro/";
+var itemMenu1 = new ItemTree("Vulcano", "pasta" );
+menuTree4.addItem(itemMenu1);
+menuTree4.path = "/avisosinistro/";
+var itemMenu2 = new ItemTree("Rollout", "folha" ,"/avisosinistro/rolloutVulcanoBuscarProcessos.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Aviso de Sinistro", "pasta" );
+menuTree4.addItem(itemMenu1);
+menuTree4.path = "/avisosinistro/";
+var itemMenu2 = new ItemTree("Franquia", "folha" ,"/avisosinistro/obterDescontoFranquia.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Solicitar relatório de atrasos", "folha" ,"/avisosinistro/inicioSolicitacaoRelatorio.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Cidades Amigo Seguro", "folha" ,"/avisosinistro/cidadesAmigoSeguro.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Importar Aviso Legado", "folha" ,"/avisosinistro/importAvisoLegado.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Parâmetros do Aviso", "folha" ,"/avisosinistro/obterParametrosSinistro.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Justificativas de Sinistro", "folha" ,"/avisosinistro/consultarGrupoJustificativas.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Limite de Peças Clausulas", "folha" ,"/avisosinistro/abrirConsultaLimitePecasVidros.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Parâmetro do Cálculo da Data da Entrega", "folha" ,"/orcamentosinistro/parametrosCalculo.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Reprocessar Liberacao Auto", "folha" ,"telaReprocessarLiberacaoAu.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Notificações de Sinistro", "folha" ,"/avisosinistro/consultarNotificacoesSinistro.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Blocos de Texto", "folha" ,"/avisosinistro/consultarTextoNotificacao.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Infra Roteador", "pasta" );
+menuTree4.addItem(itemMenu1);
+menuTree4.path = "/avisosinistro/";
+var itemMenu2 = new ItemTree("Integracao", "folha" ,"/infraroteador/iniciarpesquisamensagenssinistro.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Motor de Regras", "pasta" );
+menuTree4.addItem(itemMenu1);
+menuTree4.path = "/avisosinistro/";
+var itemMenu2 = new ItemTree("Regras Sinistro", "folha" ,"/infrarulessinistro/iniciarpesquisarregrassinistro.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Regras Segmentação", "folha" ,"/infrarulessinistro/iniciarpesquisarregrassegmentacao.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Regulação", "pasta" );
+menuTree4.addItem(itemMenu1);
+menuTree4.path = "/avisosinistro/";
+var itemMenu2 = new ItemTree("Prestador Negociação", "folha" ,"/regulacaosinistroauto/consultarInfoSinistro.do?codigoTipoInformacaoSinistro=2");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Descrição de Pagamento", "folha" ,"/regulacaosinistroauto/consultarInfoSinistro.do?codigoTipoInformacaoSinistro=1");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Textos SMS e Email", "folha" ,"/regulacaosinistroauto/exibirTextoSmsEmail.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Combo de Documentos", "folha" ,"/regulacaosinistroauto/listarOpDocsRegulacao.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Assuntos", "folha" ,"/regulacaosinistroauto/consultaAssuntos.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Associar documento à tarefa", "folha" ,"/regulacaosinistroauto/cadastroAssoDocTarefa.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Documentos", "folha" ,"/regulacaosinistroauto/cadastroDocumento.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Modelo de Cartas", "folha" ,"/regulacaosinistroauto/exibirArvore.do?codigoArvore=1&visualizacaoOuCadastro=C");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Modelo de Notas", "folha" ,"/regulacaosinistroauto/exibirArvore.do?codigoArvore=2&visualizacaoOuCadastro=C");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Template", "folha" ,"/regulacaosinistroauto/iniciarCadastroTemplate.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Rollout Operação Vidros", "pasta" );
+menuTree4.addItem(itemMenu1);
+menuTree4.path = "/avisosinistro/";
+var itemMenu2 = new ItemTree("Cadastro Rollout Atendimento Vidros", "folha" ,"/avisosinistro/iniciarRolloutCou.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Roteirização", "pasta" );
+menuTree4.addItem(itemMenu1);
+menuTree4.path = "/avisosinistro/";
+var itemMenu2 = new ItemTree("Cerca Eletrônica", "folha" ,"/agendamento/cercaeletronicavp/sin_consultarcercaseletronicas.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Empresas Terceirizadas", "folha" ,"/agendamento/empresaterceirizada/sin_consultarempresaterceirizada.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Motivos de Cancelamento de Serviços", "folha" ,"/agendamento/motivocancelamento/sin_consultarmotivoscancelamento.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Parâmetros de Roteirização", "folha" ,"/agendamento/parametro/sin_consultarparamroteirizacao.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Perfil", "folha" ,"/agendamento/perfil/sin_consultarperfis.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Recursos", "folha" ,"/agendamento/recursovp/sin_consultarrecursos.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Segmentação", "pasta" );
+menuTree4.addItem(itemMenu1);
+menuTree4.path = "/avisosinistro/";
+var itemMenu2 = new ItemTree("Equipes", "folha" ,"/segmentacao/cadastroEquipes.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Fluxos", "folha" ,"/segmentacao/gerenciarFluxo.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Histórico de Alterações", "folha" ,"/segmentacao/buscarTiposCadastros.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Prioridades confere", "folha" ,"/segmentacao/listarConfiguracoes.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Segmentos", "folha" ,"/segmentacao/listaSegmentos.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Tarefas", "folha" ,"/segmentacao/cadastroTarefa.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Parâmetros", "folha" ,"/segmentacao/obterParametrosSegmentacao.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Alterar Tipo Perda Sinistro", "folha" ,"/avisosinistro/alterarPerdaSinistro.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Siasi Online", "pasta" );
+menuTree4.addItem(itemMenu1);
+menuTree4.path = "/avisosinistro/";
+var itemMenu2 = new ItemTree("Agentamentos Reprocessamento Siasi", "folha" ,"/avisosinistro/agendamentosSiasi.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Assuntos C24H", "folha" ,"/avisosinistro/obterParametrosAssuntosC24H.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Serviços C24H", "folha" ,"/avisosinistro/obterParametrosServicosC24H.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Perguntas", "folha" ,"/avisosinistro/consultarPerguntasSiasiOnline.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Questionários", "folha" ,"/avisosinistro/consultarQuestionariosSiasiOnline.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Teste de Resposta Questionário", "folha" ,"/avisosinistro/testeRespostasQuestionarioSiasiOnline.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Sucursal/Região Estado/Município", "pasta" );
+menuTree4.addItem(itemMenu1);
+menuTree4.path = "/avisosinistro/";
+var itemMenu2 = new ItemTree("Consultar", "folha" ,"/orcamentosinistro/sucursalRegiaoEstadoMunicipio.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Editar", "folha" ,"/orcamentosinistro/sucursalRegiaoEstadoMunicipioEditavel.do");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Oferta de Oficinas", "pasta" );
+menuTree4.addItem(itemMenu1);
+menuTree4.path = "/avisosinistro/";
+var itemMenu2 = new ItemTree("Regiao Oferta Oficina", "folha" ,"/ofertaoficinavistoriasinistro/cou101.jsp");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Parametros Oferta Oficina", "folha" ,"/ofertaoficinavistoriasinistro/cou103.jsp");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+var itemMenu2 = new ItemTree("Beneficios Oferta Oficina", "folha" ,"/ofertaoficinavistoriasinistro/cou102.jsp");
+itemMenu1.addItem(itemMenu2);
+itemMenu2.onclick = function(){  };
+itemMenu1.onclick = function(){  };
+menuTree4.urlTarget = "framecentral";
+menuTree4.setup();
+</script>
+
+<div class="configTree" onmousemove="clearTimeout(tmOut5)" onmouseout="showMenu(document.getElementById('identifierAMenu5'), 'tree5', 'tmOut5', menuTree5); return false" style="position: absolute; z-index: 11; left:0px; top: 0px; display: none" id="tree5"><table class="container" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="padding-left: 2px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Histórico Rot. Automática</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr><td class="menuItem"><table bgcolor="#f3f5f7" cellpadding="0" cellspacing="0" border="0" class="container"><tbody><tr><td><div class="configTree" style="position: relative; margin-top: 10px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="padding-left: 2px;"><img border="0" src="/avisosinistro/visual/images/menu/folha.gif" style="cursor: pointer;"></td><td class="pad"><a class="leaf" href="#">Roteirização Manual</a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr></tbody></table></div>
+<script>
+var tmOut5 = ""
+var menuTree5 = new Tree("tree5");
+menuTree5.path = "/avisosinistro/";
+var itemMenu1 = new ItemTree("Histórico Rot. Automática", "folha" ,"/agendamento/roteirizacaoAutomatica/consultarlogexecucao.do");
+menuTree5.addItem(itemMenu1);
+menuTree5.path = "/avisosinistro/";
+itemMenu1.onclick = function(){  };
+var itemMenu1 = new ItemTree("Roteirização Manual", "folha" ,"/agendamento/roteirizacaoManual/sin_pesquisaroteirizacaoperitos.do");
+menuTree5.addItem(itemMenu1);
+menuTree5.path = "/avisosinistro/";
+itemMenu1.onclick = function(){  };
+menuTree5.urlTarget = "framecentral";
+menuTree5.setup();
+</script>
+
+		</td>
+	</tr>
+	<tr>
+		<td width="100%" height="100%" valign="top"><iframe id="framecentral" name="framecentral" frameborder="0" border="0" style="width:100%; height:100%" scrolling="auto" src="/avisosinistro/avisoPorNumeroSinistro.do?nocache=1644383265985" cd_frame_id_="17012a8c3490151235b24565f0e93032"></iframe></td>
+	</tr>
+</tbody></table>
+
+
 
 </body>

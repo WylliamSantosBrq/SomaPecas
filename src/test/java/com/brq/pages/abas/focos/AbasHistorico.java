@@ -12,6 +12,7 @@ import com.brq.erros.ErroInesperado;
 import com.brq.erros.ErroSistema;
 import com.brq.interfaces.Tabelas;
 import com.brq.interfaces.log.BRQLogger;
+import com.brq.interfaces.web.IEsperaWeb;
 import com.brq.pages.Foco;
 
 public class AbasHistorico extends Foco implements Tabelas {
@@ -174,7 +175,8 @@ public class AbasHistorico extends Foco implements Tabelas {
 
 	public void validarCampoData() {
 		BRQLogger.logMethod();
-
+		
+		IEsperaWeb.esperarSegundos(20);
 		try (Frame framePrincipal = AbasAbaElementos.FRAME_PRINCIPAL.entrar()) {
 			AbasHistoricoElementos.CAMPO_DATA.esperarSerVisivel(DEFAULT_STEPS_TIMEOUT);
 			BRQLogger.logMethod("O campo [Data] apareceu em tela.");

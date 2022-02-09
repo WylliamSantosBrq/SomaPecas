@@ -12,6 +12,7 @@ import com.brq.interfaces.Campos;
 import com.brq.interfaces.Combos;
 import com.brq.interfaces.Mensagens;
 import com.brq.interfaces.log.BRQLogger;
+import com.brq.interfaces.web.IEsperaWeb;
 import com.brq.pages.Pagina;
 import com.brq.pages.abas.focos.AbasU10Mensagens;
 import com.brq.pages.abas.focos.AbasU10SedexReverso;
@@ -22,9 +23,10 @@ public class AbasU10HomePage extends Pagina implements Mensagens, Campos, Combos
 	@Override
 	public void clicarEm(String botao) {
 		BRQLogger.logMethod(botao);
-
+		
 		switch (botao) {
 		case "Download do resumo do Aviso":
+			
 			clicarEmDownloadDoResumoDoAviso();
 			break;
 
