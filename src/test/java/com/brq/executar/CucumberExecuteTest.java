@@ -14,7 +14,6 @@ import com.brq.enums.Browser;
 import com.brq.interfaces.log.LogWeb;
 import com.brq.util.PropertiesHelper;
 import com.brq.utils.EvidenciasHelper;
-import com.brq.utils.PingTest;
 import com.cucumber.listener.Reporter;
 import com.hpe.alm.octane.OctaneCucumber;
 
@@ -63,7 +62,6 @@ public class CucumberExecuteTest {
 
 		EvidenciasHelper.deletarPrints();
 		String driver = "Chrome";
-		new PingTest().todos();
 		
 		switch (driver) {
 		case "Jenkins":

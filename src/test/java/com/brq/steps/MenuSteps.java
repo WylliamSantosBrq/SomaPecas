@@ -19,7 +19,7 @@ public class MenuSteps extends StepsMaster {
 	@Given("^que (?:o usuário )?acessou o menu \"(.*?)\"$")
 	@When("^acessar o menu \"(.*?)\"$")
 	public void queEuAcesseOMenu(String listaDeMenus) throws Throwable {
-		IEsperaWeb.esperarSegundos(20);
+		IEsperaWeb.esperarSegundos(5);
 		if (!(getPaginaAtual() instanceof Menu))
 			throw new ErroAutomacao("A página atual não é uma instância de [Menu].");
 		
@@ -29,7 +29,7 @@ public class MenuSteps extends StepsMaster {
 	@Given("^que (?:o usuário )?acessou o menu lateral \"(.*?)\"$")
 	@When("^acessar o menu lateral \"(.*?)\"$")
 	public void queEuAcesseOMenuLateral(String listaDeMenus) throws Throwable {
-		IEsperaWeb.esperarSegundos(20);
+		IEsperaWeb.esperarSegundos(5);
 		if (!(getPaginaAtual() instanceof MenuLateral))
 			throw new ErroAutomacao("A página atual não é uma instância de [MenuLateral].");
 		
@@ -39,7 +39,7 @@ public class MenuSteps extends StepsMaster {
 	@Given("^que (?:o usuário )?acessou o menu superior \"(.*?)\"$")
 	@When("^acessar o menu superior \"(.*?)\"$")
 	public void queEuAcesseOMenuSuperior(String listaDeMenus) throws Throwable {
-		IEsperaWeb.esperarSegundos(20);
+		IEsperaWeb.esperarSegundos(5);
 		if (!(getPaginaAtual() instanceof MenuSuperior))
 			throw new ErroAutomacao("A página atual não é uma instância de [MenuSuperior].");
 		

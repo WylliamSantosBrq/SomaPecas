@@ -30,7 +30,6 @@ public interface AbasMenuAvisoLateral extends MenuLateral {
 				AbasMenuAvisoLateralElementos.BTN_AVISO_DE_SINISTRO.esperarSerVisivel(30).clicar();
 				break;
 			case "AVISO DE SINISTRO2":
-
 				AbasMenuAvisoLateralElementos.BTN_AVISO_DE_SINISTRO2.esperarSerVisivel(30).clicar();
 				break;
 

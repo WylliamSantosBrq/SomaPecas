@@ -1645,3 +1645,23 @@
 [SEVERE] 1644513820698 - https://apphubhml/avisointernet/resources/js/avisointernet/aviso-internet-beneficios.js?version=40.1.1-RECVEICULOAPI-SNAPSHOT 179:68 Uncaught TypeError: Cannot read properties of undefined (reading 'replace')
 [SEVERE] 1644513874216 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
 
+[INFO] 2022-02-10 16:16:00,217 - StackTrace do console:
+[SEVERE] 1644516657975 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644516685967 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644516718932 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-10 16:43:00,845 - StackTrace do console:
+[SEVERE] 1644518251850 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644518267674 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644518287836 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-10 17:07:32,734 - StackTrace do console:
+[SEVERE] 1644519453234 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644519470862 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644519524471 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644519524653 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644519524944 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644519906691 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644519907420 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644519986994 - https://apphubhml/avisosinistro/resources/js/siasiOnline.js 1888:36 Uncaught TypeError: Cannot set properties of null (setting 'onmouseover')
+
