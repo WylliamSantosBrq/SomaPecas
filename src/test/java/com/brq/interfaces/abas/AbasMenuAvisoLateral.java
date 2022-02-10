@@ -29,13 +29,16 @@ public interface AbasMenuAvisoLateral extends MenuLateral {
 			case "AVISO DE SINISTRO":
 				AbasMenuAvisoLateralElementos.BTN_AVISO_DE_SINISTRO.esperarSerVisivel(30).clicar();
 				break;
+			case "AVISO DE SINISTRO2":
+
+				AbasMenuAvisoLateralElementos.BTN_AVISO_DE_SINISTRO2.esperarSerVisivel(30).clicar();
+				break;
 
 			case "MARCAÇÃO DE VISTORIA":
 				AbasMenuAvisoLateralElementos.BTN_MARCACAO_DE_VISTORIA.esperarSerVisivel(30).clicar();
 				StepsMaster.setPaginaAtual(new AbasSolicitacaoDeVistoriaPage());
 				break;
 			case "U10":
-				IEsperaWeb.esperarSegundos(30);
 
 				AbasMenuAvisoLateralElementos.BTN_U10.esperarSerVisivel(30).clicar();
 				StepsMaster.setPaginaAtual(new AbasU10HomePage());

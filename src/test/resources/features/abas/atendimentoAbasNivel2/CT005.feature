@@ -87,10 +87,10 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
     When mudar para a aba "Tempo Análise"
     Then salvar todos os dados do "Tempo de Análise"
     # Menu Lateral Marcação de Vistoria
-    When acessar o menu lateral "MARCAÇÃO DE VISTORIA"
-    Then validar que o sinistro possui vistoria "em andamento" em uma oficina
+    #When acessar o menu lateral "MARCAÇÃO DE VISTORIA"
+    #Then validar que o sinistro possui vistoria "em andamento" em uma oficina
     # U10
-    When acessar o menu lateral "AVISO DE SINISTRO"
+    When acessar o menu lateral "AVISO DE SINISTRO2"
     And acessar o menu lateral "U10"
     #And o sistema apresentar "Acompanhamento de Sinistro"
     And clicar em "Download do resumo do Aviso"

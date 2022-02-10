@@ -156,7 +156,7 @@ public class AbasNotas extends Foco implements Campos {
 
 		String valorObtido;
 		try (Frame framePrincipal = AbasAbaElementos.FRAME_PRINCIPAL.entrar()) {
-			valorObtido = AbasNotasElementos.TEXTO_APOLICE.esperarSerVisivel(5).obterTexto();
+			valorObtido = AbasNotasElementos.TEXTO_APOLICE.esperarSerVisivel(60).obterTexto();
 		} catch (Exception e) {
 			throw new ErroInesperado(e, "Ocorreu um erro inesperado ao acessar o iframe principal.");
 		}
