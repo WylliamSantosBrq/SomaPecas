@@ -41,8 +41,20 @@ public class DriverChrome {
 			driver = new ChromeDriver(options);
 
 		} catch (Exception e) {
-			WebDriverManager.chromedriver().driverVersion("93.0.4577.63").setup();
-			driver = new ChromeDriver(options);
+		    List<String> versions = WebDriverManager.getInstance(DriverManagerType.CHROME).getDriverVersions();
+		    for(String ver:versions)
+		    {
+		        try{
+			WebDriverManager.chromedriver().driverVersion(ver).setup();
+			driver = new ChromeDriver(options);break;}catch(Exception e)
+			{
+			    logger.debug("não conseguiu instanciar com essa versão");
+			    logger.debug(ver);
+			}
+		    }
+		    if(driver == null)
+		    throw new Exception("Nenhuma versão do Chrome disponível");
+			
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
