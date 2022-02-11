@@ -1854,3 +1854,16 @@
 [SEVERE] 1644578399772 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
 [SEVERE] 1644578439843 - https://apphubhml/avisosinistro/resources/js/siasiOnline.js 1888:36 Uncaught TypeError: Cannot set properties of null (setting 'onmouseover')
 
+[INFO] 2022-02-11 12:47:11,032 - StackTrace do console:
+[SEVERE] 1644590444962 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644590479347 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644590560330 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644590560901 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644590561499 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-11 12:48:09,165 - StackTrace do console:
+[SEVERE] 1644590851423 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-11 13:16:20,864 - StackTrace do console:
+[WARNING] 1644592579514 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+

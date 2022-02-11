@@ -1,26 +1,22 @@
 package com.brq.drivers.web;
 
 import java.io.File;
-import org.apache.log4j.Logger;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import com.brq.erros.ErroAutomacao;
 import com.brq.interfaces.log.BRQLogger;
-import com.brq.interfaces.log.LogWeb;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.config.DriverManagerType;
 
 /**
  * Classe responsavel por criar a instância do chrome driver
@@ -41,20 +37,20 @@ public class DriverChrome {
 			driver = new ChromeDriver(options);
 
 		} catch (Exception e) {
-		    List<String> versions = WebDriverManager.getInstance(DriverManagerType.CHROME).getDriverVersions();
-		    for(String ver:versions)
-		    {
-		        try{
-			WebDriverManager.chromedriver().driverVersion(ver).setup();
-			driver = new ChromeDriver(options);break;}catch(Exception e)
-			{
-			    logger.debug("não conseguiu instanciar com essa versão");
-			    logger.debug(ver);
+			List<String> versions = WebDriverManager.getInstance(DriverManagerType.CHROME).getDriverVersions();
+			for (String ver : versions) {
+				try {
+					WebDriverManager.chromedriver().driverVersion(ver).setup();
+					driver = new ChromeDriver(options);
+					break;
+				} catch (Exception e2) {
+					BRQLogger.debug("não conseguiu instanciar com essa versão");
+					BRQLogger.debug(ver);
+				}
 			}
-		    }
-		    if(driver == null)
-		    throw new Exception("Nenhuma versão do Chrome disponível");
-			
+			if (driver == null)
+				Assert.fail("Nenhuma versão do Chrome disponível");
+
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
