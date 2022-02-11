@@ -138,6 +138,7 @@ public interface IEsperaBrowser {
 		do {
 			for (String handle : driver.getWindowHandles()) {
 				try {
+
 					driver.switchTo().window(handle);
 					wait.until(ExpectedConditions.titleContains(titulo));
 					return;
@@ -149,7 +150,7 @@ public interface IEsperaBrowser {
 
 		throw new ErroTimeout("Ocorreu um erro ao esperar a página [%s] abrir.", titulo);
 	}
-	
+
 	default void esperarPaginaComElementoAbrir(By by, int tempoEmSegundos) {
 		BRQLogger.logMethod(by, tempoEmSegundos);
 
@@ -171,8 +172,7 @@ public interface IEsperaBrowser {
 
 		throw new ErroTimeout("Ocorreu um erro ao esperar a página abrir.");
 	}
-	
-	
+
 	default void esperarAlertaSumir(int tempoEmSegundos) {
 		BRQLogger.logMethod(tempoEmSegundos);
 
@@ -184,18 +184,18 @@ public interface IEsperaBrowser {
 			try {
 				driver.switchTo().alert();
 				return false;
-				
+
 			} catch (Exception e) {
 				return true;
-				
+
 			} finally {
 				driver.switchTo().window(handle);
 			}
 		};
-		
+
 		wait.until(alertaNaoExiste);
 	}
-	
+
 	default void esperarAlertaPresente(int tempoEmSegundos) {
 		BRQLogger.logMethod(tempoEmSegundos);
 
@@ -207,18 +207,18 @@ public interface IEsperaBrowser {
 			try {
 				driver.switchTo().alert();
 				return true;
-				
+
 			} catch (Exception e) {
 				return false;
-				
+
 			} finally {
 				driver.switchTo().window(handle);
 			}
 		};
-		
+
 		wait.until(alertaPresente);
 	}
-	
+
 	default void esperarCondicao(ExpectedCondition<?> condicao, int tempoEmSegundos) {
 		BRQLogger.logMethod(condicao, tempoEmSegundos);
 
@@ -226,5 +226,5 @@ public interface IEsperaBrowser {
 		WebDriverWait wait = new WebDriverWait(driver, tempoEmSegundos);
 		wait.until(condicao);
 	}
-	
+
 }
