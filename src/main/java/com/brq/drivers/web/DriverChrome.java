@@ -37,7 +37,11 @@ public class DriverChrome {
 			driver = new ChromeDriver(options);
 
 		} catch (Exception e) {
-			List<String> versions = WebDriverManager.getInstance(DriverManagerType.CHROME).getDriverVersions();
+			List<String> versions = new ArrayList<>(WebDriverManager.getInstance(DriverManagerType.CHROME).getDriverVersions());
+			versions.add(0,"93.0.4577.63");
+			versions.add(1,"78.0.3904.105");
+			versions.stream()//
+			.forEach(x -> BRQLogger.debug(x));
 			for (String ver : versions) {
 				try {
 					WebDriverManager.chromedriver().driverVersion(ver).setup();
