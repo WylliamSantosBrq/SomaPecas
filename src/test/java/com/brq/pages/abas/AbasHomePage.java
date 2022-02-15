@@ -1,12 +1,13 @@
 package com.brq.pages.abas;
 
+import java.text.MessageFormat;
+import java.util.Set;
+
 import org.openqa.selenium.WebDriver;
 
 import com.brq.drivers.web.DriverWeb;
 import com.brq.interfaces.abas.AbasMenuSuperior;
 import com.brq.interfaces.log.BRQLogger;
-import com.brq.interfaces.web.IEsperaWeb;
-import com.brq.interfaces.web.IValidacoesBrowser;
 import com.brq.pages.Pagina;
 
 public class AbasHomePage extends Pagina implements AbasMenuSuperior {
