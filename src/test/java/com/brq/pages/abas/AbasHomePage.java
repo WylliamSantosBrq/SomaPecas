@@ -31,8 +31,14 @@ public class AbasHomePage extends Pagina implements AbasMenuSuperior {
                 driver.switchTo().window(janela);
                 System.out.println(MessageFormat.format("Janela encontrada:{0}\nTítulo:{1}\nURL:{2}",//
                 janela,driver.getTitle(),driver.getCurrentUrl()));
+                  urls.add(driver.getCurrentUrl());
             }
+       urlOriginal = urls.stream()//
+       .filter(x -> x.contains("apphub"))//
+       .findFirst()//
+       .get();
         
+        System.out.println(MessageFormat.format("URL:{0}",urlOriginal));
         String novaURL = null;
 		if ( urlOriginal.contains("apphubhml")) {
 		novaURL = urlOriginal.replace("apphubhml", "apphubhml.portoseguro.brasil");
