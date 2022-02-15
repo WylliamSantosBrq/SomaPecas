@@ -14,20 +14,30 @@ public class AbasHomePage extends Pagina implements AbasMenuSuperior {
 	public AbasHomePage() {
 		BRQLogger.logMethod();
 		trocarJanelaPorIndice(0);
-		
-		BRQLogger.logMethod();
-		trocarJanelaPorIndice(0);
 		WebDriver driver = DriverWeb.getDriver();
-		String urlOriginal = driver.getCurrentUrl();
-
-		String novaURL = null;
+		
+		String urlOriginal;
+		do{
+		urlOriginal = driver.getCurrentUrl();
+		}
+		while(urlOriginal==null);
+		
+		
+        System.out.println(MessageFormat.format("URL:{0}",urlOriginal));
+        
+        Set<String> janelas = DriverWeb.getDriver().getWindowHandles();
+        for(String janela:janelas)       {
+                driver.switchTo().window(janela);
+                System.out.println(MessageFormat.format("Janela encontrada:{0}\nTítulo:{1}\nURL:{2}",//
+                janela,driver.getTitle(),driver.getCurrentUrl()));
+            }
+        
+        String novaURL = null;
 		if ( urlOriginal.contains("apphubhml")) {
-
 		novaURL = urlOriginal.replace("apphubhml", "apphubhml.portoseguro.brasil");
 		}
-
+       System.out.println(MessageFormat.format("URL:{0}",novaURL));
 		abrirUrl(novaURL);
-
 		esperarPaginaAbrirContains("Aviso de Sinistro", 30);
 		}
 		
