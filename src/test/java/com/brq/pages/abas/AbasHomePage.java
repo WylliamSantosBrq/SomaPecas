@@ -1,6 +1,7 @@
 package com.brq.pages.abas;
 
 import java.text.MessageFormat;
+import java.util.HashSet;
 import java.util.Set;
 
 import org.openqa.selenium.WebDriver;
@@ -26,7 +27,7 @@ public class AbasHomePage extends Pagina implements AbasMenuSuperior {
 		
         System.out.println(MessageFormat.format("URL:{0}",urlOriginal));
         
-        Set<String> janelas = DriverWeb.getDriver().getWindowHandles();
+        Set<String> janelas = DriverWeb.getDriver().getWindowHandles(),urls = new HashSet<>();
         for(String janela:janelas)       {
                 driver.switchTo().window(janela);
                 System.out.println(MessageFormat.format("Janela encontrada:{0}\nTítulo:{1}\nURL:{2}",//
