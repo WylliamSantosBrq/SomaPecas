@@ -46,7 +46,7 @@ public class AbasHomePage extends Pagina implements AbasMenuSuperior {
 		}
        System.out.println(MessageFormat.format("URL:{0}",novaURL));
 		abrirUrl(novaURL);
-		esperarPaginaAbrirContains("Aviso de Sinistro", 30);
+		esperarPaginaAbrirContains("Aviso de Sinistro", 60);
 		}
 		
 //		IEsperaWeb.esperarJanelaComTitulo("Aviso de Sinistro", 30);
