@@ -1,22 +1,21 @@
 pipeline {
     agent any
-    
-    tools {
-    	maven "3.6.0"    
+    tools{
+        jdk "JAVA_HOME"
     }
-    
     stages {
-   		stage ('Build'){
+   		stage ('Tests execution'){
    			steps {
-   				sh "mvn -version"
-   				sh "mvn clean install"  
+   				bat 'mvn clean package'    
    			}     		
    		}
-   	}
-		post {
-		    always {
-		        cleanWs()
-		        }
-		    }
+   		 stage ('Cucumber Reports') {
 
-		}
+            steps {
+                cucumber buildStatus: "UNSTABLE",
+                    fileIncludePattern: "**/cucumber.json",
+                    jsonReportDirectory: 'target'
+			   }
+         }
+   	}
+}
