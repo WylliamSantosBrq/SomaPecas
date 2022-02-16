@@ -32,6 +32,7 @@ public interface AbasMenuAvisoLateral extends MenuLateral {
 			
 			case "AVISO DE SINISTRO2":
 				AbasMenuAvisoLateralElementos.BTN_AVISO_DE_SINISTRO2.esperarSerVisivel(30).clicar();
+				AbasMenuAvisoLateralElementos.DIV_LOADING.esperarSerInvisivel(240);
 				break;
 
 			case "MARCAÇÃO DE VISTORIA":

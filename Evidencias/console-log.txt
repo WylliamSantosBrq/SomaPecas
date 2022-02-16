@@ -1671,3 +1671,743 @@
 [SEVERE] 1644519907420 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
 [SEVERE] 1644519986994 - https://apphubhml/avisosinistro/resources/js/siasiOnline.js 1888:36 Uncaught TypeError: Cannot set properties of null (setting 'onmouseover')
 
+[INFO] 2022-02-11 12:25:27,121 - StackTrace do console:
+[SEVERE] 1644589169556 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644589183747 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644589206427 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644589206529 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644589206640 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644589210343 - https://apphubhml/avisosinistro/resources/js/siasiOnline.js 1888:36 Uncaught TypeError: Cannot set properties of null (setting 'onmouseover')
+[SEVERE] 1644589396571 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644589396614 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644589396768 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644589406824 - https://apphubhml/avisosinistro/resources/js/siasiOnline.js 1888:36 Uncaught TypeError: Cannot set properties of null (setting 'onmouseover')
+
+[INFO] 2022-02-11 12:48:47,493 - StackTrace do console:
+[SEVERE] 1644590739403 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644590758013 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644590818108 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644590896995 - https://apphubhml/avisosinistro/carregarAbaNotas.do?rnd=0.9501050965826243 - Failed to load resource: net::ERR_NETWORK_CHANGED
+[SEVERE] 1644590913336 - https://apphubhml/avisosinistro/carregarAbaNotas.do?rnd=0.3894556167518777 - Failed to load resource: net::ERR_NETWORK_CHANGED
+
+[INFO] 2022-02-11 13:02:32,424 - StackTrace do console:
+[SEVERE] 1644591418338 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644591434210 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644591453143 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644591453489 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644591453703 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644591456787 - https://apphubhml/avisosinistro/resources/js/siasiOnline.js 1888:36 Uncaught TypeError: Cannot set properties of null (setting 'onmouseover')
+[SEVERE] 1644591621819 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644591621878 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644591622003 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644591632123 - https://apphubhml/avisosinistro/resources/js/siasiOnline.js 1888:36 Uncaught TypeError: Cannot set properties of null (setting 'onmouseover')
+
+[INFO] 2022-02-11 14:46:30,623 - StackTrace do console:
+[SEVERE] 1644597548392 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644597561581 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644597611842 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644597860310 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057639&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057639&codigoRamo=531&numeroServicoAtendimento=8445&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=8995&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=8995&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-11 15:16:50,895 - StackTrace do console:
+[SEVERE] 1644599528705 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644599547568 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644599599128 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644599807756 - https://apphubhml/avisosinistro/iniciarAnaliseRisco.do?rnd=0.9509784077805021 - Failed to load resource: net::ERR_CONNECTION_RESET
+
+[INFO] 2022-02-11 15:34:49,222 - StackTrace do console:
+[SEVERE] 1644600866559 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-11 16:24:01,763 - StackTrace do console:
+[SEVERE] 1644603520600 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644603544264 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644603563494 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-11 16:40:11,456 - StackTrace do console:
+[SEVERE] 1644603874835 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644604040337 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644604105998 - https://apphubhml/regulacaosinistroauto/visual/images/space.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644604128596 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644604198576 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-11 16:55:58,181 - StackTrace do console:
+[SEVERE] 1644604812810 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644604812858 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644604881039 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644605039326 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644605145745 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 910 Unsafe attempt to initiate navigation for frame with origin 'https://portalcorporativohml.portoseguro.brasil' from frame with URL 'https://apphubhml/acompanhamentosinistro/consinis.do??rnd=0.7290744466819956&numeroSinistroCompleto=53120213760'. The frame attempting navigation is neither same-origin with the target, nor is it the target's parent or opener.
+
+[SEVERE] 1644605145771 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644605156964 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644605244800 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644605245448 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644605251836 - https://apphubhml/avisosinistro/resources/js/siasiOnline.js 1888:36 Uncaught TypeError: Cannot set properties of null (setting 'onmouseover')
+[SEVERE] 1644605578938 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644605579537 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644605676738 - https://apphubhml/regulacaosinistroauto/visual/images/space.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644605677832 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-11 16:56:19,855 - StackTrace do console:
+
+[INFO] 2022-02-11 16:56:40,200 - StackTrace do console:
+
+[INFO] 2022-02-11 16:56:59,611 - StackTrace do console:
+
+[INFO] 2022-02-11 16:57:19,608 - StackTrace do console:
+
+[INFO] 2022-02-11 16:57:40,605 - StackTrace do console:
+
+[INFO] 2022-02-11 16:58:00,835 - StackTrace do console:
+
+[INFO] 2022-02-11 16:58:04,995 - StackTrace do console:
+
+[INFO] 2022-02-11 16:58:06,053 - StackTrace do console:
+
+[INFO] 2022-02-11 18:14:36,150 - StackTrace do console:
+[SEVERE] 1644608481468 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644608491529 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644608511726 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644608705330 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644608716533 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644608773281 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644608811011 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644608962526 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644609114970 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644609484554 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644609586083 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644609757482 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644609875574 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644609978471 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644609978521 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644609979356 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644610311466 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644610311522 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644610312004 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644610411779 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-11 18:14:58,080 - StackTrace do console:
+
+[INFO] 2022-02-11 18:15:17,620 - StackTrace do console:
+
+[INFO] 2022-02-11 18:15:39,640 - StackTrace do console:
+
+[INFO] 2022-02-11 18:15:58,571 - StackTrace do console:
+
+[INFO] 2022-02-11 18:16:19,009 - StackTrace do console:
+
+[INFO] 2022-02-11 18:16:40,075 - StackTrace do console:
+[SEVERE] 1644610580368 - https://portalcorporativohml.portoseguro.brasil/portaislogin/loginSistemas/img/logo_bg_padrao.jpg - Failed to load resource: net::ERR_CONNECTION_RESET
+
+[INFO] 2022-02-14 14:22:16,055 - StackTrace do console:
+[SEVERE] 1644854941593 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644854955423 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644855003869 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644855367064 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644855378308 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644855403357 - https://apphubhml/acompanhamentosinistro/resources/js/pesquisa_documentos.js - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1644855413234 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644855450546 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644855605677 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 14:38:52,696 - StackTrace do console:
+[SEVERE] 1644856588481 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644856604319 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-14 14:55:40,002 - StackTrace do console:
+[SEVERE] 1644856830437 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644857055873 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644857146498 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644857178987 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 15:06:07,066 - StackTrace do console:
+[SEVERE] 1644857820407 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644857832640 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644857877734 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 15:16:51,011 - StackTrace do console:
+[SEVERE] 1644858442316 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644858681814 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644858766251 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644858837540 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644859007919 - https://apphubhml/avisosinistro/iniciarAnaliseRisco.do?rnd=0.540904440686137 - Failed to load resource: net::ERR_CONNECTION_RESET
+
+[INFO] 2022-02-14 15:30:15,184 - StackTrace do console:
+[SEVERE] 1644859048440 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644859210763 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644859249510 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644859260754 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644859357242 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644859357650 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644859364077 - https://apphubhml/avisosinistro/resources/js/siasiOnline.js 1888:36 Uncaught TypeError: Cannot set properties of null (setting 'onmouseover')
+[SEVERE] 1644859683970 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644859684856 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 15:30:35,932 - StackTrace do console:
+
+[INFO] 2022-02-14 15:30:58,087 - StackTrace do console:
+
+[INFO] 2022-02-14 15:31:18,160 - StackTrace do console:
+
+[INFO] 2022-02-14 15:31:39,559 - StackTrace do console:
+
+[INFO] 2022-02-14 15:32:00,106 - StackTrace do console:
+
+[INFO] 2022-02-14 15:32:27,648 - StackTrace do console:
+
+[INFO] 2022-02-14 15:32:47,831 - StackTrace do console:
+
+[INFO] 2022-02-14 16:23:15,916 - StackTrace do console:
+[SEVERE] 1644862444412 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644862457139 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644862510145 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644862818888 - https://apphubhml/visual/images/space.gif - Failed to load resource: net::ERR_CONNECTION_RESET
+[SEVERE] 1644862818888 - https://apphubhml/visual/images/bg_titulo01.gif - Failed to load resource: net::ERR_CONNECTION_RESET
+
+[INFO] 2022-02-14 16:37:16,396 - StackTrace do console:
+[SEVERE] 1644863031873 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644863180775 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644863261686 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644863347206 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 16:46:59,782 - StackTrace do console:
+[SEVERE] 1644863900283 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644864089618 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644864187177 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644864198488 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644864316956 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644864317009 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644864317888 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 16:47:21,809 - StackTrace do console:
+
+[INFO] 2022-02-14 16:47:43,340 - StackTrace do console:
+
+[INFO] 2022-02-14 16:48:08,586 - StackTrace do console:
+
+[INFO] 2022-02-14 16:48:28,322 - StackTrace do console:
+
+[INFO] 2022-02-14 16:48:52,614 - StackTrace do console:
+
+[INFO] 2022-02-14 16:49:12,807 - StackTrace do console:
+
+[INFO] 2022-02-14 16:49:32,118 - StackTrace do console:
+
+[INFO] 2022-02-14 16:56:19,728 - StackTrace do console:
+[SEVERE] 1644864590975 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644864603253 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644864659833 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 16:56:40,196 - StackTrace do console:
+
+[INFO] 2022-02-14 17:02:02,570 - StackTrace do console:
+[SEVERE] 1644865040965 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 17:11:32,513 - StackTrace do console:
+[SEVERE] 1644865403608 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644865565184 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644865669974 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644865681316 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644865740546 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644865806625 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644865806665 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644865807084 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 17:11:55,192 - StackTrace do console:
+
+[INFO] 2022-02-14 17:12:16,975 - StackTrace do console:
+
+[INFO] 2022-02-14 17:12:39,020 - StackTrace do console:
+
+[INFO] 2022-02-14 17:13:02,144 - StackTrace do console:
+
+[INFO] 2022-02-14 17:13:25,792 - StackTrace do console:
+
+[INFO] 2022-02-14 17:13:45,020 - StackTrace do console:
+
+[INFO] 2022-02-14 17:14:05,440 - StackTrace do console:
+
+[INFO] 2022-02-14 17:24:07,782 - StackTrace do console:
+[SEVERE] 1644866306640 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644866322842 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644866342949 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 17:28:16,167 - StackTrace do console:
+[SEVERE] 1644866684274 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644866830948 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 17:35:22,178 - StackTrace do console:
+[SEVERE] 1644866985567 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 17:43:00,340 - StackTrace do console:
+[SEVERE] 1644867357640 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644867523966 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644867572055 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644867583342 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644867615016 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644867683901 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644867684648 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 17:43:23,231 - StackTrace do console:
+
+[INFO] 2022-02-14 17:52:59,983 - StackTrace do console:
+[SEVERE] 1644867845366 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644867860613 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644867909578 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 17:58:19,314 - StackTrace do console:
+[SEVERE] 1644868418788 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644868569038 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 18:12:36,610 - StackTrace do console:
+[SEVERE] 1644868737693 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644868937299 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644868948959 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644869004546 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644869076555 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644869270377 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644869393429 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644869489447 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644869489489 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644869489779 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 18:12:59,269 - StackTrace do console:
+
+[INFO] 2022-02-14 18:23:11,925 - StackTrace do console:
+[SEVERE] 1644869870447 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644869889471 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644869911281 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 18:41:36,144 - StackTrace do console:
+[SEVERE] 1644870621099 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644870633477 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644870655074 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644870849493 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644870860670 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644870911023 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644870952040 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644871165844 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 18:47:13,139 - StackTrace do console:
+[SEVERE] 1644871340617 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 18:56:40,023 - StackTrace do console:
+[SEVERE] 1644871721176 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644871896314 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644872024139 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644872122205 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644872122260 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644872122468 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 21:41:21,662 - StackTrace do console:
+[SEVERE] 1644880257885 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644880276360 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644880332259 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644880727374 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644880764242 - https://apphubhml/regulacaosinistroauto/visual/images/space.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644880765279 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644880818318 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644880855959 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644881011980 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644881182617 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644881635152 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644881644319 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644881655297 - https://apphubhml/regulacaosinistroauto/visual/images/space.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644881738577 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644881878670 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644881928144 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644882020936 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644882021165 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 21:41:43,679 - StackTrace do console:
+
+[INFO] 2022-02-14 21:52:36,971 - StackTrace do console:
+[SEVERE] 1644882355957 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644882375131 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644882447390 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 22:09:12,774 - StackTrace do console:
+[SEVERE] 1644882820833 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644882990258 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644883102775 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644883138285 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644883378576 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644883388741 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644883493188 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644883577775 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644883614932 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644883626152 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644883718268 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644883718339 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644883718599 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 22:09:33,457 - StackTrace do console:
+
+[INFO] 2022-02-14 22:09:59,873 - StackTrace do console:
+
+[INFO] 2022-02-14 22:10:25,644 - StackTrace do console:
+
+[INFO] 2022-02-14 22:17:07,371 - StackTrace do console:
+[SEVERE] 1644883861278 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644883873211 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644883931505 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644884213044 - https://apphubhml/avisosinistro/iniciarAnaliseRisco.do?rnd=0.05853215481135332 - Failed to load resource: net::ERR_EMPTY_RESPONSE
+
+[INFO] 2022-02-14 22:22:18,463 - StackTrace do console:
+[SEVERE] 1644884277012 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644884408170 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 22:29:08,040 - StackTrace do console:
+[SEVERE] 1644884619634 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 22:31:14,836 - StackTrace do console:
+[SEVERE] 1644885019251 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 22:32:28,560 - StackTrace do console:
+[SEVERE] 1644885116871 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644885116928 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644885117071 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 22:32:54,872 - StackTrace do console:
+
+[INFO] 2022-02-14 22:41:39,624 - StackTrace do console:
+[SEVERE] 1644885417756 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644885432700 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644885458786 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 22:50:54,064 - StackTrace do console:
+[SEVERE] 1644885740942 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644885880877 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644885971136 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644886012164 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 22:57:13,668 - StackTrace do console:
+[SEVERE] 1644886331018 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644886455766 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644886498273 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644886509531 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644886602163 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644886602196 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644886602560 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-14 22:57:46,217 - StackTrace do console:
+
+[INFO] 2022-02-14 22:58:12,242 - StackTrace do console:
+
+[INFO] 2022-02-14 22:58:38,194 - StackTrace do console:
+
+[INFO] 2022-02-14 22:59:02,228 - StackTrace do console:
+
+[INFO] 2022-02-14 22:59:29,596 - StackTrace do console:
+
+[INFO] 2022-02-14 22:59:54,220 - StackTrace do console:
+
+[INFO] 2022-02-14 23:00:23,169 - StackTrace do console:
+
+[INFO] 2022-02-15 10:16:52,828 - StackTrace do console:
+[SEVERE] 1644926506971 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644926523492 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644926558455 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644926726710 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644926738028 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644926767912 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644926844211 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644927049980 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644927228190 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644927409668 - https://apphubhml/avisosinistro/iniciarAnaliseRisco.do?rnd=0.4539936240603839 - Failed to load resource: net::ERR_EMPTY_RESPONSE
+
+[INFO] 2022-02-15 10:22:57,703 - StackTrace do console:
+[SEVERE] 1644927461782 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644927551247 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644927649495 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644927660689 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644927742272 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644927742302 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644927742534 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 10:29:02,097 - StackTrace do console:
+
+[INFO] 2022-02-15 10:49:00,449 - StackTrace do console:
+[WARNING] 1644929268652 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+[WARNING] 1644929268652 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-02-15 10:53:55,564 - StackTrace do console:
+
+[INFO] 2022-02-15 10:54:56,729 - StackTrace do console:
+
+[INFO] 2022-02-15 10:56:34,883 - StackTrace do console:
+
+[INFO] 2022-02-15 10:57:12,320 - StackTrace do console:
+
+[INFO] 2022-02-15 10:58:18,378 - StackTrace do console:
+
+[INFO] 2022-02-15 11:00:10,108 - StackTrace do console:
+[SEVERE] 1644929985568 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644930002564 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-15 11:00:31,689 - StackTrace do console:
+
+[INFO] 2022-02-15 11:08:21,952 - StackTrace do console:
+[SEVERE] 1644930092873 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644930103179 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644930235031 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 11:13:57,026 - StackTrace do console:
+[SEVERE] 1644930542549 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644930706694 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 11:17:47,455 - StackTrace do console:
+[SEVERE] 1644930919084 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644930980757 - https://apphubhml/avisosinistro/carregarAbaNotas.do?rnd=0.7516099614390246 - Failed to load resource: net::ERR_EMPTY_RESPONSE
+[SEVERE] 1644931005773 - https://apphubhml/avisosinistro/carregarAbaTarefas.do?rnd=0.7992639393096277 - Failed to load resource: net::ERR_CONNECTION_RESET
+
+[INFO] 2022-02-15 11:26:45,783 - StackTrace do console:
+[SEVERE] 1644931111572 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644931240816 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644931355591 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644931366922 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644931437642 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644931524739 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644931525658 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 11:37:48,142 - StackTrace do console:
+[SEVERE] 1644932177791 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644932195939 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644932256737 - https://apphubhml/avisosinistro/carregarAbas.do 6771:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 11:43:19,543 - StackTrace do console:
+[SEVERE] 1644932311951 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644932469183 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 11:50:17,313 - StackTrace do console:
+[SEVERE] 1644932683405 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 11:55:57,907 - StackTrace do console:
+[SEVERE] 1644933055572 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644933148012 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644933191203 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644933202476 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644933256031 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644933327477 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644933327653 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 13:38:20,340 - StackTrace do console:
+
+[INFO] 2022-02-15 13:38:50,847 - StackTrace do console:
+
+[INFO] 2022-02-15 14:22:08,153 - StackTrace do console:
+
+[INFO] 2022-02-15 14:22:54,995 - StackTrace do console:
+
+[INFO] 2022-02-15 15:14:06,521 - StackTrace do console:
+
+[INFO] 2022-02-15 15:16:28,440 - StackTrace do console:
+
+[INFO] 2022-02-15 15:17:47,083 - StackTrace do console:
+
+[INFO] 2022-02-15 15:39:09,950 - StackTrace do console:
+[SEVERE] 1644946070556 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644946084498 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644946174845 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644946636830 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644946669726 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644946721734 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+
+[INFO] 2022-02-15 15:46:24,355 - StackTrace do console:
+[SEVERE] 1644946842810 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 15:46:54,928 - StackTrace do console:
+
+[INFO] 2022-02-15 15:49:31,337 - StackTrace do console:
+[SEVERE] 1644947272876 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644947273270 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 15:57:05,331 - StackTrace do console:
+
+[INFO] 2022-02-15 16:10:24,025 - StackTrace do console:
+[SEVERE] 1644948037246 - https://apphubhml/avisosinistro/carregarAbas.do 6740:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644948214515 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051796&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051796&codigoRamo=531&numeroServicoAtendimento=2559&exibirCondicoesParticulares=false&nomeInformanteSinistro=MARCELA%20TONINI%20VENTURINI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=6548002&amp;numeroSinistro=3790&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3790&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=13&sequenciaItemSinistro=0&origemAction=consultaAviso 6740:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644948236656 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644948246844 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644948381578 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644948589402 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051805&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051805&codigoRamo=531&numeroServicoAtendimento=2568&exibirCondicoesParticulares=false&nomeInformanteSinistro=TERESA%20CRISTINA%20CAMPOS%20GUERRA&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=10534658&amp;numeroSinistro=3798&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3798&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=4&sequenciaItemSinistro=0&origemAction=consultaAviso 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644948618272 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-15 16:36:55,542 - StackTrace do console:
+[SEVERE] 1644948709832 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644948899025 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051807&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051807&codigoRamo=531&numeroServicoAtendimento=2570&exibirCondicoesParticulares=false&nomeInformanteSinistro=TERESA%20CRISTINA%20CAMPOS%20GUERRA&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=10534658&amp;numeroSinistro=3799&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3799&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=4&sequenciaItemSinistro=0&origemAction=consultaAviso 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644948937274 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644948947494 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644949038099 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644949240766 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051807&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051807&codigoRamo=531&numeroServicoAtendimento=2570&exibirCondicoesParticulares=false&nomeInformanteSinistro=TERESA%20CRISTINA%20CAMPOS%20GUERRA&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=10534658&amp;numeroSinistro=3799&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3799&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=4&sequenciaItemSinistro=0&origemAction=consultaAviso 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644949259173 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644949275563 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644949377849 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644949522960 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051820&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051820&codigoRamo=531&numeroServicoAtendimento=2583&exibirCondicoesParticulares=false&nomeInformanteSinistro=TERESA%20CRISTINA%20CAMPOS%20GUERRA&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=10534658&amp;numeroSinistro=3809&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3809&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=4&sequenciaItemSinistro=0&origemAction=consultaAviso 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644949610396 - https://apphubhml/avisosinistro/carregarAbas.do 6738:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644949762588 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051056&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051056&codigoRamo=531&numeroServicoAtendimento=1799&exibirCondicoesParticulares=false&nomeInformanteSinistro=ALESSANDRO%20TESTE%20MAR&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139175808&amp;numeroSinistro=3143&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3143&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6738:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 16:44:26,241 - StackTrace do console:
+[SEVERE] 1644950245981 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644950263592 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644950321106 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 17:05:57,967 - StackTrace do console:
+[SEVERE] 1644950749545 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644950975430 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057885&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057885&codigoRamo=531&numeroServicoAtendimento=8751&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=9225&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=9225&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644951074742 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[SEVERE] 1644951139153 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644951495889 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1644951507243 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644951624437 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644951724480 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051763&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051763&codigoRamo=531&numeroServicoAtendimento=2526&exibirCondicoesParticulares=false&nomeInformanteSinistro=VANICE%20VERGANI%20DEGREGORI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=13086860&amp;numeroSinistro=3760&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3760&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=15&sequenciaItemSinistro=0&origemAction=consultaAviso 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644951838279 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644951920321 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644951920387 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1644951920503 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 17:21:09,764 - StackTrace do console:
+[SEVERE] 1644952019505 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644952208158 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057639&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057639&codigoRamo=531&numeroServicoAtendimento=8445&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=8995&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=8995&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644952346671 - https://apphubhml/avisosinistro/carregarAbas.do 6740:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1644952488408 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051796&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051796&codigoRamo=531&numeroServicoAtendimento=2559&exibirCondicoesParticulares=false&nomeInformanteSinistro=MARCELA%20TONINI%20VENTURINI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=6548002&amp;numeroSinistro=3790&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3790&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=13&sequenciaItemSinistro=0&origemAction=consultaAviso 6740:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 17:24:19,042 - StackTrace do console:
+[SEVERE] 1644952906159 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-15 17:31:06,981 - StackTrace do console:
+[SEVERE] 1644953135946 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-16 10:24:33,530 - StackTrace do console:
+[SEVERE] 1645013800014 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645013818738 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645013843890 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1645014034753 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1645014075891 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645014118337 - https://chat-sa.smark.io/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+
+[INFO] 2022-02-16 10:25:57,928 - StackTrace do console:
+
+[INFO] 2022-02-16 10:29:03,070 - StackTrace do console:
+[SEVERE] 1645014393006 - https://apphubhml/avisosinistro/carregarAbas.do 6700:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-16 10:31:29,592 - StackTrace do console:
+
+[INFO] 2022-02-16 10:37:24,081 - StackTrace do console:
+[SEVERE] 1645014748655 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1645014913728 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057639&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057639&codigoRamo=531&numeroServicoAtendimento=8445&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=8995&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=8995&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-16 11:50:27,862 - StackTrace do console:
+[SEVERE] 1645019006062 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645019026792 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645019095604 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-16 11:51:01,460 - StackTrace do console:
+
+[INFO] 2022-02-16 11:58:19,356 - StackTrace do console:
+[SEVERE] 1645019522151 - https://apphubhml/avisosinistro/carregarAbas.do 6284:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1645019824297 - https://apphubhml/avisosinistro/iniciarAnaliseRisco.do?rnd=0.5646242079458583 - Failed to load resource: the server responded with a status of 502 (Bad Gateway)
+
+[INFO] 2022-02-16 11:59:26,075 - StackTrace do console:
+[SEVERE] 1645019955267 - https://apphubhml/avisosinistro/carregarAbas.do 6678:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-16 12:00:36,937 - StackTrace do console:
+[SEVERE] 1645020007376 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645020007464 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645020007601 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-16 12:05:12,249 - StackTrace do console:
+[SEVERE] 1645020079934 - https://apphubhml/avisosinistro/carregarAbas.do 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1645020212950 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100057639&perfilUsuario=ANALISTA&numeroAvisoSinistro=100057639&codigoRamo=531&numeroServicoAtendimento=8445&exibirCondicoesParticulares=false&nomeInformanteSinistro=RONALDO%20JOSE%20JAGNETZ&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=139197186&amp;numeroSinistro=8995&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=8995&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=34&sequenciaItemSinistro=0&origemAction=consultaAviso 6698:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-16 12:08:40,779 - StackTrace do console:
+[SEVERE] 1645020346083 - https://apphubhml/avisosinistro/carregarAbas.do 6740:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1645020479049 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051796&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051796&codigoRamo=531&numeroServicoAtendimento=2559&exibirCondicoesParticulares=false&nomeInformanteSinistro=MARCELA%20TONINI%20VENTURINI&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=6548002&amp;numeroSinistro=3790&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3790&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=13&sequenciaItemSinistro=0&origemAction=consultaAviso 6740:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1645020501812 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1645020515110 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645020519477 - https://apphubhml/acompanhamentosinistro/consinis.do??rnd=0.626550605593905&numeroSinistroCompleto=53120213790 1641 Unsafe attempt to initiate navigation for frame with origin 'https://portalcorporativohml.portoseguro.brasil' from frame with URL 'https://apphubhml/acompanhamentosinistro/consinis.do??rnd=0.626550605593905&numeroSinistroCompleto=53120213790'. The frame attempting navigation is neither same-origin with the target, nor is it the target's parent or opener.
+
+
+[INFO] 2022-02-16 12:12:19,606 - StackTrace do console:
+[SEVERE] 1645020550949 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-16 12:16:04,592 - StackTrace do console:
+[SEVERE] 1645020772927 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[WARNING] 1645020923518 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-02-16 12:23:51,123 - StackTrace do console:
+[SEVERE] 1645021043953 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1645021396566 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051807&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051807&codigoRamo=531&numeroServicoAtendimento=2570&exibirCondicoesParticulares=false&nomeInformanteSinistro=TERESA%20CRISTINA%20CAMPOS%20GUERRA&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=10534658&amp;numeroSinistro=3799&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3799&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=4&sequenciaItemSinistro=0&origemAction=consultaAviso 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1645021415461 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1645021425609 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+
+[INFO] 2022-02-16 12:53:45,266 - StackTrace do console:
+[SEVERE] 1645022696394 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645022727989 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645022778815 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-16 14:24:30,903 - StackTrace do console:
+[SEVERE] 1645028525694 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645028549510 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645028598243 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645028598594 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645028598954 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-16 14:31:48,784 - StackTrace do console:
+[SEVERE] 1645029034321 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645029058153 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645029077144 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645029077321 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645029077398 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-16 14:33:15,514 - StackTrace do console:
+[SEVERE] 1645029124220 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645029145866 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645029163791 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645029163944 - https://apphubhml/visual/trs/avisoSinistro.css - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645029164029 - https://apphubhml/avisosinistro/carregarAbas.do 4342:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-16 15:15:29,371 - StackTrace do console:
+[SEVERE] 1645031420845 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645031431702 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645031449426 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1645031612953 - https://apphubhml/avisosinistro/carregarAbas.do?abaDadosBasicosVO.numeroAvisoSinistro=100051807&perfilUsuario=ANALISTA&numeroAvisoSinistro=100051807&codigoRamo=531&numeroServicoAtendimento=2570&exibirCondicoesParticulares=false&nomeInformanteSinistro=TERESA%20CRISTINA%20CAMPOS%20GUERRA&codigoInformanteSinistro=20&digitoENumeroItem=19&anoServicoAtendimento=21&codigoUsuario=F0106929&flagConfereSOMA=true&amp;itemSinistro=0&codigoFaseAvisoSinistro=1&amp;anoSinistro=2021&digitoENumeroApolice=10534658&amp;numeroSinistro=3799&codigoEmpresaSolicitante=1&destinationAction=consultarAvisoPorNumeroSinistro.do?codigoRamoSinistro=531&autoPremium=N&numeroSinistro=3799&telaOrigem=consultaAviso&anoSinistro=2021&privateLabel=N&tipoUsuarioSolicitante=F&codigoSucursal=4&sequenciaItemSinistro=0&origemAction=consultaAviso 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+[SEVERE] 1645031669236 - https://apphubhml/acompanhamentosinistro/resources/js/acompanhamentoSinistroUtils.js 917:1 Uncaught ReferenceError: novaJanela is not defined
+[SEVERE] 1645031679396 - https://apphubhml/servicossinistroautome/images/box_cinza.gif - Failed to load resource: the server responded with a status of 404 (Not Found)
+[WARNING] 1645031717826 - chrome-error://chromewebdata/ 6771:10 "crbug/1173575, non-JS module files deprecated."
+
+[INFO] 2022-02-16 16:19:49,503 - StackTrace do console:
+[SEVERE] 1645035135470 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645035152742 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645035205784 - https://apphubhml/avisosinistro/carregarAbas.do 6696:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-16 18:25:23,992 - StackTrace do console:
+[SEVERE] 1645042719116 - https://portalcorporativohml.portoseguro.brasil/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645042731827 - https://apphubhml/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)
+[SEVERE] 1645042784322 - https://apphubhml/avisosinistro/carregarAbas.do 6833:40 Uncaught TypeError: Cannot read properties of null (reading 'top')
+
+[INFO] 2022-02-16 18:36:16,188 - StackTrace do console:
+[SEVERE] 1645043744686 - https://apphubhml/avisosinistro/visual/images/menu/fundoMenu.gif - Failed to load resource: net::ERR_NETWORK_CHANGED
+[SEVERE] 1645043744686 - https://apphubhml/avisosinistro/visual/images/menu/pastaFechada.gif - Failed to load resource: net::ERR_NETWORK_CHANGED
+[SEVERE] 1645043744686 - https://apphubhml/avisosinistro/visual/images/menu/folha.gif - Failed to load resource: net::ERR_NETWORK_CHANGED
+[SEVERE] 1645043744688 - https://apphubhml/avisosinistro/visual/images/menu/pixel.gif - Failed to load resource: net::ERR_NETWORK_CHANGED
+[SEVERE] 1645043775031 - https://apphubhml/avisosinistro/visual/images/menu/folha.gif - Failed to load resource: net::ERR_CONNECTION_TIMED_OUT
+
+[INFO] 2022-02-16 18:36:38,933 - StackTrace do console:
+
+[INFO] 2022-02-16 18:37:01,231 - StackTrace do console:
+
+[INFO] 2022-02-16 18:37:23,355 - StackTrace do console:
+
+[INFO] 2022-02-16 18:37:43,326 - StackTrace do console:
+
+[INFO] 2022-02-16 18:38:05,424 - StackTrace do console:
+
+[INFO] 2022-02-16 18:38:27,565 - StackTrace do console:
+
+[INFO] 2022-02-16 18:38:49,662 - StackTrace do console:
+
+[INFO] 2022-02-16 18:39:11,816 - StackTrace do console:
+
+[INFO] 2022-02-16 18:39:33,921 - StackTrace do console:
+
+[INFO] 2022-02-16 18:39:56,042 - StackTrace do console:
+

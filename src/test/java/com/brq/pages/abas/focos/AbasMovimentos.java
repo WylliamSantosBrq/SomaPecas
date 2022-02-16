@@ -33,7 +33,7 @@ public class AbasMovimentos extends Foco implements Campos {
 	}
 	public void validarCampoSaldo() {
 		
-		esperarSegundos(20);
+		esperarSegundos(5);
 		((Frame) AbasAbaElementos.FRAME_PRINCIPAL.esperarExistir(30)).entrar();
 		
 		String saldo = AbasMovimentosElementos.OUTPUT_SALDO.obterTexto();

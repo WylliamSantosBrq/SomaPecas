@@ -176,7 +176,7 @@ public class AbasHistorico extends Foco implements Tabelas {
 	public void validarCampoData() {
 		BRQLogger.logMethod();
 		
-		IEsperaWeb.esperarSegundos(20);
+		IEsperaWeb.esperarSegundos(5);
 		try (Frame framePrincipal = AbasAbaElementos.FRAME_PRINCIPAL.entrar()) {
 			AbasHistoricoElementos.CAMPO_DATA.esperarSerVisivel(DEFAULT_STEPS_TIMEOUT);
 			BRQLogger.logMethod("O campo [Data] apareceu em tela.");
