@@ -1,40 +1,21 @@
 pipeline {
-	agent any
-	stages {
-		stage('One') {
-			steps {
-				echo 'Hi, this is Soumitra from roytuts'
-			}
-		}
-		
-		stage('Two') {
-			steps {
-				input('Do you want to proceed?')
-			}
-		}
-		
-		stage('Build') {
+    agent any
+    tools{
+        jdk "JAVA_HOME"
+    }
+    stages {
+   		stage ('Tests execution'){
+   			steps {
+   				bat 'mvn clean package'    
+   			}     		
+   		}
+   		 stage ('Cucumber Reports') {
+
             steps {
-                bat './gradlew build'
-            }
-        }
-        
-        stage('Test') {
-            steps {
-                bat './gradlew test'
-            }
-        }
-        
-        stage('Check') {
-            steps {
-                bat './gradlew check'
-            }
-        }      
-		
-		stage('Five') {
-			steps {
-				echo 'Finished'
-			}
-		}		
-	}
+                cucumber buildStatus: "UNSTABLE",
+                    fileIncludePattern: "**/cucumber.json",
+                    jsonReportDirectory: 'target'
+			   }
+         }
+   	}
 }
