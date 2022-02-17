@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        jdk 'JAVA_LOCAL'
+        jdk 'JAVA_HOME'
     }
 	stages {
    		stage ('Build'){
