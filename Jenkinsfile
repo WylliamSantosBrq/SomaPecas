@@ -4,9 +4,15 @@ pipeline {
         jdk 'JAVA_HOME'
     }
 	stages {
+   		stage ('Build'){
+   			steps {
+   				sh 'mvn clean package -DskipTests=true'    
+   			}     		
+   		}
+   	
    		stage ('Tests Execution'){
    			steps {
-   				bat 'mvn test'    
+   				sh 'mvn test'    
    			}     		
    		}
    	}
