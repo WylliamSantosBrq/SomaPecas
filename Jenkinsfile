@@ -6,13 +6,13 @@ pipeline {
 	stages {
    		stage ('Build'){
    			steps {
-   				sh 'mvn clean package -DskipTests=true'    
+   				bat 'mvn clean package -DskipTests=true'    
    			}     		
    		}
    	
    		stage ('Tests Execution'){
    			steps {
-   				sh 'mvn test'    
+   				bat 'mvn test'    
    			}     		
    		}
    	}
