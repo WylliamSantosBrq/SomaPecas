@@ -6,21 +6,14 @@ pipeline {
 	stages {
    		stage ('Build'){
    			steps {
-   				bat 'mvn clean package -DskipTests=true'    
+   				sh 'mvn clean package -DskipTests=true'    
    			}     		
    		}
    	
    		stage ('Tests Execution'){
    			steps {
-   				bat 'mvn test'    
+   				sh 'mvn test'    
    			}     		
    		}
    	}
-    post {
-          always {
-               cucumber buildStatus: "UNSTABLE",
-               fileIncludePattern: "**/cucumber.json",
-               jsonReportDirectory: 'target'
-          	}
-	  }
 }
