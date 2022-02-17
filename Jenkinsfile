@@ -1,28 +1,17 @@
 pipeline {
     agent {
-    docker{
-        image 'maven:3-alpine' 
-        args '-v /root/.m2:/root/.m2'
-    }
-}
-    stages {
-   		stage ('Build'){
-   			steps {
-   				 sh 'mvn -B -DskipTests clean package'
-   			}     		
-   		}
-   		stage('Test Execution') { 
-            steps {
-                sh 'mvn test' 
-            }
+        docker{
+        	   image 'openjdk:8-jre'
+         	   image 'mjalas/javafx:latest'
+               image 'maven:3-alpine'
+               args '-v /root/.m2:/root/.m2'
         }
-   		 stage ('Cucumber Reports') {
-
-            steps {
-                cucumber buildStatus: "UNSTABLE",
-                    fileIncludePattern: "**/cucumber.json",
-                    jsonReportDirectory: 'target'
-			   }
-         }
-   	}
+    }
+           stages {
+               stage('Build') {
+                   steps {
+                       sh 'mvn clean package'
+                   }
+               }
+           }
 }
