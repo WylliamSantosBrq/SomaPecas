@@ -34,7 +34,7 @@ import cucumber.api.SnippetType;
 		}, //
 		glue = { "com.brq.steps", "com.brq.executar" }, //
 		tags = {  
-//				  "@CT001, "
+				  "@CT001, "
 //				+ "@CT002, "
 //				+ "@CT003, "
 //   			+ "@CT004, "
