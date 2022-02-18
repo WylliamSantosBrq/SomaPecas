@@ -1,13 +1,30 @@
 pipeline {
-  	agent { docker { image 'maven:3.3.3' } }
-		stages {
-		    stage('log version info'){
-		         steps {
-		         	sh 'mvn --version'
-		         	sh 'mvn clean install'
-		    }
-		}
-	}
+    agent {
+    docker{
+        image 'maven:3-alpine' 
+        args '-v /root/.m2:/root/.m2'
+    }
+}
+    stages {
+   		stage ('Build'){
+   			steps {
+   				 sh 'mvn -B -DskipTests clean package'
+   			}     		
+   		}
+   		stage('Test Execution') { 
+            steps {
+                sh 'mvn test' 
+            }
+        }
+   		 stage ('Cucumber Reports') {
+
+            steps {
+                cucumber buildStatus: "UNSTABLE",
+                    fileIncludePattern: "**/cucumber.json",
+                    jsonReportDirectory: 'target'
+			   }
+         }
+   	}
 }
 		
 
