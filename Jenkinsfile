@@ -1,14 +1,13 @@
 pipeline {
     agent {
     docker{
-  		image 'maven: 3.8.4'	
-   		args '-u root'
+   		image 'gradle:6.7-jdk8'
     }
 }
     stages {
    		stage ('Build'){
    			steps {
-   				 sh 'mvn --version'
+   				 sh 'gradle --version'
    			}     		
    		}
    	}
