@@ -9,8 +9,8 @@ pipeline {
    				bat 'mvn -Dmaven.test.failure.ignore=true install'    
    			}     		
    		}
-   		stage ('Cucumber Reports') {
-            steps {
+   		post {
+            always {
                 cucumber buildStatus: "UNSTABLE",
                 fileIncludePattern: "**/cucumber.json",
                 jsonReportDirectory: 'target'
