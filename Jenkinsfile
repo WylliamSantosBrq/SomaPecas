@@ -9,7 +9,9 @@ pipeline {
    				bat 'mvn -Dmaven.test.failure.ignore=true install'    
    			}     		
    		}
-   		post {
+
+   	}
+   	   	post {
             always {
                 cucumber buildStatus: "UNSTABLE",
                 fileIncludePattern: "**/cucumber.json",
@@ -19,8 +21,6 @@ pipeline {
 				
 			   }
          }
-
-   	}
 }
 
 
