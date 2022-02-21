@@ -6,7 +6,7 @@ pipeline {
     stages {
    		stage ('Tests execution'){
    			steps {
-   				echo 'java -version'    
+   				echo 'java --version'    
    			}     		
    		}
 
