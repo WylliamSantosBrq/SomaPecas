@@ -1,10 +1,10 @@
 pipeline {
-    agent {
-    docker{
-  		image 'maven:3-alpine'	
-		args '-u root'
+    agent any
+    
+    tools{
+  		jdk "JAVA_HOME"
     }
-}
+
     stages {
    		stage ('Build'){
    			steps {
