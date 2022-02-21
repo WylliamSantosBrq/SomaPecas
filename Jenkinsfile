@@ -1,25 +1,23 @@
 pipeline {
     agent any
-    tools { 
-        maven 'Maven 3.8.4' 
-        jdk 'jdk8' 
+    tools{
+        jdk "JAVA_HOME"
     }
     stages {
-        stage ('Initialize') {
-            steps {
-                sh '''
-                    echo "PATH = ${PATH}"
-                    echo "M2_HOME = ${M2_HOME}"
-                ''' 
-            }
-        }
+   		stage ('Tests execution'){
+   			steps {
+   				sh 'mvn clean package'    
+   			}     		
+   		}
+   		 stage ('Cucumber Reports') {
 
-        stage ('Build') {
             steps {
-                echo 'This is a minimal pipeline.'
-            }
-        }
-    }
+                cucumber buildStatus: "UNSTABLE",
+                    fileIncludePattern: "**/cucumber.json",
+                    jsonReportDirectory: 'target'
+			   }
+         }
+   	}
 }
 
 
