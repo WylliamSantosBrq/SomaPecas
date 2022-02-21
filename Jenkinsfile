@@ -14,7 +14,7 @@ pipeline {
                 cucumber buildStatus: "UNSTABLE",
                 fileIncludePattern: "**/cucumber.json",
                 jsonReportDirectory: 'target'
-           		zip zipFile: 'evidencias.zip', archive: false, dir: 'Evidencias'
+           		bat "jar -cfM evidencias.zip Evidencias"
 				archiveArtifacts artifacts: 'evidencias.zip', fingerprint: true     
 				
 			   }
