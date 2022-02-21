@@ -6,7 +6,7 @@ pipeline {
     stages {
    		stage ('Tests execution'){
    			steps {
-   				sh 'java -version'    
+   				bat 'java -version'    
    			}     		
    		}
 
