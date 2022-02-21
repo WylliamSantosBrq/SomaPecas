@@ -6,17 +6,10 @@ pipeline {
     stages {
    		stage ('Tests execution'){
    			steps {
-   				sh 'mvn clean package'    
+   				sh 'java -version'    
    			}     		
    		}
-   		 stage ('Cucumber Reports') {
 
-            steps {
-                cucumber buildStatus: "UNSTABLE",
-                    fileIncludePattern: "**/cucumber.json",
-                    jsonReportDirectory: 'target'
-			   }
-         }
    	}
 }
 
