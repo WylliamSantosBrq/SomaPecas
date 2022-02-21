@@ -12,8 +12,11 @@ pipeline {
    		stage ('Cucumber Reports') {
             steps {
                 cucumber buildStatus: "UNSTABLE",
-                    fileIncludePattern: "**/cucumber.json",
-                    jsonReportDirectory: 'target'
+                fileIncludePattern: "**/cucumber.json",
+                jsonReportDirectory: 'target'
+           		zip zipFile: 'evidencias.zip', archive: false, dir: 'Evidencias'
+				archiveArtifacts artifacts: 'evidencias.zip', fingerprint: true     
+				
 			   }
          }
 
