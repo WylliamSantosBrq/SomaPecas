@@ -4,6 +4,16 @@ pipeline {
         jdk "JAVA_HOME"
     }
     stages {
+    	 stage ('Java Version'){
+   			steps {
+   				bat java -version    
+   			}     		
+   		}
+   		 stage ('MAven Versionn'){
+   			steps {
+   				bat mvn -version    
+   			}     		
+   		}
    		stage ('Tests execution'){
    			steps {
    				bat 'mvn -Dmaven.test.failure.ignore=true install'    
