@@ -24,10 +24,11 @@ public interface AbasPesquisaSinistroPorNumero extends Pesquisa {
 		((Campo) AbasPesquisaSinistroPorNumeroElementos.INPUT_RAMO.mover()).preencher(dadosDoSinistro[0]);
 		AbasPesquisaSinistroPorNumeroElementos.INPUT_ANO_SINISTRO.preencher(dadosDoSinistro[1]);
 		AbasPesquisaSinistroPorNumeroElementos.INPUT_NUMERO_DO_SINISTRO.preencher(dadosDoSinistro[2]);
-
-		if (dadosDoSinistro.length == 4)
-			AbasPesquisaSinistroPorNumeroElementos.INPUT_ITEM_SINISTRO.preencher(dadosDoSinistro[3]);
 		
+		
+		if (dadosDoSinistro.length == 4 && !dadosDoSinistro[0].contentEquals("531"))
+			AbasPesquisaSinistroPorNumeroElementos.INPUT_ITEM_SINISTRO.preencher(dadosDoSinistro[3]);
+
 		AbasPesquisaSinistroPorNumeroElementos.BTN_PESQUISAR.clicarJavascript();
 	}
 

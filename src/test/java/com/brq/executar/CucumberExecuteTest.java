@@ -33,7 +33,20 @@ import cucumber.api.SnippetType;
 				"junit:target/cucumber-reports/Cucumber.xml" //
 		}, //
 		glue = { "com.brq.steps", "com.brq.executar" }, //
-		tags = { "@CT005", "@porto"}, //
+		tags = {  
+				  "@CT001, "
+				+ "@CT002, "
+				+ "@CT003, "
+   	            + "@CT004, "
+				+ "@CT005, "
+				+ "@CT006, "
+				+ "@CT007, "
+				+ "@CT008, "
+ 			    + "@CT009, "
+				+ "@CT010, "
+				+ "@CT011, "
+				+ "@CT012, "
+				}, //
 		
 		snippets = SnippetType.CAMELCASE, //
 		monochrome = true, //

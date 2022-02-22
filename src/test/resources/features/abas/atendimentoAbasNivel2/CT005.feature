@@ -4,7 +4,8 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
  			#revisar p/ dados do terceiro
   Background: 
     #Given que o usuário pegou um sinistro do tipo "Porto" e natureza "Colisão" conectando direto com o Informix
-    Given que o usuário consultou um sinistro de ramo "553", ano "2021", número "2164" e item "01"
+    #Given que o usuário consultou um sinistro de ramo "553", ano "2021", número "2164" e item "01"
+    Given que o usuário consultou um sinistro de ramo "553", ano "2022", número "225" e item "01"
     And que acessou a URL "https://portalcorporativohml.portoseguro.brasil/portaislogin/loginSistemas.do"
     And que esteja logado no Sistemas Corporativos
 
@@ -58,7 +59,7 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
     And clicar em "Expandir Todas"
     Then o sistema apresentar "Assunto: Registro Automático do Sistema"
     Then validar o registro "Emissão do laudo"
-    And validar o registro "Sugestão de Perda Parcial"
+    #And validar o registro "Sugestão de Perda Parcial"
     And validar o registro "Vistoria Devolvida para Seguradora"
     # Tarefa
     When mudar para a aba "Tarefas"
