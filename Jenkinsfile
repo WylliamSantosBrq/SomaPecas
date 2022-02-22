@@ -9,7 +9,7 @@ pipeline {
    				bat java -version    
    			}     		
    		}
-   		 stage ('MAven Versionn'){
+   		 stage ('Maven Versionn'){
    			steps {
    				bat mvn -version    
    			}     		
