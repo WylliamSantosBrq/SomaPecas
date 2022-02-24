@@ -25,6 +25,50 @@ public interface IAcoesBrowser {
 	 * 
 	 * @param url
 	 */
+	default String getHandle() {
+		return DriverWeb.getDriver().getWindowHandle();
+	}
+
+	default Set<String> getHandles() {
+		return DriverWeb.getDriver().getWindowHandles();
+	}
+
+	default String getTitle() {
+		String title = "";
+		boolean got = false;
+		while (!got) {
+			try {
+				title = DriverWeb.getDriver().getTitle();
+				got = true;
+			} catch (Exception e) {
+				try {
+					Thread.sleep(500);
+				} catch (InterruptedException e1) {
+					e1.printStackTrace();
+				}
+			}
+		}
+		return title;
+	}
+
+	default String getUrl() {
+		String url = "";
+		boolean got = false;
+		while (!got) {
+			try {
+				url = DriverWeb.getDriver().getCurrentUrl();
+				got = true;
+			} catch (Exception e) {
+				try {
+					Thread.sleep(500);
+				} catch (InterruptedException e1) {
+					e1.printStackTrace();
+				}
+			}
+		}
+		return url;
+	}
+
 	default void abrirUrl(String url) {
 		BRQLogger.logMethod(url);
 
