@@ -122,10 +122,10 @@ Feature: [CT001][COLISÃO] Consulta de sinistro com marcação de vistoria
     And o botão "Prosseguir" estará disponível
     When fechar a caixa de "Sedex Reverso"
     #Then o sistema abrirá o sinistro na aba "Dados Basicos"
-    #	# CHAT
+    #	CHAT
     And clicar em "Atendimento Online"
     Then o sistema exibirá "CHAT virtual"
     # Finalizar Atendimento
-    When fechar a janela de Atendimento Online
+    #When fechar a janela de Atendimento Online
     #And clicar em "Finalizar Atendimento"
     #Then o sistema exibirá a mensagem "Consulta de processo de sinistro finalizada com sucesso."  
