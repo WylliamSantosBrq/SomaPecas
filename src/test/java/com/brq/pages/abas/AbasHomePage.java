@@ -26,7 +26,13 @@ public class AbasHomePage extends Pagina implements AbasMenuSuperior {
 				url = getUrl();
 				BRQLogger.debug(url);
 				BRQLogger.debug(getTitle());
+				if(url.contains("apphub")
+				    break;
 			}
+			fecharJanelasDiferentesDe(getHandle());
+			url = url.replace("apphubhml","apphubhml.portoseguro.brasil");
+			abrirUrl(url);
+			
 		}
 	}
 
