@@ -1,5 +1,6 @@
 package com.brq.interfaces.web;
 
+import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -25,6 +26,20 @@ public interface IAcoesBrowser {
 	 * 
 	 * @param url
 	 */
+	default void fechar(String handle) {
+		BRQLogger.debug(MessageFormat.format("Fechando a janela de handle {0}", handle));
+		DriverWeb.getDriver().switchTo().window(handle).close();
+	}
+
+	default void fecharJanelasDiferentesDe(String handle) {
+		List<String> handles = new ArrayList<>(DriverWeb.getDriver().getWindowHandles());
+		handles.stream().forEach(x -> BRQLogger.debug(x));
+		handles.stream()//
+				.filter(x -> !handle.contentEquals(x))//
+				.forEach(x -> fechar(x));
+		DriverWeb.getDriver().switchTo().window(handle);
+	}
+
 	default String getHandle() {
 		return DriverWeb.getDriver().getWindowHandle();
 	}
