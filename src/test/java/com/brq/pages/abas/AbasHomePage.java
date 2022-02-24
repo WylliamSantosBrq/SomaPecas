@@ -19,13 +19,13 @@ public class AbasHomePage extends Pagina implements AbasMenuSuperior {
 
 			esperarPaginaAbrirContains("Aviso de Sinistro", 30);
 		} catch (Throwable e) {
-			logger.error(e.getMessage());
+			BRQLogger.error(e.getMessage());
 			String url = "";
 			for (String hand : getHandles()) {
 				trocarJanelaPorHandle(hand);
 				url = getUrl();
-				logger.debug(url);
-				logger.debug(getTitle());
+				BRQLogger.debug(url);
+				BRQLogger.debug(getTitle());
 			}
 		}
 	}
