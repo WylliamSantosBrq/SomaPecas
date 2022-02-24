@@ -36,13 +36,13 @@ public class AbasTempoAnalise extends Foco {
 		String dataAviso, diasEncerrado, diasAguardandoDoc, diasAguardandoVistoria, dataConclusaoSinistro, tempoTotalRegulacao, tempoRestanteRegulacao;
 
 		try (Frame framePrincipal = AbasAbaElementos.FRAME_PRINCIPAL.entrar()) {
-			dataAviso = AbasTempoAnaliseElementos.DATA_AVISO_SINISTRO.esperarSerVisivel(5).obterTexto();
-			diasEncerrado = AbasTempoAnaliseElementos.DIAS_ENCERRADO.esperarSerVisivel(5).obterTexto();
-			diasAguardandoDoc = AbasTempoAnaliseElementos.DIAS_AGUARDANDO_DOC.esperarSerVisivel(5).obterTexto();
-			diasAguardandoVistoria = AbasTempoAnaliseElementos.DIAS_AGUARDANDO_VISTORIA.esperarSerVisivel(5).obterTexto();
-			dataConclusaoSinistro = AbasTempoAnaliseElementos.DATA_CONCLUSÃO_SINISTRO.obterTexto();
-			tempoTotalRegulacao = AbasTempoAnaliseElementos.TEMPO_TOTAL_REGULACAO.esperarSerVisivel(5).obterTexto();
-			tempoRestanteRegulacao = AbasTempoAnaliseElementos.TEMPO_RESTANTE_REGULACAO.esperarSerVisivel(5).obterTexto();
+			dataAviso = AbasTempoAnaliseElementos.DATA_AVISO_SINISTRO.esperarSerVisivel(15).obterTexto();
+			diasEncerrado = AbasTempoAnaliseElementos.DIAS_ENCERRADO.esperarSerVisivel(15).obterTexto();
+			diasAguardandoDoc = AbasTempoAnaliseElementos.DIAS_AGUARDANDO_DOC.esperarSerVisivel(15).obterTexto();
+			diasAguardandoVistoria = AbasTempoAnaliseElementos.DIAS_AGUARDANDO_VISTORIA.esperarSerVisivel(15).obterTexto();
+			dataConclusaoSinistro = AbasTempoAnaliseElementos.DATA_CONCLUSÃO_SINISTRO.esperarSerVisivel(15).obterTexto();
+			tempoTotalRegulacao = AbasTempoAnaliseElementos.TEMPO_TOTAL_REGULACAO.esperarSerVisivel(15).obterTexto();
+			tempoRestanteRegulacao = AbasTempoAnaliseElementos.TEMPO_RESTANTE_REGULACAO.esperarSerVisivel(15).obterTexto();
 
 		} catch (Exception e) {
 			throw new ErroSistema(e);
