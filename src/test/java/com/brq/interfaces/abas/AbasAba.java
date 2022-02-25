@@ -275,6 +275,16 @@ public interface AbasAba extends Abas {
 
 		AbasAbaElementos.FRAME_PRINCIPAL.sair();
 	}
+	
+	default void validarModalAtual(String abaEsperada) {
+		BRQLogger.logMethod(abaEsperada);
+
+		if (((Pagina) this).alertaPresente())
+			((Pagina) this).aceitarAlerta();
+
+		((Texto) AbasAbaElementos.TXT_ABA_ATUAL.esperarSegundos(10)).validarTextoIgual(abaEsperada);
+		
+	}
 
 	@Override
 	default String getAbaAtual() {

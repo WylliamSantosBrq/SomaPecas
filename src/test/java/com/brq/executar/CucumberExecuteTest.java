@@ -14,7 +14,6 @@ import com.brq.enums.Browser;
 import com.brq.interfaces.log.LogWeb;
 import com.brq.util.PropertiesHelper;
 import com.brq.utils.EvidenciasHelper;
-import com.brq.utils.PingTest;
 import com.cucumber.listener.Reporter;
 import com.hpe.alm.octane.OctaneCucumber;
 
@@ -34,7 +33,20 @@ import cucumber.api.SnippetType;
 				"junit:target/cucumber-reports/Cucumber.xml" //
 		}, //
 		glue = { "com.brq.steps", "com.brq.executar" }, //
-		tags = { "@CT005", "@porto"}, //
+		tags = {  
+				  "@CT001, "
+				+ "@CT002, "
+				+ "@CT003, "
+   	            + "@CT004, "
+				+ "@CT005, "
+				+ "@CT006, "
+				+ "@CT007, "
+				+ "@CT008, "
+ 			    + "@CT009, "
+				+ "@CT010, "
+				+ "@CT011, "
+				+ "@CT012, "
+				}, //
 		
 		snippets = SnippetType.CAMELCASE, //
 		monochrome = true, //
@@ -63,7 +75,6 @@ public class CucumberExecuteTest {
 
 		EvidenciasHelper.deletarPrints();
 		String driver = "Chrome";
-		new PingTest().todos();
 		
 		switch (driver) {
 		case "Jenkins":
@@ -85,7 +96,7 @@ public class CucumberExecuteTest {
 	 */
 	@AfterClass
 	public static void fecharNavegador() {
-//		DriverWeb.finalizarDriver();
+		DriverWeb.finalizarDriver();
 		Reporter.loadXMLConfig(new File("Configuracao/extension-config.xml"));
 		Reporter.setSystemInfo("Usuário Executor", System.getProperty("user.name"));
 		Reporter.setSystemInfo("Sistema Operacional", System.getProperty("os.name"));

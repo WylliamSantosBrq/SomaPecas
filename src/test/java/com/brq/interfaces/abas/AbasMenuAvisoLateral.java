@@ -22,15 +22,15 @@ public interface AbasMenuAvisoLateral extends MenuLateral {
 
 		if (profundidade == 0)
 			throw new ErroAutomacao("A lista de ordem dos menus não pode ficar vazia.");
-		IEsperaWeb.esperarSegundos(20);
+		IEsperaWeb.esperarSegundos(5);
 		try (Frame framePrincipal = AbasAbaElementos.FRAME_PRINCIPAL.esperarExistir(5).entrar()) {
 			switch (ordemDeMenus[0]) {
 
 			case "AVISO DE SINISTRO":
 				AbasMenuAvisoLateralElementos.BTN_AVISO_DE_SINISTRO.esperarSerVisivel(30).clicar();
 				break;
+			
 			case "AVISO DE SINISTRO2":
-
 				AbasMenuAvisoLateralElementos.BTN_AVISO_DE_SINISTRO2.esperarSerVisivel(30).clicar();
 				break;
 
@@ -38,9 +38,9 @@ public interface AbasMenuAvisoLateral extends MenuLateral {
 				AbasMenuAvisoLateralElementos.BTN_MARCACAO_DE_VISTORIA.esperarSerVisivel(30).clicar();
 				StepsMaster.setPaginaAtual(new AbasSolicitacaoDeVistoriaPage());
 				break;
+				
 			case "U10":
-
-				AbasMenuAvisoLateralElementos.BTN_U10.esperarSerVisivel(30).clicar();
+				AbasMenuAvisoLateralElementos.BTN_U10.esperarSerVisivel(30).clicar();			
 				StepsMaster.setPaginaAtual(new AbasU10HomePage());
 				break;
 
