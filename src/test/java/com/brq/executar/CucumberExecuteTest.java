@@ -96,7 +96,7 @@ public class CucumberExecuteTest {
 	 */
 	@AfterClass
 	public static void fecharNavegador() {
-//		DriverWeb.finalizarDriver();
+		DriverWeb.finalizarDriver();
 		Reporter.loadXMLConfig(new File("Configuracao/extension-config.xml"));
 		Reporter.setSystemInfo("Usuário Executor", System.getProperty("user.name"));
 		Reporter.setSystemInfo("Sistema Operacional", System.getProperty("os.name"));

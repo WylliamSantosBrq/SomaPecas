@@ -33,6 +33,19 @@ public class AbasSteps extends StepsMaster {
 			Reporter.addScreenCaptureFromPath(printPath, "Validação da aba atual.");
 		}
 	}
+	
+	@Then("^o sistema abrirá o sinistro na modal \"([^\"]*)\"$")
+	public void oSistemaAbriráOSinistroNaModal(String abaAtual) throws Throwable {
+		if (!(getPaginaAtual() instanceof AbasRegistrarSinistroPage))
+			throw new ErroAutomacao("A página atual não é uma instância de [AbasRegistrarSinistroPage].");
+		
+		try {
+			((AbasRegistrarSinistroPage) getPaginaAtual()).validarModalAtual(abaAtual);
+		} finally {
+			String printPath = getPaginaAtual().printAndSave(getCurrentScenario());
+			Reporter.addScreenCaptureFromPath(printPath, "Validação da aba atual.");
+		}
+	}
 
 	@Then("^o sistema apresentará o resultado da análise$")
 	public static void oSistemaApresentaraOResultadoDaAnalise() throws Throwable {
