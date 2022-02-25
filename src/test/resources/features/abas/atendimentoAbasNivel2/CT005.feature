@@ -4,8 +4,7 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
  			#revisar p/ dados do terceiro
   Background: 
     #Given que o usuário pegou um sinistro do tipo "Porto" e natureza "Colisão" conectando direto com o Informix
-    #Given que o usuário consultou um sinistro de ramo "553", ano "2021", número "2164" e item "01"
-    Given que o usuário consultou um sinistro de ramo "553", ano "2022", número "225" e item "01"
+    Given que o usuário consultou um sinistro de ramo "553", ano "2021", número "2181" e item "01"
     And que acessou a URL "https://portalcorporativohml.portoseguro.brasil/portaislogin/loginSistemas.do"
     And que esteja logado no Sistemas Corporativos
 
@@ -26,7 +25,7 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
     # Local
     When mudar para a aba "Local"
     Then apresentará os campos:
-      | CEP | 07810000 |
+      | CEP | 06523120 |
     #	Questionário
     When mudar para a aba "Questionario"
     Then validar que a pergunta "Veículo está alienado?" foi respondida com um "NAO"
@@ -39,7 +38,7 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
     When mudar para a aba "Apólice"
     Then apresentará os campos:
       | Tipo Cobertura | COLISAO, INCENDIO E ROUBO |
-      | Licença        | XNJ4454                   |
+      | Licença        | AHD6516                  |
     # Histórico
     When mudar para a aba "Histórico"
     Then o sistema apresentará os seguintes campos na tabela "Histórico de alterações":
@@ -49,13 +48,13 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
     # Notas
     When mudar para a aba "Notas"
     And apresentará os campos:
-      | Apólice  | 34-139172710                |
-      | Convênio |                           0 |
-      | Veículo  | CELTA LIFE 1.0 8V FLEXPOWER |
-      | Placa    | FRT6547                     |
-      | Segurado | EDIVAN ADAO REIS       		 |
-      | Chassi   |           45678976543345678 |
-      | Marca    | CHEVROLET                   |
+      | Apólice  | 94-3411              |
+      | Convênio |                          105|
+      | Veículo  | 	NOVO GOL 1.6 16V MSI FLEX AUT.	 |
+      | Placa    | 	HGF5468                  |
+      | Segurado | ALLAN TESTE  		 |
+      | Chassi   |          98906576587587587 |
+      | Marca    | VOLKSWAGEN     |
     And clicar em "Expandir Todas"
     Then o sistema apresentar "Assunto: Registro Automático do Sistema"
     Then validar o registro "Emissão do laudo"
@@ -77,7 +76,7 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
     # Ocorrências
     When mudar para a aba "Ocorrências"
     Then o sistema apresentará os seguintes campos na tabela "Avisos relacionados a esta ocorrência":
-      | Placa | FRT6547 |
+      | Placa | HGF5468 |
     # Liberação
     When mudar para a aba "Liberação"
     Then apresentar o campo "Valor a liberar" preenchido
@@ -129,7 +128,7 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
     And o botão "Prosseguir" estará disponível
     And fechar a caixa de "Sedex Reverso"
     # Consultar Aviso
-   # When voltar para "Acompanhamento de sinistro"
+   	# When voltar para "Acompanhamento de sinistro"
     #And clicar em "Consultar Aviso"
     #Then o sistema abrirá o sinistro na aba "Dados Basicos"
     # CHAT

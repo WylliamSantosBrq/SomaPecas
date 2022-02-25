@@ -1,5 +1,6 @@
 package com.brq.interfaces.web;
 
+import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -25,6 +26,64 @@ public interface IAcoesBrowser {
 	 * 
 	 * @param url
 	 */
+	default void fechar(String handle) {
+		BRQLogger.debug(MessageFormat.format("Fechando a janela de handle {0}", handle));
+		DriverWeb.getDriver().switchTo().window(handle).close();
+	}
+
+	default void fecharJanelasDiferentesDe(String handle) {
+		List<String> handles = new ArrayList<>(DriverWeb.getDriver().getWindowHandles());
+		handles.stream().forEach(x -> BRQLogger.debug(x));
+		handles.stream()//
+				.filter(x -> !handle.contentEquals(x))//
+				.forEach(x -> fechar(x));
+		DriverWeb.getDriver().switchTo().window(handle);
+	}
+
+	default String getHandle() {
+		return DriverWeb.getDriver().getWindowHandle();
+	}
+
+	default Set<String> getHandles() {
+		return DriverWeb.getDriver().getWindowHandles();
+	}
+
+	default String getTitle() {
+		String title = "";
+		boolean got = false;
+		while (!got) {
+			try {
+				title = DriverWeb.getDriver().getTitle();
+				got = true;
+			} catch (Exception e) {
+				try {
+					Thread.sleep(500);
+				} catch (InterruptedException e1) {
+					e1.printStackTrace();
+				}
+			}
+		}
+		return title;
+	}
+
+	default String getUrl() {
+		String url = "";
+		boolean got = false;
+		while (!got) {
+			try {
+				url = DriverWeb.getDriver().getCurrentUrl();
+				got = true;
+			} catch (Exception e) {
+				try {
+					Thread.sleep(500);
+				} catch (InterruptedException e1) {
+					e1.printStackTrace();
+				}
+			}
+		}
+		return url;
+	}
+
 	default void abrirUrl(String url) {
 		BRQLogger.logMethod(url);
 
