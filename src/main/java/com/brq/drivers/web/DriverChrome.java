@@ -34,33 +34,27 @@ public class DriverChrome {
 		System.setProperty("webdriver.chrome.args", "--disable-logging");
 		System.setProperty("webdriver.chrome.silentOutput", "true");
 		ChromeOptions options = setupChromeBrowser(headless);
-		
 		try {
 			driver = new ChromeDriver(options);
 
 		} catch (Exception e) {
-			
-//			List<String> versions = new ArrayList<>(WebDriverManager.getInstance(DriverManagerType.CHROME).getDriverVersions());
-//			versions.add(0,"93.0.4577.63");
-//			versions.add(1,"78.0.3904.105");
-//			versions.stream()//
-//			.forEach(x -> BRQLogger.debug(x));
-//			for (String ver : versions) {
-//				try {
-//					WebDriverManager.chromedriver().driverVersion(ver).setup();
-//					driver = new ChromeDriver(options);
-//					break;
-//				} catch (Exception e2) {
-//					BRQLogger.debug("não conseguiu instanciar com essa versão");
-//					BRQLogger.debug(ver);
-//				}
-//			}
-//			if (driver == null)
-//				Assert.fail("Nenhuma versão do Chrome disponível");
-			
-			WebDriverManager.chromedriver().driverVersion("98.0.4758.102").setup();
-			driver = new ChromeDriver(options);
-
+			List<String> versions = new ArrayList<>(WebDriverManager.getInstance(DriverManagerType.CHROME).getDriverVersions());
+			versions.add(0,"93.0.4577.63");
+			versions.add(1,"78.0.3904.105");
+			versions.stream()//
+			.forEach(x -> BRQLogger.debug(x));
+			for (String ver : versions) {
+				try {
+					WebDriverManager.chromedriver().driverVersion(ver).setup();
+					driver = new ChromeDriver(options);
+					break;
+				} catch (Exception e2) {
+					BRQLogger.debug("não conseguiu instanciar com essa versão");
+					BRQLogger.debug(ver);
+				}
+			}
+			if (driver == null)
+				Assert.fail("Nenhuma versão do Chrome disponível");
 
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
