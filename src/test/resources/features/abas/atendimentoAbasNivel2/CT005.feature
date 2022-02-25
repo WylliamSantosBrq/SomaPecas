@@ -127,10 +127,10 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
       | Cidade           |
     And o botão "Prosseguir" estará disponível
     And fechar a caixa de "Sedex Reverso"
-    # Consultar Aviso
-   	# When voltar para "Acompanhamento de sinistro"
-    #And clicar em "Consultar Aviso"
-    #Then o sistema abrirá o sinistro na aba "Dados Basicos"
+    # Consultar Aviso	
+    When voltar para "Acompanhamento de sinistro"
+    And clicar em "Consultar Aviso"
+    Then o sistema abrirá o sinistro na aba "Dados Basicos"
     # CHAT
     And clicar em "Atendimento Online"
     Then o sistema exibirá "CHAT virtual"
