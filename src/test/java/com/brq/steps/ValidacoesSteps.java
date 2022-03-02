@@ -25,7 +25,7 @@ public class ValidacoesSteps extends StepsMaster {
 		} finally {
 			String printPath = getPaginaAtual().printAndSave(getCurrentScenario());
 			Reporter.addScreenCaptureFromPath(printPath, String.format("Validação da exibição de \"%s\".", objeto));
-			getPaginaAtual().fecharAba();
+//			getPaginaAtual().fecharAba();
 		}
 	}
 

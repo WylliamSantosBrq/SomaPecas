@@ -20,7 +20,7 @@ Feature: [CT001][COLISÃO] Consulta de sinistro com marcação de vistoria
       | Natureza           | COLISAO |
       | Código da Natureza |      10 |
       | Tipo Perda         | PARCIAL |
-      | Tipo Perda Entrada |       2 |
+      | Tipo Perda Entrada |       2 |    
     #Local
     When mudar para a aba "Local"
     Then apresentará os campos:
@@ -85,7 +85,7 @@ Feature: [CT001][COLISÃO] Consulta de sinistro com marcação de vistoria
     #When acessar o menu lateral "MARCAÇÃO DE VISTORIA"
     #Then validar que o sinistro possui vistoria "em andamento" em uma oficina
     # U10
-    #When acessar o menu lateral "AVISO DE SINISTRO"
+    #When acessar o menu lateral "AVISO DE SINISTRO"    
     And acessar o menu lateral "U10"
     And clicar em "Download do resumo do Aviso"
     Then o arquivo "saferetriever.pdf" será baixado
