@@ -66,7 +66,6 @@ public class ExecuteAfter implements IPrint {
 				BrowserHelper.manterJanelasAbertas(1);
 
 				TestHelper.recomendarMelhorias(cenario);
-
 			}
 		}
 	}

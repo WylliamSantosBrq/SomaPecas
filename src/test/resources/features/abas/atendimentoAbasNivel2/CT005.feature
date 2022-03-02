@@ -22,81 +22,6 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
       | Código da Natureza |      10 |
       | Tipo Perda         | PARCIAL |
       | Tipo Perda Entrada |       2 |
-   
-		   
-   	###
-   
-    # Local
-    #When mudar para a aba "Local"
-    #Then apresentará os campos:
-      #| CEP | 06523120 |
-    #	Questionário
-    #When mudar para a aba "Questionario"
-    #Then validar que a pergunta "Veículo está alienado?" foi respondida com um "NAO"
-    #
-    # Segurado
-   # When mudar para a aba "Segurado"
-    #Then validar que a pergunta "Segurado vai utilizar o seguro para reparar seu veículo?" foi respondida com um "Sim"
-   #
-    # Apólice
-    #When mudar para a aba "Apólice"
-    #Then apresentará os campos:
-      #| Tipo Cobertura | COLISAO, INCENDIO E ROUBO |
-      #| Licença        | AHD6516                  |
-    # Histórico
-    #When mudar para a aba "Histórico"
-    #Then o sistema apresentará os seguintes campos na tabela "Histórico de alterações":
-      #| Data |
-      #| Hora |
-    #And salvar todos os dados do "Histórico de alterações"
-    # Notas
-    #When mudar para a aba "Notas"
-    #And apresentará os campos:
-      #| Apólice  | 94-3411              |
-      #| Convênio |                          105|
-      #| Veículo  | 	NOVO GOL 1.6 16V MSI FLEX AUT.	 |
-      #| Placa    | 	HGF5468                  |
-      #| Segurado | ALLAN TESTE  		 |
-      #| Chassi   |          98906576587587587 |
-      #| Marca    | VOLKSWAGEN     |
-    #And clicar em "Expandir Todas"
-    #Then o sistema apresentar "Assunto: Registro Automático do Sistema"
-    #Then validar o registro "Emissão do laudo"
-    #And validar o registro "Sugestão de Perda Parcial"
-    #And validar o registro "Vistoria Devolvida para Seguradora"
-    # Tarefa
-    #When mudar para a aba "Tarefas"
-    #Then o sistema apresentará a tarefa "Comunicação Processo: Agendamento Vistoria"
-    # SIASI Online
-    #When mudar para a aba "SIASI Online"
-    #And clicar em "Obter Informações Atualizadas"
-    #Then o sistema apresentará o resultado da análise
-    # Documentos
-    #When mudar para a aba "Documentos"
-    #Then validar que o botão "Solicitar Tarefas" está disponível
-    # Movimentos
-    #When mudar para a aba "Movimentos"
-    #Then apresentar o campo "Saldo" preenchido
-    # Ocorrências
-    #When mudar para a aba "Ocorrências"
-    #Then o sistema apresentará os seguintes campos na tabela "Avisos relacionados a esta ocorrência":
-      #| Placa | HGF5468 |
-    # Liberação
-    #When mudar para a aba "Liberação"
-    #Then apresentar o campo "Valor a liberar" preenchido
-    # Causador
-    #When mudar para a aba "Causador"
-    #Then validar se possui dados do veículo causador
-    # Tempo Análise
-    #When mudar para a aba "Tempo Análise"
-    #Then salvar todos os dados do "Tempo de Análise"
-    # Menu Lateral Marcação de Vistoria
-    #When acessar o menu lateral "MARCAÇÃO DE VISTORIA"
-    #Then validar que o sinistro possui vistoria "em andamento" em uma oficina
-    # U10
-    #
-    ####
-    
     When acessar o menu lateral "AVISO DE SINISTRO2"
     And acessar o menu lateral "U10"
     #And o sistema apresentar "Acompanhamento de Sinistro"
@@ -134,12 +59,10 @@ Feature: [CT005] [TERCEIRO] Consulta de aviso de sinistro no Abas
       | Cidade           |
     And o botão "Prosseguir" estará disponível
     And fechar a caixa de "Sedex Reverso"
-   
-    # Consultar Aviso	
+    # Consultar Aviso
     When voltar para "Acompanhamento de sinistro"
     And clicar em "Consultar Aviso"
-    Then o sistema abrirá o sinistro na modal "Dados Basicos"
-    
+    Then o sistema abrirá o sinistro na aba "Dados Basicos"
     # CHAT
     When voltar para "Acompanhamento de sinistro"
     And clicar em "Atendimento Online"

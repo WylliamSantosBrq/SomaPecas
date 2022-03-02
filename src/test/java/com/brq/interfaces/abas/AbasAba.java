@@ -7,6 +7,7 @@ import com.brq.erros.ErroAutomacao;
 import com.brq.erros.ErroTimeout;
 import com.brq.interfaces.Abas;
 import com.brq.interfaces.log.BRQLogger;
+import com.brq.interfaces.web.IEsperaWeb;
 import com.brq.pages.Pagina;
 import com.brq.pages.abas.focos.AbasApolice;
 import com.brq.pages.abas.focos.AbasCausador;
@@ -31,7 +32,7 @@ public interface AbasAba extends Abas {
 	@Override
 	default void mudarAba(String nomeDaAba) throws Exception {
 		BRQLogger.logMethod(nomeDaAba);
-
+		IEsperaWeb.esperarSegundos(5);
 		((Frame) AbasAbaElementos.FRAME_PRINCIPAL.esperarExistir(30)).entrar();
 
 		switch (nomeDaAba) {
