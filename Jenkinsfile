@@ -31,7 +31,7 @@ pipeline {
 				
 			   }
 			   cleanup{
-                deleteDir()
+                cleanWs()
     		}
      }
 }
