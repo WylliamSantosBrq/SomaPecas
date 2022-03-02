@@ -34,11 +34,11 @@ import cucumber.api.SnippetType;
 		}, //
 		glue = { "com.brq.steps", "com.brq.executar" }, //
 		tags = {  
-//				  "@CT001, "
+				  "@CT001, "
 //				+ "@CT002, "
 //				+ "@CT003, "
-//   	            + "@CT004, "
- 				  "@CT005, "
+//   	        + "@CT004, "
+// 				  "@CT005, "
 //				+ "@CT006, "
 //				+ "@CT007, "
 //				+ "@CT008, "
@@ -81,7 +81,7 @@ public class CucumberExecuteTest {
 			DriverWebJenkins.getDriver();
 			break;
 		case "Chrome":
-			DriverWeb.getDriver(Browser.CHROME, false);
+			DriverWeb.getDriver(Browser.CHROME, true);
 			DriverWeb.getDriver().manage().timeouts().implicitlyWait(IMPLICIT_TIMEOUT, TimeUnit.SECONDS);
 			DriverWeb.getDriver().manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 			break;
