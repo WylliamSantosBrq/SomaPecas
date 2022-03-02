@@ -40,7 +40,7 @@ public class AbasSiasiOnline extends Foco implements AbasCarregamento {
 		
 		AbasSiasiOnlineElementos.LABEL_MENSAGENS.esperarSerVisivel(240);
 		AbasSiasiOnlineElementos.BTN_OBTER_INFORMACOES_ATUALIZADAS.moverJavascript().clicarJavascript();
-		AbasSiasiOnlineElementos.LOADING_INFORMACOES_ATUALIZADAS.esperarSerVisivel(30).esperarSerInvisivel(210);
+		AbasSiasiOnlineElementos.LOADING_INFORMACOES_ATUALIZADAS.esperarSerVisivel(30).esperarSerInvisivel(240);
 	}
 	
 	public void validarResultadoDaAnalise() {
