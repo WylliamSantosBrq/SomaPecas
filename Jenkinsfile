@@ -30,7 +30,10 @@ pipeline {
 				archiveArtifacts artifacts: 'evidencias.zip', fingerprint: true     
 				
 			   }
-         }
+			   cleanup{
+                deleteDir()
+    		}
+     }
 }
 
 
