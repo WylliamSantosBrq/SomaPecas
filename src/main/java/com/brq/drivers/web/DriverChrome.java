@@ -1,24 +1,17 @@
 package com.brq.drivers.web;
 
 import java.io.File;
-import org.apache.log4j.Logger;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import com.brq.erros.ErroAutomacao;
 import com.brq.interfaces.log.BRQLogger;
-import com.brq.interfaces.log.LogWeb;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -41,7 +34,7 @@ public class DriverChrome {
 			driver = new ChromeDriver(options);
 
 		} catch (Exception e) {
-			WebDriverManager.chromedriver().driverVersion("93.0.4577.63").setup();
+			WebDriverManager.chromedriver().driverVersion("81.0.4044.138").setup();
 			driver = new ChromeDriver(options);
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

@@ -5,7 +5,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 
-import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 import com.brq.util.FileHelper;
